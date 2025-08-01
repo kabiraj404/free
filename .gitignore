@@ -64,3 +64,20 @@ logs/
 htmlcov/
 .tox/
 coverage.xml
+<<<<<<< HEAD
+=======
+
+# User-specific configuration
+feeds.opml
+config.json
+
+# State file
+last_run.json
+
+# Generated output files
+index.html
+latest_rss.xml
+latest_feeds.xml
+latest_posts.json
+badge.md
+>>>>>>> upstream/main

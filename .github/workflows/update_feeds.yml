@@ -32,7 +32,7 @@ jobs:
     needs: test
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: read
       pages: write
       id-token: write
     
@@ -58,18 +58,14 @@ jobs:
         run: |
           echo "![RSS Hub](https://img.shields.io/badge/📰_RSS_Hub-Updated_every_6h-brightgreen)" > badge.md
           echo "Last updated: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> badge.md
+      
+      - name: 🔧 Setup Pages
+        uses: actions/configure-pages@v4
 
-      - name: 💾 Commit changes
-        run: |
-          git config --global user.name "lovely-rss-bot"
-          git config --global user.email "lovely-rss-bot@users.noreply.github.com"
-          git add latest_rss.xml latest_feeds.xml latest_posts.json index.html badge.md
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "🤖 Update feeds $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
-            git push
-          fi
+      - name: 📦 Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
 
   deploy:
     needs: update
@@ -82,17 +78,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     
     steps:
-      - name: 📥 Checkout repository
-        uses: actions/checkout@v4
-
-      - name: 🔧 Setup Pages
-        uses: actions/configure-pages@v4
-
-      - name: 📦 Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.'
-
       - name: 🚀 Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

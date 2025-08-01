@@ -68,25 +68,6 @@ class RSSHub:
             autoescape=True
         )
 
-    def should_run(self) -> bool:
-        """Check if the script should run based on the last run time."""
-        if not os.path.exists(self.last_run_file):
-            return True
-
-        with open(self.last_run_file, 'r', encoding='utf-8') as f:
-            last_run_data = json.load(f)
-        
-        last_run_time = datetime.fromisoformat(last_run_data["last_run"])
-        update_interval = timedelta(hours=self.config.get("update_interval_hours", 6))
-
-        return (datetime.now(timezone.utc) - last_run_time) >= update_interval
-
-    def record_run(self):
-        """Record the current run time."""
-        with open(self.last_run_file, 'w', encoding='utf-8') as f:
-            json.dump({"last_run": get_current_timestamp()}, f, indent=2)
-
-    
     def parse_opml(self) -> List[Dict[str, str]]:
         """
         Parse OPML file and extract RSS feed URLs.
@@ -311,8 +292,38 @@ class RSSHub:
         ET.indent(tree, space="  ", level=0)
         tree.write(output_file, encoding='utf-8', xml_declaration=True)
         print(f"✅ Generated {output_file} with {len(sorted_feeds)} feeds")
-    
-    
+
+    def generate_json(self):
+        """Generate JSON file with latest entries."""
+        output_file = self.config["output_files"]["json"]
+        max_entries = self.config["max_entries"]["json"]
+
+        # Sort entries by publication date (newest first)
+        sorted_entries = sorted(
+            self.all_entries,
+            key=lambda x: x.get('published_parsed') or (0,),
+            reverse=True
+        )
+        
+        latest_entries = sorted_entries[:max_entries]
+
+        # Create a list of dictionaries
+        json_data = []
+        for entry in latest_entries:
+            json_data.append({
+                'title': safe_get_text(entry, 'title', 'No Title'),
+                'link': safe_get_text(entry, 'link'),
+                'summary': clean_html(safe_get_text(entry, 'summary')),
+                'published': entry.get('published'),
+                'feed_title': entry.get('feed_title', 'Unknown Feed'),
+                'feed_url': entry.get('feed_url', '')
+            })
+
+        # Write to file
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(json_data, f, indent=2)
+        
+        print(f"✅ Generated {output_file} with {len(latest_entries)} entries")
     
     def generate_html(self):
         """Generate HTML page with feeds and latest entries."""
@@ -380,6 +391,11 @@ class RSSHub:
                 feed['has_recent_update'] = False
         
         # Prepare template data
+        site_link = self.config.get("site_link", "")
+        opml_export_url = ""
+        if "github.com" in site_link:
+            opml_export_url = site_link.replace("github.com", "raw.githubusercontent.com") + "/main/feeds.opml"
+
         template_data = {
             'title': self.config["site_title"],
             'description': self.config["site_description"],
@@ -392,6 +408,7 @@ class RSSHub:
             'updated_time': get_readable_timestamp(),
             'update_interval_hours': self.config.get("update_interval_hours", 6),
             'version': self.version,
+            'opml_export_url': opml_export_url,
             'clean_html': clean_html,
             'format_date': format_date,
             'truncate_text': truncate_text,
@@ -416,10 +433,6 @@ def main():
     # Initialize RSS hub
     hub = RSSHub()
 
-    if not hub.should_run():
-        print("👋 Skipping run, not enough time has passed since the last run.")
-        sys.exit(0)
-    
     # Process all feeds
     hub.process_feeds()
     
@@ -427,10 +440,9 @@ def main():
     print("\n📄 Generating output files...")
     hub.generate_latest_rss()
     hub.generate_latest_feeds()
+    hub.generate_json()
     hub.generate_html()
 
-    hub.record_run()
-    
     print("\n🎉 All files generated successfully!")
     print(f"📊 Summary: {len(hub.feeds_with_updates)} feeds, {len(hub.all_entries)} total entries")
 
