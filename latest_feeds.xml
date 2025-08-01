@@ -1,54 +1,154 @@
 <?xml version='1.0' encoding='utf-8'?>
-<feeds updated="2025-08-01T09:08:29.506022+00:00" count="8">
+<feeds updated="2025-08-01T13:11:23.469077+00:00" count="52">
   <feed>
-    <title>Stack Overflow Blog</title>
-    <url>https://stackoverflow.blog/feed/</url>
-    <link>https://stackoverflow.blog/</link>
-    <description>Essays, opinions, and advice on the act of computer programming from Stack Overflow.</description>
-    <updated>Fri, 01 Aug 2025 04:40:48 GMT</updated>
-    <entry_count>40</entry_count>
-    <category>Technology</category>
-    <language>en-US</language>
-  </feed>
-  <feed>
-    <title>Python.org Jobs</title>
-    <url>https://www.python.org/jobs/feed/rss/</url>
-    <link>https://www.python.org/jobs/</link>
-    <description>Python jobs from Python.org</description>
-    <updated>Fri, 01 Aug 2025 07:34:16 +0000</updated>
-    <entry_count>20</entry_count>
-    <category>Technology</category>
-    <language>en-us</language>
-  </feed>
-  <feed>
-    <title>Hacker News</title>
-    <url>https://hnrss.org/frontpage</url>
-    <link>https://news.ycombinator.com/</link>
-    <description>Hacker News RSS</description>
-    <updated>Fri, 01 Aug 2025 09:06:44 +0000</updated>
-    <entry_count>20</entry_count>
-    <category>Technology</category>
+    <title>Big Think</title>
+    <url>https://www.youtube.com/feeds/videos.xml?channel_id=UCvQECJukTDE2i6aCoMnS-Vg</url>
+    <link>https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg</link>
+    <description />
+    <updated>2006-10-01T18:37:05+00:00</updated>
+    <entry_count>15</entry_count>
+    <category>Social Media</category>
     <language>en</language>
   </feed>
   <feed>
-    <title>BBC Technology</title>
-    <url>http://feeds.bbci.co.uk/news/technology/rss.xml</url>
-    <link>https://www.bbc.co.uk/news/technology</link>
-    <description>BBC News - Technology</description>
-    <updated>Fri, 01 Aug 2025 09:08:24 GMT</updated>
-    <entry_count>60</entry_count>
-    <category>News</category>
-    <language>en-gb</language>
+    <title>GOTO Conferences</title>
+    <url>https://www.youtube.com/feeds/videos.xml?channel_id=UCs_tLP3AiwYKwdUHpltJPuA</url>
+    <link>https://www.youtube.com/channel/UCs_tLP3AiwYKwdUHpltJPuA</link>
+    <description />
+    <updated>2011-10-03T12:34:19+00:00</updated>
+    <entry_count>15</entry_count>
+    <category>Social Media</category>
+    <language>en</language>
   </feed>
   <feed>
-    <title>GitHub Blog</title>
-    <url>https://github.blog/feed/</url>
-    <link>https://github.blog/</link>
-    <description>Updates, ideas, and inspiration from GitHub to help developers build and design software.</description>
-    <updated>Thu, 31 Jul 2025 18:07:52 +0000</updated>
-    <entry_count>10</entry_count>
-    <category>Technology</category>
+    <title>Loopwerk</title>
+    <url>https://www.loopwerk.io/articles/feed.xml</url>
+    <link>https://www.loopwerk.io/articles/feed.xml</link>
+    <description />
+    <updated>2025-08-01T12:41:36Z</updated>
+    <entry_count>118</entry_count>
+    <category>weblogs</category>
+    <language>en</language>
+  </feed>
+  <feed>
+    <title>berlin.de: News</title>
+    <url>https://www.berlin.de/en/news/rubric.rss</url>
+    <link>https://www.berlin.de/en/news/</link>
+    <description>The latest news, up-to-date information and developments from Berlin.</description>
+    <updated>Fri, 01 Aug 2025 15:07:54 +0200</updated>
+    <entry_count>28</entry_count>
+    <category>weblogs</category>
+    <language>en</language>
+  </feed>
+  <feed>
+    <title>Headspace</title>
+    <url>https://www.youtube.com/feeds/videos.xml?channel_id=UC3JhfsgFPLSLNEROQCdj-GQ</url>
+    <link>https://www.youtube.com/channel/UC3JhfsgFPLSLNEROQCdj-GQ</link>
+    <description />
+    <updated>2010-06-24T10:10:33+00:00</updated>
+    <entry_count>15</entry_count>
+    <category>Social Media</category>
+    <language>en</language>
+  </feed>
+  <feed>
+    <title>IBM Technology</title>
+    <url>https://www.youtube.com/feeds/videos.xml?channel_id=UCKWaEZ-_VweaEx1j62do_vQ</url>
+    <link>https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ</link>
+    <description />
+    <updated>2008-05-27T21:31:11+00:00</updated>
+    <entry_count>15</entry_count>
+    <category>Social Media</category>
+    <language>en</language>
+  </feed>
+  <feed>
+    <title>آپدیت ام دی</title>
+    <url>https://updatemd.com/feed/</url>
+    <link>https://updatemd.com/</link>
+    <description>تازه‌های پزشکی از رفرنس‌های معتبر</description>
+    <updated>Fri, 01 Aug 2025 08:49:43 +0000</updated>
+    <entry_count>20</entry_count>
+    <category>weblogs</category>
+    <language>fa-IR</language>
+  </feed>
+  <feed>
+    <title>Chris Heilmann</title>
+    <url>https://toot.cafe/@codepo8.rss</url>
+    <link>https://toot.cafe/@codepo8</link>
+    <description>Public posts from @codepo8@toot.cafe</description>
+    <updated>Fri, 01 Aug 2025 07:28:24 +0000</updated>
+    <entry_count>20</entry_count>
+    <category>Social Media</category>
+    <language>en</language>
+  </feed>
+  <feed>
+    <title>GitHub</title>
+    <url>https://www.youtube.com/feeds/videos.xml?channel_id=UC7c3Kb6jYCRj4JOHHZTxKsQ</url>
+    <link>https://www.youtube.com/channel/UC7c3Kb6jYCRj4JOHHZTxKsQ</link>
+    <description />
+    <updated>2010-07-28T18:50:31+00:00</updated>
+    <entry_count>15</entry_count>
+    <category>Social Media</category>
+    <language>en</language>
+  </feed>
+  <feed>
+    <title>mirmousaviii</title>
+    <url>https://github.com/mirmousaviii</url>
+    <link>https://github.com/mirmousaviii</link>
+    <description />
+    <updated>2025-08-01T02:24:46Z</updated>
+    <entry_count>30</entry_count>
+    <category>Github</category>
     <language>en-US</language>
+  </feed>
+  <feed>
+    <title>Jadi</title>
+    <url>https://github.com/jadijadi</url>
+    <link>https://github.com/jadijadi</link>
+    <description />
+    <updated>2025-07-31T23:16:56Z</updated>
+    <entry_count>24</entry_count>
+    <category>Github</category>
+    <language>en-US</language>
+  </feed>
+  <feed>
+    <title>Current Mozilla job openings</title>
+    <url>https://www.mozilla.org/en-US/careers/feed/</url>
+    <link>https://www.mozilla.org/en-US/careers/listings/</link>
+    <description>The current list of job openings, available internships and contract opportunities at Mozilla.</description>
+    <updated>Thu, 31 Jul 2025 21:50:24 +0000</updated>
+    <entry_count>33</entry_count>
+    <category>Jobs</category>
+    <language>en-us</language>
+  </feed>
+  <feed>
+    <title>farbod</title>
+    <url>https://github.com/farbodahm</url>
+    <link>https://github.com/farbodahm</link>
+    <description />
+    <updated>2025-07-31T21:18:29Z</updated>
+    <entry_count>8</entry_count>
+    <category>Github</category>
+    <language>en-US</language>
+  </feed>
+  <feed>
+    <title>Frank 2</title>
+    <url>https://github.com/fr12k</url>
+    <link>https://github.com/fr12k</link>
+    <description />
+    <updated>2025-07-31T19:51:03Z</updated>
+    <entry_count>7</entry_count>
+    <category>Github</category>
+    <language>en-US</language>
+  </feed>
+  <feed>
+    <title>thoughtbot</title>
+    <url>https://www.youtube.com/feeds/videos.xml?channel_id=UCUR1pFG_3XoZn3JNKjulqZg</url>
+    <link>https://www.youtube.com/channel/UCUR1pFG_3XoZn3JNKjulqZg</link>
+    <description />
+    <updated>2013-07-10T15:07:33+00:00</updated>
+    <entry_count>15</entry_count>
+    <category>Social Media</category>
+    <language>en</language>
   </feed>
   <feed>
     <title>Kurzgesagt – In a Nutshell</title>
@@ -57,17 +157,37 @@
     <description />
     <updated>2013-07-09T20:17:20+00:00</updated>
     <entry_count>15</entry_count>
-    <category>YouTube</category>
+    <category>Social Media</category>
     <language>en</language>
   </feed>
   <feed>
-    <title>Big Think</title>
-    <url>https://www.youtube.com/feeds/videos.xml?channel_id=UCvQECJukTDE2i6aCoMnS-Vg</url>
-    <link>https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg</link>
+    <title>Forod</title>
+    <url>https://github.com/fzerorubigd</url>
+    <link>https://github.com/fzerorubigd</link>
     <description />
-    <updated>2006-10-01T18:37:05+00:00</updated>
+    <updated>2025-07-31T15:03:16Z</updated>
+    <entry_count>19</entry_count>
+    <category>Github</category>
+    <language>en-US</language>
+  </feed>
+  <feed>
+    <title>Bplus Podcast</title>
+    <url>https://www.youtube.com/feeds/videos.xml?channel_id=UChWB95_-n9rUc3H9srsn9bQ</url>
+    <link>https://www.youtube.com/channel/UChWB95_-n9rUc3H9srsn9bQ</link>
+    <description />
+    <updated>2018-05-06T21:33:13+00:00</updated>
     <entry_count>15</entry_count>
-    <category>YouTube</category>
+    <category>Social Media</category>
+    <language>en</language>
+  </feed>
+  <feed>
+    <title>CultRepo (formerly Honeypot)</title>
+    <url>https://www.youtube.com/feeds/videos.xml?channel_id=UCsUalyRg43M8D60mtHe6YcA</url>
+    <link>https://www.youtube.com/channel/UCsUalyRg43M8D60mtHe6YcA</link>
+    <description />
+    <updated>2018-03-08T16:14:58+00:00</updated>
+    <entry_count>15</entry_count>
+    <category>Social Media</category>
     <language>en</language>
   </feed>
   <feed>
@@ -77,7 +197,327 @@
     <description />
     <updated>2025-07-31T12:37:13Z</updated>
     <entry_count>30</entry_count>
-    <category>Blogs</category>
+    <category>weblogs</category>
     <language>en-US</language>
+  </feed>
+  <feed>
+    <title>Lenny's Podcast</title>
+    <url>https://www.youtube.com/feeds/videos.xml?channel_id=UC6t1O76G0jYXOAoYCm153dA</url>
+    <link>https://www.youtube.com/channel/UC6t1O76G0jYXOAoYCm153dA</link>
+    <description />
+    <updated>2006-12-20T04:49:22+00:00</updated>
+    <entry_count>15</entry_count>
+    <category>Social Media</category>
+    <language>en</language>
+  </feed>
+  <feed>
+    <title>Principles by Ray Dalio</title>
+    <url>https://www.youtube.com/feeds/videos.xml?channel_id=UCqvaXJ1K3HheTPNjH-KpwXQ</url>
+    <link>https://www.youtube.com/channel/UCqvaXJ1K3HheTPNjH-KpwXQ</link>
+    <description />
+    <updated>2006-04-02T00:37:15+00:00</updated>
+    <entry_count>15</entry_count>
+    <category>Social Media</category>
+    <language>en</language>
+  </feed>
+  <feed>
+    <title>Ecosia</title>
+    <url>https://www.youtube.com/feeds/videos.xml?channel_id=UC1_up347GdfKBDVGqwjt7Aw</url>
+    <link>https://www.youtube.com/channel/UC1_up347GdfKBDVGqwjt7Aw</link>
+    <description />
+    <updated>2010-12-01T09:03:30+00:00</updated>
+    <entry_count>15</entry_count>
+    <category>Social Media</category>
+    <language>en</language>
+  </feed>
+  <feed>
+    <title>Sergei</title>
+    <url>https://github.com/burningalchemist</url>
+    <link>https://github.com/burningalchemist</link>
+    <description />
+    <updated>2025-07-30T16:15:00Z</updated>
+    <entry_count>30</entry_count>
+    <category>Github</category>
+    <language>en-US</language>
+  </feed>
+  <feed>
+    <title>Noclip</title>
+    <url>https://www.youtube.com/feeds/videos.xml?channel_id=UC0fDG3byEcMtbOqPMymDNbw</url>
+    <link>https://www.youtube.com/channel/UC0fDG3byEcMtbOqPMymDNbw</link>
+    <description />
+    <updated>2016-09-06T04:18:05+00:00</updated>
+    <entry_count>15</entry_count>
+    <category>Social Media</category>
+    <language>en</language>
+  </feed>
+  <feed>
+    <title>efazati</title>
+    <url>https://github.com/efazati</url>
+    <link>https://github.com/efazati</link>
+    <description />
+    <updated>2025-07-28T17:30:07Z</updated>
+    <entry_count>3</entry_count>
+    <category>Github</category>
+    <language>en-US</language>
+  </feed>
+  <feed>
+    <title>Jafekri | جافکری</title>
+    <url>https://www.youtube.com/feeds/videos.xml?channel_id=UCU1bB2uRgDxiR9vXTEYnbTQ</url>
+    <link>https://www.youtube.com/channel/UCU1bB2uRgDxiR9vXTEYnbTQ</link>
+    <description />
+    <updated>2021-07-17T05:38:48+00:00</updated>
+    <entry_count>15</entry_count>
+    <category>Social Media</category>
+    <language>en</language>
+  </feed>
+  <feed>
+    <title>Martin</title>
+    <url>https://github.com/martinohmann</url>
+    <link>https://github.com/martinohmann</link>
+    <description />
+    <updated>2025-07-26T11:38:19Z</updated>
+    <entry_count>30</entry_count>
+    <category>Github</category>
+    <language>en-US</language>
+  </feed>
+  <feed>
+    <title>afshinm</title>
+    <url>https://github.com/afshinm</url>
+    <link>https://github.com/afshinm</link>
+    <description />
+    <updated>2025-07-26T08:56:15Z</updated>
+    <entry_count>24</entry_count>
+    <category>Github</category>
+    <language>en-US</language>
+  </feed>
+  <feed>
+    <title>Jadi</title>
+    <url>https://mastodon.bsd.cafe/@jadi.rss</url>
+    <link>https://mastodon.bsd.cafe/@jadi</link>
+    <description>Public posts from @jadi@bsd.cafe</description>
+    <updated>Fri, 25 Jul 2025 16:51:50 +0000</updated>
+    <entry_count>20</entry_count>
+    <category>Social Media</category>
+    <language>en</language>
+  </feed>
+  <feed>
+    <title>Core Dumped</title>
+    <url>https://www.youtube.com/feeds/videos.xml?channel_id=UCGKEMK3s-ZPbjVOIuAV8clQ</url>
+    <link>https://www.youtube.com/channel/UCGKEMK3s-ZPbjVOIuAV8clQ</link>
+    <description />
+    <updated>2023-12-25T03:02:24+00:00</updated>
+    <entry_count>15</entry_count>
+    <category>Social Media</category>
+    <language>en</language>
+  </feed>
+  <feed>
+    <title>Nic Chan</title>
+    <url>https://www.nicchan.me/feed.xml</url>
+    <link>https://www.nicchan.me</link>
+    <description>The personal blog of Nic Chan, a front-end web developer.</description>
+    <updated>2025-07-26T01:04:57.703Z</updated>
+    <entry_count>34</entry_count>
+    <category>weblogs</category>
+    <language>en</language>
+  </feed>
+  <feed>
+    <title>omid</title>
+    <url>http://github.com/omid</url>
+    <link>https://github.com/omid</link>
+    <description />
+    <updated>2025-07-21T09:57:54Z</updated>
+    <entry_count>9</entry_count>
+    <category>Github</category>
+    <language>en-US</language>
+  </feed>
+  <feed>
+    <title>Corey Schafer</title>
+    <url>https://www.youtube.com/feeds/videos.xml?channel_id=UCCezIgC97PvUuR4_gbFUs5g</url>
+    <link>https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g</link>
+    <description />
+    <updated>2006-05-31T22:49:22+00:00</updated>
+    <entry_count>15</entry_count>
+    <category>Social Media</category>
+    <language>en</language>
+  </feed>
+  <feed>
+    <title>Khanh</title>
+    <url>https://github.com/ngoduykhanh</url>
+    <link>https://github.com/ngoduykhanh</link>
+    <description />
+    <updated>2025-07-11T08:00:27Z</updated>
+    <entry_count>22</entry_count>
+    <category>Github</category>
+    <language>en-US</language>
+  </feed>
+  <feed>
+    <title>Matthias Endler</title>
+    <url>https://endler.dev/rss.xml</url>
+    <link>https://endler.dev</link>
+    <description>Consultant at corrode.dev. Likes just-in-time compilers and hot chocolate</description>
+    <updated>Mon, 07 Jul 2025 00:00:00 +0000</updated>
+    <entry_count>66</entry_count>
+    <category>weblogs</category>
+    <language>en</language>
+  </feed>
+  <feed>
+    <title>Noel Berry</title>
+    <url>https://noelberry.ca/rss.xml</url>
+    <link>https://noelberry.ca</link>
+    <description>Sometimes, when I'm in the right mood, I make video games and art. Or something.</description>
+    <updated />
+    <entry_count>4</entry_count>
+    <category>weblogs</category>
+    <language>en-us</language>
+  </feed>
+  <feed>
+    <title>Posts on Yekta Leblebici</title>
+    <url>https://iamyekta.com/post/index.xml</url>
+    <link>https://iamyekta.com/post/</link>
+    <description>Recent content in Posts on Yekta Leblebici</description>
+    <updated>Mon, 31 Mar 2025 19:38:00 +0200</updated>
+    <entry_count>4</entry_count>
+    <category>weblogs</category>
+    <language>en-us</language>
+  </feed>
+  <feed>
+    <title>Mostafa Mirmousavi</title>
+    <url>https://mirmousavi.com/index.xml</url>
+    <link>https://mirmousavi.com/</link>
+    <description>Recent content on Mostafa Mirmousavi</description>
+    <updated>Wed, 26 Feb 2025 22:49:36 +0100</updated>
+    <entry_count>6</entry_count>
+    <category>weblogs</category>
+    <language>en-US</language>
+  </feed>
+  <feed>
+    <title>مصطفی میرموسوی</title>
+    <url>https://mirmousavi.com/fa/index.xml</url>
+    <link>https://mirmousavi.com/fa/</link>
+    <description>Recent content on مصطفی میرموسوی</description>
+    <updated>Wed, 26 Feb 2025 22:49:36 +0100</updated>
+    <entry_count>6</entry_count>
+    <category>weblogs</category>
+    <language>fa-IR</language>
+  </feed>
+  <feed>
+    <title>jackkelly</title>
+    <url>http://jackkelly.name/blog/rss.xml</url>
+    <link>http://jackkelly.name</link>
+    <description>Latest posts on jackkelly.name</description>
+    <updated>Thu, 06 Feb 2025 13:00:00 UT</updated>
+    <entry_count>10</entry_count>
+    <category>weblogs</category>
+    <language>en</language>
+  </feed>
+  <feed>
+    <title>Recent Commits to the-book-of-secret-knowledge:master</title>
+    <url>https://github.com/trimstray/the-book-of-secret-knowledge/commits.atom</url>
+    <link>https://github.com/trimstray/the-book-of-secret-knowledge/commits/master</link>
+    <description />
+    <updated>2024-11-19T14:00:34Z</updated>
+    <entry_count>20</entry_count>
+    <category>weblogs</category>
+    <language>en-US</language>
+  </feed>
+  <feed>
+    <title>arp242.net</title>
+    <url>https://www.arp242.net/feed.xml</url>
+    <link>https://www.arp242.net/</link>
+    <description>Website of Martin Tournoij/arp242. I write about stuff, occasionally.</description>
+    <updated>Thu, 03 Apr 2025 12:48:37 +0000</updated>
+    <entry_count>10</entry_count>
+    <category>weblogs</category>
+    <language>en</language>
+  </feed>
+  <feed>
+    <title>fr123k</title>
+    <url>https://profile.fr123k.uk/feed.xml</url>
+    <link>https://fr123k.github.io//</link>
+    <description>Passionate Platform Engineer</description>
+    <updated>2024-11-10T13:10:08+00:00</updated>
+    <entry_count>2</entry_count>
+    <category>weblogs</category>
+    <language>en</language>
+  </feed>
+  <feed>
+    <title>یادداشت‌های فرید</title>
+    <url>https://pesarkhobeee.github.io/fa/index.xml</url>
+    <link>https://pesarkhobeee.github.io/fa/</link>
+    <description>Recent content on یادداشت‌های فرید</description>
+    <updated>Sat, 09 Nov 2024 19:04:39 +0100</updated>
+    <entry_count>6</entry_count>
+    <category>weblogs</category>
+    <language>fa-IR</language>
+  </feed>
+  <feed>
+    <title>fastpaced.com</title>
+    <url>https://fastpaced.com/atom.xml</url>
+    <link>https://fastpaced.com</link>
+    <description />
+    <updated>2024-10-06T00:00:00Z</updated>
+    <entry_count>3</entry_count>
+    <category>weblogs</category>
+    <language>en</language>
+  </feed>
+  <feed>
+    <title>Cursor Blog | RSS Feed</title>
+    <url>https://cursor.com/atom.xml</url>
+    <link>https://cursor.com</link>
+    <description>Compiled notes from the team</description>
+    <updated>2024-09-24T21:03:48.327Z</updated>
+    <entry_count>8</entry_count>
+    <category>weblogs</category>
+    <language>en</language>
+  </feed>
+  <feed>
+    <title>فرهاد سپیدفکر</title>
+    <url>http://www.sepidfekr.com/feed/</url>
+    <link>http://www.sepidfekr.com</link>
+    <description />
+    <updated>Wed, 21 Aug 2024 20:12:16 +0000</updated>
+    <entry_count>10</entry_count>
+    <category>weblogs</category>
+    <language>fa-IR</language>
+  </feed>
+  <feed>
+    <title>Home on A Security Engineer's blog</title>
+    <url>https://asecurityengineer.com/index.xml</url>
+    <link>https://asecurityengineer.com/</link>
+    <description>Recent content in Home on A Security Engineer's blog</description>
+    <updated>Thu, 18 Jul 2024 00:00:00 +0000</updated>
+    <entry_count>12</entry_count>
+    <category>weblogs</category>
+    <language>en-us</language>
+  </feed>
+  <feed>
+    <title>Dave Cheney</title>
+    <url>https://dave.cheney.net/feed</url>
+    <link>https://dave.cheney.net</link>
+    <description>The acme of foolishness</description>
+    <updated>Fri, 19 Apr 2024 09:37:47 +0000</updated>
+    <entry_count>20</entry_count>
+    <category>weblogs</category>
+    <language>en-US</language>
+  </feed>
+  <feed>
+    <title>یادداشتهای پراکنده بیت‌نیمسوز</title>
+    <url>http://fzero.rubi.gd/index.xml</url>
+    <link>https://fzero.rubi.gd/</link>
+    <description>Recent content on یادداشتهای پراکنده بیت‌نیمسوز</description>
+    <updated>Mon, 04 Oct 2021 19:34:16 +0200</updated>
+    <entry_count>6</entry_count>
+    <category>weblogs</category>
+    <language>fa-ir</language>
+  </feed>
+  <feed>
+    <title>Derek Sivers blog</title>
+    <url>https://sive.rs/en.atom</url>
+    <link>https://sive.rs/en.atom</link>
+    <description />
+    <updated>2000-01-01T00:00:00+00:00</updated>
+    <entry_count>200</entry_count>
+    <category>weblogs</category>
+    <language>en</language>
   </feed>
 </feeds>
