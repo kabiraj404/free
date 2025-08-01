@@ -1,7 +1,7 @@
 {
-  "site_title": "Farids RSS Feeds",
+  "site_title": "Farid's RSS Feeds",
   "site_description": "A collection of my favorite RSS feeds.",
-  "site_link": "https://pesarkhobeee.github.io/rss/",
+  "site_link": "https://github.com/pesarkhobeee/rss",
   "generator": "lovelyRSS/1.0",
   "update_interval_hours":1,
   "output_files": {
