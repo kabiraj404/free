@@ -4,9 +4,209 @@
     <title>My RSS Feed</title>
     <description>A collection of my favorite RSS feeds.</description>
     <link>https://github.com</link>
-    <lastBuildDate>2025-07-31 12:47:33 UTC</lastBuildDate>
+    <lastBuildDate>2025-08-01 06:14:12 UTC</lastBuildDate>
     <generator>lovelyRSS/1.0</generator>
     <ns0:link href="./latest_rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diving into the results of the 2025 Developer Survey</title>
+      <link>https://stackoverflow.blog/2025/08/01/diving-into-the-results-of-the-2025-developer-survey/</link>
+      <description>Ryan and Eira welcome Erin Yepis, Senior Analyst at Stack Overflow, to the show to discuss the newly released 2025 Developer Survey results. They explore the decline in trust in AI tools, shifts in popular programming technologies, and the patterns Erin saw in salary growth among developers.</description>
+      <pubDate>Fri, 01 Aug 2025 07:40:00 GMT</pubDate>
+      <guid isPermaLink="true">https://stackoverflow.blog/2025/08/01/diving-into-the-results-of-the-2025-developer-survey/</guid>
+      <source url="https://stackoverflow.blog/feed/">Stack Overflow Blog</source>
+    </item>
+    <item>
+      <title>Every satellite orbiting earth and who owns them (2023)</title>
+      <link>https://dewesoft.com/blog/every-satellite-orbiting-earth-and-who-owns-them</link>
+      <description>Article URL: https://dewesoft.com/blog/every-satellite-orbiting-earth-and-who-owns-them Comments URL: https://news.ycombinator.com/item?id=44753298 Points: 18 # Comments: 4</description>
+      <pubDate>Fri, 01 Aug 2025 05:31:20 +0000</pubDate>
+      <guid isPermaLink="true">https://dewesoft.com/blog/every-satellite-orbiting-earth-and-who-owns-them</guid>
+      <source url="https://hnrss.org/frontpage">Hacker News</source>
+    </item>
+    <item>
+      <title>LLM leaderboard – Comparing models from OpenAI, Google, DeepSeek and others</title>
+      <link>https://artificialanalysis.ai/leaderboards/models</link>
+      <description>Article URL: https://artificialanalysis.ai/leaderboards/models Comments URL: https://news.ycombinator.com/item?id=44752546 Points: 32 # Comments: 14</description>
+      <pubDate>Fri, 01 Aug 2025 02:45:52 +0000</pubDate>
+      <guid isPermaLink="true">https://artificialanalysis.ai/leaderboards/models</guid>
+      <source url="https://hnrss.org/frontpage">Hacker News</source>
+    </item>
+    <item>
+      <title>Show HN: KubeForge – A GUI for Kubernetes YAMLs</title>
+      <link>https://github.com/kubenote/KubeForge</link>
+      <description>Hey HN,I'm Brandon, a solo dev, and I built KubeForge - a visual editor for Kubernetes deployments that helps you build and validate YAML configs.Origin Story: Over the past couple weeks, I got fed up manually writing Kubernetes YAMLs, especially when working with nested structures like containers, env, and volumeMounts. Even small typos or misaligned fields added lost time to broken deploys.So I started hacking together a tool to visualize the structure of Kubernetes objects based on the OpenAPI schema. That prototype quickly turned into a full manifest builder.What KubeForge does:- Pulls the latest Kubernetes OpenAPI schema (auto-updated daily)- Generates field-level forms with type safety, required fields, and smart defaults- Lets you visually build manifests like a flow editor- Outputs clean, deploy-ready YAML, with multi-object exportsPersonally, I wanted a tool that:- Validates fields as I build, not after deployment- Surfaces nested fields, tooltips, and types without switching tabs- Lets me export or share real YAMLs easilyTry it out:GitHub: https://github.com/kubenote/KubeForgeLive demo: https://demo.kubefor.geWebsite: https://kubefor.geIt’s free and open source. I’d love feedback, bug reports, or ideas. Contributions welcome too .Thanks, Brandon Comments URL: https://news.ycombinator.com/item?id=44752469 Points: 17 # Comments: 9</description>
+      <pubDate>Fri, 01 Aug 2025 02:30:59 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/kubenote/KubeForge</guid>
+      <source url="https://hnrss.org/frontpage">Hacker News</source>
+    </item>
+    <item>
+      <title>Tech giants blocking some Ukraine and Gaza posts under new online rules</title>
+      <link>https://www.bbc.com/news/articles/cj3l0e4vr0ko?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Tech companies are restricting debates of public interest to comply the Online Safety Act, analysis shows.</description>
+      <pubDate>Thu, 31 Jul 2025 23:38:38 GMT</pubDate>
+      <guid isPermaLink="true">https://www.bbc.com/news/articles/cj3l0e4vr0ko?at_medium=RSS&amp;at_campaign=rss</guid>
+      <source url="http://feeds.bbci.co.uk/news/technology/rss.xml">BBC Technology</source>
+    </item>
+    <item>
+      <title>Age verification doesn't need to be a privacy footgun</title>
+      <link>https://soatok.blog/2025/07/31/age-verification-doesnt-need-to-be-a-privacy-footgun/</link>
+      <description>Article URL: https://soatok.blog/2025/07/31/age-verification-doesnt-need-to-be-a-privacy-footgun/ Comments URL: https://news.ycombinator.com/item?id=44750817 Points: 34 # Comments: 26</description>
+      <pubDate>Thu, 31 Jul 2025 22:19:54 +0000</pubDate>
+      <guid isPermaLink="true">https://soatok.blog/2025/07/31/age-verification-doesnt-need-to-be-a-privacy-footgun/</guid>
+      <source url="https://hnrss.org/frontpage">Hacker News</source>
+    </item>
+    <item>
+      <title>The anti-abundance critique on housing is wrong</title>
+      <link>https://www.derekthompson.org/p/the-anti-abundance-critique-on-housing</link>
+      <description>Article URL: https://www.derekthompson.org/p/the-anti-abundance-critique-on-housing Comments URL: https://news.ycombinator.com/item?id=44750416 Points: 290 # Comments: 408</description>
+      <pubDate>Thu, 31 Jul 2025 21:28:07 +0000</pubDate>
+      <guid isPermaLink="true">https://www.derekthompson.org/p/the-anti-abundance-critique-on-housing</guid>
+      <source url="https://hnrss.org/frontpage">Hacker News</source>
+    </item>
+    <item>
+      <title>Denver rent is back to 2022 prices after 20k new units hit the market</title>
+      <link>https://denverite.com/2025/07/25/denver-rent-prices-drop-q2/</link>
+      <description>Article URL: https://denverite.com/2025/07/25/denver-rent-prices-drop-q2/ Comments URL: https://news.ycombinator.com/item?id=44749772 Points: 241 # Comments: 268</description>
+      <pubDate>Thu, 31 Jul 2025 20:29:55 +0000</pubDate>
+      <guid isPermaLink="true">https://denverite.com/2025/07/25/denver-rent-prices-drop-q2/</guid>
+      <source url="https://hnrss.org/frontpage">Hacker News</source>
+    </item>
+    <item>
+      <title>Slow</title>
+      <link>https://michaelnotebook.com/slow/index.html</link>
+      <description>Article URL: https://michaelnotebook.com/slow/index.html Comments URL: https://news.ycombinator.com/item?id=44748934 Points: 670 # Comments: 165</description>
+      <pubDate>Thu, 31 Jul 2025 19:00:58 +0000</pubDate>
+      <guid isPermaLink="true">https://michaelnotebook.com/slow/index.html</guid>
+      <source url="https://hnrss.org/frontpage">Hacker News</source>
+    </item>
+    <item>
+      <title>Secure boot certificate rollover is real but probably won't hurt you</title>
+      <link>https://mjg59.dreamwidth.org/72892.html</link>
+      <description>Article URL: https://mjg59.dreamwidth.org/72892.html Comments URL: https://news.ycombinator.com/item?id=44747843 Points: 115 # Comments: 58</description>
+      <pubDate>Thu, 31 Jul 2025 17:21:07 +0000</pubDate>
+      <guid isPermaLink="true">https://mjg59.dreamwidth.org/72892.html</guid>
+      <source url="https://hnrss.org/frontpage">Hacker News</source>
+    </item>
+    <item>
+      <title>Onboarding your AI peer programmer: Setting up GitHub Copilot coding agent for success</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/onboarding-your-ai-peer-programmer-setting-up-github-copilot-coding-agent-for-success/</link>
+      <description>Learn how to configure Copilot coding agent’s environment, optimize project structure, use custom instructions, and extend its capabilities with MCP servers. The post Onboarding your AI peer programmer: Setting up GitHub Copilot coding agent for success appeared first on The GitHub Blog.</description>
+      <pubDate>Thu, 31 Jul 2025 17:12:43 +0000</pubDate>
+      <guid isPermaLink="true">https://github.blog/ai-and-ml/github-copilot/onboarding-your-ai-peer-programmer-setting-up-github-copilot-coding-agent-for-success/</guid>
+      <source url="https://github.blog/feed/">GitHub Blog</source>
+    </item>
+    <item>
+      <title>AI is a floor raiser, not a ceiling raiser</title>
+      <link>https://elroy.bot/blog/2025/07/29/ai-is-a-floor-raiser-not-a-ceiling-raiser.html</link>
+      <description>Article URL: https://elroy.bot/blog/2025/07/29/ai-is-a-floor-raiser-not-a-ceiling-raiser.html Comments URL: https://news.ycombinator.com/item?id=44747634 Points: 271 # Comments: 162</description>
+      <pubDate>Thu, 31 Jul 2025 17:01:37 +0000</pubDate>
+      <guid isPermaLink="true">https://elroy.bot/blog/2025/07/29/ai-is-a-floor-raiser-not-a-ceiling-raiser.html</guid>
+      <source url="https://hnrss.org/frontpage">Hacker News</source>
+    </item>
+    <item>
+      <title>Kaizen (YC X25) is hiring engineers to build browser agents that work</title>
+      <link>https://www.kaizenautomation.com/jobs</link>
+      <description>Article URL: https://www.kaizenautomation.com/jobs Comments URL: https://news.ycombinator.com/item?id=44747625 Points: 0 # Comments: 0</description>
+      <pubDate>Thu, 31 Jul 2025 17:00:56 +0000</pubDate>
+      <guid isPermaLink="true">https://www.kaizenautomation.com/jobs</guid>
+      <source url="https://hnrss.org/frontpage">Hacker News</source>
+    </item>
+    <item>
+      <title>Gemini Embedding: Powering RAG and context engineering</title>
+      <link>https://developers.googleblog.com/en/gemini-embedding-powering-rag-context-engineering/</link>
+      <description>Article URL: https://developers.googleblog.com/en/gemini-embedding-powering-rag-context-engineering/ Comments URL: https://news.ycombinator.com/item?id=44747457 Points: 201 # Comments: 68</description>
+      <pubDate>Thu, 31 Jul 2025 16:47:54 +0000</pubDate>
+      <guid isPermaLink="true">https://developers.googleblog.com/en/gemini-embedding-powering-rag-context-engineering/</guid>
+      <source url="https://hnrss.org/frontpage">Hacker News</source>
+    </item>
+    <item>
+      <title>Show HN: Mcp-use – Connect any LLM to any MCP</title>
+      <link>https://github.com/mcp-use/mcp-use</link>
+      <description>Hey Pietro and Luigi here, we are the authors of mcp-use (https://github.com/mcp-use/mcp-use).When the first MCP servers came out we were very excited about the technology, but as soon as we wanted to get our hands dirty, we found out that MCP could be used only through Claude Desktop or Cursor. As engineers, we did not like that. MCP seemed like something you wanted to use to build products and applications yourself, not something to hide behind a closed source application.So we approached the SDK but were pretty dissatisfied with the developer experience (double async loops, lots of boilerplate). We decided to write mcp-use to make our lives easier.mcp-use lets you connect any LLM to any MCP server in just 6 lines of code. We provide a high level abstraction over the official MCP SDK that makes your life easier and supports all the functionalities of the protocol.Demo video here: https://www.youtube.com/watch?v=nL_B6LZAsp4.The key abstractions we provide are called MCPClient and MCPAgent.MCPClient takes in a set of server configurations, automatically detects the transport type and creates a background task which handles the stream from/to the server.MCPAgent is a combination of the MCPClient, an LLM, and a custom system prompt. It consumes the MCP client by transforming the tools, resources and prompts into model agnostic tools that can be called by the LLM.The library also contains some cool utilities:- secure sandboxed execution of MCP servers (we know the protocol doesn't shine for security)- meta-tools that allow the agent to search over available servers and tools (to avoid context flooding) and connect dynamically to the server it needs (you could create the omnipotent agent with this).Some cool things we did with this: - write an agent that can use a browser and create/read linear tickets updated with latest information on the internet- write an agent that has access to the metrics of our company to automatically create weekly reports.- I connected an agent to an IKEA curtain I hacked an MCP on to adapt the lighting of my room from images of the lighting situation.- recreated am open source claude code like CLI, with full MCP capability but with custom models and BYOK (https://github.com/mcp-use/mcp-use-cli).We recently crossed 100,000 download and we are used by many organizations, including NASA!We’d love to hear what you think of it, most importantly how we can improve it! We are happy to answer any questions and look forward to your comments. Comments URL: https://news.ycombinator.com/item?id=44747229 Points: 107 # Comments: 57</description>
+      <pubDate>Thu, 31 Jul 2025 16:25:51 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/mcp-use/mcp-use</guid>
+      <source url="https://hnrss.org/frontpage">Hacker News</source>
+    </item>
+    <item>
+      <title>Launch HN: Gecko Security (YC F24) – AI That Finds Vulnerabilities in Code</title>
+      <link>https://news.ycombinator.com/item?id=44747204</link>
+      <description>Hey HN, I'm JJ, Co-Founder of Gecko Security (https://www.gecko.security). We're building a new kind of static analysis tool that uses LLMs to find complex business logic and multi-step vulnerabilities that current scanners miss. We’ve used it to find 30+ CVEs in projects like Ollama, Gradio, and Ragflow (https://www.gecko.security/research). You can try it yourself on any OSS repo at (https://app.gecko.security).Anyone who’s used SAST (Static Application Security Testing) tools knows the issues of high false positives while missing entire classes of vulnerabilities like AuthN/Z bypasses or privilege escalations. This limitation is a result of their core architecture. By design, SAST tools parse code into a simplistic model like an AST or call graph, which quickly loses context in dynamically typed languages or across microservice boundaries, and limits coverage to only resolving basic call chains. When detecting vulnerabilities they rely on pattern matching with Regex or YAML rules, which can be effective for basic technical classes like (XSS, SQLi) but inadequate for logic flaws that don’t conform to well-known shapes and need long sequences of dependent operations to reach an exploitable state.My co-founder and I saw these limitations throughout our careers in national intelligence and military cyber forces, where we built automated tooling to defend critical infrastructure. We realised that LLMs, with the right architecture, could finally solve them.Vulnerabilities are contextual. What's exploitable depends entirely on each application's security model. We realized accurate detection requires understanding what's supposed to be protected and why breaking it matters. This meant embedding threat modeling directly into our analysis, not treating it as an afterthought.To achieve this, we first had to solve the code parsing problem. Our solution was to build a custom, compiler-accurate indexer inspired by GitHub's stack graphs approach to precisely navigate code, like an IDE. We build on the LSIF approach (https://lsif.dev/) but replace the verbose JSON with a compact protobuf schema to serialise symbol definitions and references in a binary format. We use language‑specific tools to parse and type‑check code, emitting a sequence of Protobuf messages that record a symbol’s position, definition, and reference information. By using Protobuf’s efficiency and strong typing, we can produce smaller indexes, but also preserve the compiler‑accurate semantic information required for detecting complex call chains.This is why most "SAST + LLM" tools that use AST parsing fail - they feed LLMs incomplete or incorrect code information from traditional parsers, making it difficult to accurately reason about security issues with missing context.With our indexer providing accurate code structure, we use an LLM to perform threat modeling by analyzing developer intent, data and trust boundaries, and exposed endpoints to generate potential attack scenarios. This is where LLMs' tendency to hallucinate becomes a breakthrough feature.For each potential attack path generated, we perform a systematic search, querying the indexer to gather all necessary context and reconstruct the full call chain from source to sink. To validate the vulnerability we use a Monte Carlo Tree Self-refine (MCTSr) algorithm and a 'win function' to determine the likelihood that a hypothesized attack could work. Once a finding is above a set practicality threshold it is confirmed as a true positive.Using this approach, we discovered vulnerabilities like CVE-2025-51479 in ONYX (an OSS enterprise search platform) where Curators could modify any group instead of just their assigned ones. The user-group API had a user parameter that should check permissions but never used it. Gecko inferred developers intended to restrict Curator access because both the UI and similar API functions properly validated this permission. This established "curators have limited scope" as a security invariant that this specific API violated. Traditional SAST can't detect this. Any rule to flag unused user parameters would drown you in false positives since many functions legitimately keep unused parameters. And more importantly, detecting this requires knowing which functions handle authorization, understanding ONYX's Curator permission model, and recognizing the validation pattern across multiple files - contextual reasoning that SAST simply cannot do.We have several enterprise customers using Gecko because it solves problems they couldn't address with traditional SAST tools. They're seeing 50% fewer false positives on the same codebases and finding vulnerabilities that previously only showed up in manual pentests.Digging into false positives, no static analysis tool will ever achieve perfect accuracy, AI or otherwise. We reduce them at two key points. First, our indexer eliminates any programmatic parsing errors that create incorrect call chains that traditional AST tools are susceptible to. Second, we avoid unwanted LLM hallucinations and reasoning errors by asking specific, contextual questions rather than open-ended ones. The LLM knows which security invariants need to hold and can make deterministic assessments based on the context. When we do flag something, manual review is quick because we provide complete source-to-sink dataflow analysis with proof-of-concept code and output findings based on confidence scores.We’d love to get any feedback from the community, ideas for future direction, or experiences in this space. I’ll be in the comments to respond! Comments URL: https://news.ycombinator.com/item?id=44747204 Points: 55 # Comments: 26</description>
+      <pubDate>Thu, 31 Jul 2025 16:23:09 +0000</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=44747204</guid>
+      <source url="https://hnrss.org/frontpage">Hacker News</source>
+    </item>
+    <item>
+      <title>Do AI coding tools help with imposter syndrome or make it worse?</title>
+      <link>https://stackoverflow.blog/2025/07/31/do-ai-coding-tools-help-with-imposter-syndrome-or-make-it-worse/</link>
+      <description>Spoiler: Yes.</description>
+      <pubDate>Thu, 31 Jul 2025 16:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://stackoverflow.blog/2025/07/31/do-ai-coding-tools-help-with-imposter-syndrome-or-make-it-worse/</guid>
+      <source url="https://stackoverflow.blog/feed/">Stack Overflow Blog</source>
+    </item>
+    <item>
+      <title>QUIC for the kernel</title>
+      <link>https://lwn.net/Articles/1029851/</link>
+      <description>Article URL: https://lwn.net/Articles/1029851/ Comments URL: https://news.ycombinator.com/item?id=44746948 Points: 227 # Comments: 174</description>
+      <pubDate>Thu, 31 Jul 2025 15:57:32 +0000</pubDate>
+      <guid isPermaLink="true">https://lwn.net/Articles/1029851/</guid>
+      <source url="https://hnrss.org/frontpage">Hacker News</source>
+    </item>
+    <item>
+      <title>Ubiquiti launches UniFi OS Server for self-hosting</title>
+      <link>https://lazyadmin.nl/home-network/unifi-os-server/</link>
+      <description>Article URL: https://lazyadmin.nl/home-network/unifi-os-server/ Comments URL: https://news.ycombinator.com/item?id=44746603 Points: 263 # Comments: 218</description>
+      <pubDate>Thu, 31 Jul 2025 15:24:05 +0000</pubDate>
+      <guid isPermaLink="true">https://lazyadmin.nl/home-network/unifi-os-server/</guid>
+      <source url="https://hnrss.org/frontpage">Hacker News</source>
+    </item>
+    <item>
+      <title>Which One Are You?</title>
+      <link>https://www.youtube.com/shorts/3D9uIn2oBLI</link>
+      <description>One pulls everything in and never lets go. The other refuses to let anything in at all. They’re cosmic opposites: mysterious, extreme, and maybe even connected in strange ways we still don’t understand. But which one are you more like? #kurzgesagt #inanutshell #kurzgesagt_inanutshell #learnwithshorts #science Sources &amp; further reading: https://sites.google.com/view/kgs-tiktok-sources Follow us for more sciencey content! 🦆 OUR CHANNELS ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ German: https://kgs.link/youtubeDE Spanish: https://kgs.link/youtubeES French: https://kgs.link/youtubeFR Portuguese: https://kgs.link/youtubePT Arabic: https://kgs.link/youtubeAR Hindi: https://kgs.link/youtubeHI Japanese: https://kgs.link/youtubeJA Korean: https://kgs.link/youtubeKO HOW CAN YOU SUPPORT US? ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ This is how we make our living and it would be a pleasure if you support us! Get Products designed with ❤ https://shop.kgs.link/shorts Become a Part of kurzgesagt by joining the Patreon Bird Army 🐧 https://kgs.link/patreon DISCUSSIONS &amp; SOCIAL MEDIA ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ Instagram: https://kgs.link/instagram TikTok: https://kgs.link/tiktok Reddit: https://kgs.link/reddit Discord: https://kgs.link/discord Twitter: https://kgs.link/twitter Bluesky: https://kgs.link/bluesky Facebook: https://kgs.link/facebook Newsletter: https://kgs.link/newsletter OUR VOICE ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ The Kurzgesagt voice is from Steve Taylor: https://kgs.link/youtube-voice OUR MUSIC ♬♪ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ 700+ minutes of Kurzgesagt Soundtracks by Epic Mountain: Spotify: https://kgs.link/music-spotify Soundcloud: https://kgs.link/music-soundcloud Bandcamp: https://kgs.link/music-bandcamp Youtube: https://kgs.link/music-youtube Facebook: https://kgs.link/music-facebook</description>
+      <pubDate>2025-07-31T15:05:22+00:00</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/shorts/3D9uIn2oBLI</guid>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCsXVk37bltHxD1rDPwtNM8Q">Kurzgesagt – In a Nutshell</source>
+    </item>
+    <item>
+      <title>Carbon Language: An experimental successor to C++</title>
+      <link>https://docs.carbon-lang.dev/</link>
+      <description>Article URL: https://docs.carbon-lang.dev/ Comments URL: https://news.ycombinator.com/item?id=44745984 Points: 109 # Comments: 109</description>
+      <pubDate>Thu, 31 Jul 2025 14:23:40 +0000</pubDate>
+      <guid isPermaLink="true">https://docs.carbon-lang.dev/</guid>
+      <source url="https://hnrss.org/frontpage">Hacker News</source>
+    </item>
+    <item>
+      <title>MacBook Pro Insomnia</title>
+      <link>https://manuel.bernhardt.io/posts/2025-07-24-macbook-pro-insomnia</link>
+      <description>Article URL: https://manuel.bernhardt.io/posts/2025-07-24-macbook-pro-insomnia Comments URL: https://news.ycombinator.com/item?id=44745897 Points: 361 # Comments: 171</description>
+      <pubDate>Thu, 31 Jul 2025 14:16:07 +0000</pubDate>
+      <guid isPermaLink="true">https://manuel.bernhardt.io/posts/2025-07-24-macbook-pro-insomnia</guid>
+      <source url="https://hnrss.org/frontpage">Hacker News</source>
+    </item>
+    <item>
+      <title>Show HN: AgentMail – Email infra for AI agents</title>
+      <link>https://chat.agentmail.to/</link>
+      <description>Hey HN, we're Haakam, Michael, and Adi. We're building AgentMail (https://agentmail.to/), an API to give AI agents their own email inboxes. We’re not talking about AI for your email, this is email for your AI.We started building email agents because they can converse with users in their inboxes, automate email-based workflows, and authenticate with third-party applications. Given these unique capabilities, we think email will be a core interface for agents.But we were building on top of Gmail, which was a struggle: poor API support, expensive subscriptions, rate limits, sending limits, GCP Pub/Sub, OAuth, crappy keyword search, and an overall terrible developer experience.Gmail and other providers didn’t work for us. So we decided to bite the bullet and build our own.AgentMail is like Gmail, but API-first, with programmatic inbox creation, events over webhooks and websockets, simple API key auth, organization-wide semantic search, structured data extraction, and usage-based pricing that scales with emails sent/received.Here’s a demo of building an email agent: https://youtu.be/1V7BISeFUTM, and here’s a demo of a voice agent with its own email inbox: https://youtu.be/eG2fCsRK4RYSo far AgentMail has been deployed to use cases such as apps with dedicated inboxes for each user, voice agents that receive documents in real time, automated account provisioning and QA testing, cold outbound platforms with thousands of inboxes, automations for processing invoices, and agents that coordinate work with humans and other agents.We would love to hear your thoughts and feedback. You can try our playground at https://chat.agentmail.to Comments URL: https://news.ycombinator.com/item?id=44745820 Points: 70 # Comments: 44</description>
+      <pubDate>Thu, 31 Jul 2025 14:08:33 +0000</pubDate>
+      <guid isPermaLink="true">https://chat.agentmail.to/</guid>
+      <source url="https://hnrss.org/frontpage">Hacker News</source>
+    </item>
+    <item>
+      <title>Releasing weights for FLUX.1 Krea</title>
+      <link>https://www.krea.ai/blog/flux-krea-open-source-release</link>
+      <description>Article URL: https://www.krea.ai/blog/flux-krea-open-source-release Comments URL: https://news.ycombinator.com/item?id=44745555 Points: 244 # Comments: 82</description>
+      <pubDate>Thu, 31 Jul 2025 13:41:45 +0000</pubDate>
+      <guid isPermaLink="true">https://www.krea.ai/blog/flux-krea-open-source-release</guid>
+      <source url="https://hnrss.org/frontpage">Hacker News</source>
+    </item>
+    <item>
+      <title>Anxiety gives you an advantage. Unlock it with neuroplasticity | Wendy Suzuki</title>
+      <link>https://www.youtube.com/watch?v=HzEJe2navAI</link>
+      <description>“Anxiety is focused on things that are important to you in life. That is the key.” Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, The memory-enhancing effects of movement, backed by science ► https://www.youtube.com/watch?v=8f0U0Nr6s6Q What if one of our most uncomfortable emotions could actually be seen as a gift, bringing us a wealth of insight, productivity, and empathy? Neuroscientist Dr. Wendy Suzuki argues that by reframing anxiety as a misunderstood superpower, we can take advantage of it as fuel to enter flow state. Suzuki shares her science-backed trick for those saddled with the emotion, transforming it from a daily burden to a powerful tool. 00:00 The protective nature of anxiety 00:37 How to turn anxiety into a superpower 03:40 Anxiety in the brain 05:47 Using brain plasticity 10:33 Top 3 superpowers of anxiety 12:33 Using anxiety for flow Read the video transcript ► https://bigthink.com/series/the-big-think-interview/anxiety-superpower/?utm_source=youtube&amp;utm_medium=video&amp;utm_campaign=youtube_description ---------------------------------------------------------------------------------- Go Deeper with Big Think: ►Become a Big Think Member Get exclusive content, early, ad-free access to new releases, and more. https://www.youtube.com/@bigthink/membership/ ►Subscribe to Big Think on Substack Explore content that enlightens, inspires, and transforms. http://substack.com/@bigthinkmedia/ ►Get Big Think+ for Business Engage learners like never before with high-impact video microlearning from the biggest thinkers in the world. https://bigthink.com/plus/?utm_source=youtube&amp;utm_medium=video&amp;utm_campaign=youtube_description ---------------------------------------------------------------------------------- About Wendy Suzuki: Dr. Wendy A. Suzuki is a Professor of Neural Science and Psychology in the Center for Neural Science at New York University. She received her undergraduate degree in Physiology and Human Anatomy at the University of California, Berkeley in 1987, studying with Prof. Marion C. Diamond, a leader in the field of brain plasticity. She went on to earn her Ph.D. in Neuroscience from U.C. San Diego in 1993 and completed a post-doctoral fellowship at the National Institutes of Health before accepting her faculty position at New York University in 1998. Dr. Suzuki is author of the book Healthy Brain, Happy Life: A Personal Program to Activate Your Brain and Do Everything Better.</description>
+      <pubDate>2025-07-31T13:00:37+00:00</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=HzEJe2navAI</guid>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCvQECJukTDE2i6aCoMnS-Vg">Big Think</source>
+    </item>
     <item>
       <title>Ofcom investigates 34 porn sites over age checks</title>
       <link>https://www.bbc.com/news/articles/c5y2xx6z6eko?at_medium=RSS&amp;at_campaign=rss</link>
@@ -14,14 +214,6 @@
       <pubDate>Thu, 31 Jul 2025 12:29:13 GMT</pubDate>
       <guid isPermaLink="true">https://www.bbc.com/news/articles/c5y2xx6z6eko?at_medium=RSS&amp;at_campaign=rss</guid>
       <source url="http://feeds.bbci.co.uk/news/technology/rss.xml">BBC Technology</source>
-    </item>
-    <item>
-      <title>Altima NSX – Computer Ads from the Past</title>
-      <link>https://computeradsfromthepast.substack.com/p/altima-nsx</link>
-      <description>Article URL: https://computeradsfromthepast.substack.com/p/altima-nsx Comments URL: https://news.ycombinator.com/item?id=44744927 Points: 3 # Comments: 0</description>
-      <pubDate>Thu, 31 Jul 2025 12:25:43 +0000</pubDate>
-      <guid isPermaLink="true">https://computeradsfromthepast.substack.com/p/altima-nsx</guid>
-      <source url="https://hnrss.org/frontpage">Hacker News</source>
     </item>
     <item>
       <title>Executives should be the least busy people</title>
@@ -32,59 +224,11 @@
       <source url="https://world.hey.com/dhh/feed.atom">David Heinemeier Hansson</source>
     </item>
     <item>
-      <title>Infracost (YC W21) hiring first PM to shift $600B cloud spend to proactive</title>
-      <link>https://www.ycombinator.com/companies/infracost/jobs/ukwJ299-senior-product-manager</link>
-      <description>Article URL: https://www.ycombinator.com/companies/infracost/jobs/ukwJ299-senior-product-manager Comments URL: https://news.ycombinator.com/item?id=44744756 Points: 0 # Comments: 0</description>
-      <pubDate>Thu, 31 Jul 2025 12:00:26 +0000</pubDate>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/infracost/jobs/ukwJ299-senior-product-manager</guid>
-      <source url="https://hnrss.org/frontpage">Hacker News</source>
-    </item>
-    <item>
-      <title>Introduction to Computer Music an Electronic Textbook</title>
-      <link>https://cmtext.com/</link>
-      <description>Article URL: https://cmtext.com/ Comments URL: https://news.ycombinator.com/item?id=44744578 Points: 47 # Comments: 3</description>
-      <pubDate>Thu, 31 Jul 2025 11:37:22 +0000</pubDate>
-      <guid isPermaLink="true">https://cmtext.com/</guid>
-      <source url="https://hnrss.org/frontpage">Hacker News</source>
-    </item>
-    <item>
-      <title>How was the Universal Pictures 1936 opening logo created?</title>
-      <link>https://movies.stackexchange.com/questions/128020/how-was-the-universal-pictures-1936-opening-logo-created</link>
-      <description>Article URL: https://movies.stackexchange.com/questions/128020/how-was-the-universal-pictures-1936-opening-logo-created Comments URL: https://news.ycombinator.com/item?id=44744454 Points: 43 # Comments: 3</description>
-      <pubDate>Thu, 31 Jul 2025 11:19:54 +0000</pubDate>
-      <guid isPermaLink="true">https://movies.stackexchange.com/questions/128020/how-was-the-universal-pictures-1936-opening-logo-created</guid>
-      <source url="https://hnrss.org/frontpage">Hacker News</source>
-    </item>
-    <item>
-      <title>GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning</title>
-      <link>https://arxiviq.substack.com/p/gepa-reflective-prompt-evolution</link>
-      <description>Article URL: https://arxiviq.substack.com/p/gepa-reflective-prompt-evolution Comments URL: https://news.ycombinator.com/item?id=44744331 Points: 34 # Comments: 2</description>
-      <pubDate>Thu, 31 Jul 2025 10:57:58 +0000</pubDate>
-      <guid isPermaLink="true">https://arxiviq.substack.com/p/gepa-reflective-prompt-evolution</guid>
-      <source url="https://hnrss.org/frontpage">Hacker News</source>
-    </item>
-    <item>
-      <title>I tried Servo, the undercover web browser engine made with Rust</title>
-      <link>https://www.spacebar.news/servo-undercover-web-browser-engine/</link>
-      <description>Article URL: https://www.spacebar.news/servo-undercover-web-browser-engine/ Comments URL: https://news.ycombinator.com/item?id=44744324 Points: 54 # Comments: 32</description>
-      <pubDate>Thu, 31 Jul 2025 10:56:21 +0000</pubDate>
-      <guid isPermaLink="true">https://www.spacebar.news/servo-undercover-web-browser-engine/</guid>
-      <source url="https://hnrss.org/frontpage">Hacker News</source>
-    </item>
-    <item>
-      <title>GOP’s Josh Hawley and Democrats vote to advance congressional stock trading ban</title>
-      <link>https://www.cbsnews.com/news/hawley-democrats-vote-stock-trading-ban-committee/</link>
-      <description>Article URL: https://www.cbsnews.com/news/hawley-democrats-vote-stock-trading-ban-committee/ Comments URL: https://news.ycombinator.com/item?id=44744096 Points: 94 # Comments: 91</description>
-      <pubDate>Thu, 31 Jul 2025 10:07:19 +0000</pubDate>
-      <guid isPermaLink="true">https://www.cbsnews.com/news/hawley-democrats-vote-stock-trading-ban-committee/</guid>
-      <source url="https://hnrss.org/frontpage">Hacker News</source>
-    </item>
-    <item>
-      <title>How to trigger a command on Linux when disconnected from power</title>
-      <link>https://dataswamp.org/~solene/2025-05-31-linux-killswitch-on-power-disconnect.html</link>
-      <description>Article URL: https://dataswamp.org/~solene/2025-05-31-linux-killswitch-on-power-disconnect.html Comments URL: https://news.ycombinator.com/item?id=44744079 Points: 6 # Comments: 0</description>
-      <pubDate>Thu, 31 Jul 2025 10:03:54 +0000</pubDate>
-      <guid isPermaLink="true">https://dataswamp.org/~solene/2025-05-31-linux-killswitch-on-power-disconnect.html</guid>
+      <title>Many countries that said no to ChatControl in 2024 are now undecided</title>
+      <link>https://digitalcourage.social/@echo_pbreyer/114946559233051667</link>
+      <description>Article URL: https://digitalcourage.social/@echo_pbreyer/114946559233051667 Comments URL: https://news.ycombinator.com/item?id=44744715 Points: 347 # Comments: 242</description>
+      <pubDate>Thu, 31 Jul 2025 11:54:22 +0000</pubDate>
+      <guid isPermaLink="true">https://digitalcourage.social/@echo_pbreyer/114946559233051667</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
     </item>
     <item>
@@ -94,46 +238,6 @@
       <pubDate>Thu, 31 Jul 2025 07:40:00 GMT</pubDate>
       <guid isPermaLink="true">https://stackoverflow.blog/2025/07/31/the-innovation-leadership-and-team-agility-inside-u-s-bank-s-cloud-journey/</guid>
       <source url="https://stackoverflow.blog/feed/">Stack Overflow Blog</source>
-    </item>
-    <item>
-      <title>Show HN: AgentGuard – Auto-kill AI agents before they burn through your budget</title>
-      <link>https://github.com/dipampaul17/AgentGuard</link>
-      <description>Your AI agent hits an infinite loop and racks up $2000 in API charges overnight. This happens weekly to AI developers.AgentGuard monitors API calls in real-time and automatically kills your process when it hits your budget limit.How it works:Add 2 lines to any AI project: const agentGuard = require('agent-guard'); await agentGuard.init({ limit: 50 }); // $50 budget // Your existing code runs unchanged const response = await openai.chat.completions.create({...}); // AgentGuard tracks costs automatically When your code hits $50 in API costs, AgentGuard stops execution and shows you exactly what happened.Why I built this:I got tired of seeing "I accidentally spent $500 on OpenAI" posts. Existing tools like tokencost help you measure costs after the fact, but nothing prevents runaway spending in real-time.AgentGuard is essentially a circuit breaker for AI API costs. It's saved me from several costly bugs during development.Limitations: Only works with OpenAI and Anthropic APIs currently. Cost calculations are estimates based on documented pricing.Source: https://github.com/dipampaul17/AgentGuardInstall: npm i agent-guard Comments URL: https://news.ycombinator.com/item?id=44742710 Points: 32 # Comments: 18</description>
-      <pubDate>Thu, 31 Jul 2025 05:54:04 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/dipampaul17/AgentGuard</guid>
-      <source url="https://hnrss.org/frontpage">Hacker News</source>
-    </item>
-    <item>
-      <title>Tracking source locations in the Futhark compiler</title>
-      <link>https://futhark-lang.org/blog/2025-07-29-tracking-source-locations.html</link>
-      <description>Article URL: https://futhark-lang.org/blog/2025-07-29-tracking-source-locations.html Comments URL: https://news.ycombinator.com/item?id=44742359 Points: 37 # Comments: 0</description>
-      <pubDate>Thu, 31 Jul 2025 04:40:31 +0000</pubDate>
-      <guid isPermaLink="true">https://futhark-lang.org/blog/2025-07-29-tracking-source-locations.html</guid>
-      <source url="https://hnrss.org/frontpage">Hacker News</source>
-    </item>
-    <item>
-      <title>I know when you're vibe coding</title>
-      <link>https://alexkondov.com/i-know-when-youre-vibe-coding/</link>
-      <description>Article URL: https://alexkondov.com/i-know-when-youre-vibe-coding/ Comments URL: https://news.ycombinator.com/item?id=44742251 Points: 247 # Comments: 120</description>
-      <pubDate>Thu, 31 Jul 2025 04:16:40 +0000</pubDate>
-      <guid isPermaLink="true">https://alexkondov.com/i-know-when-youre-vibe-coding/</guid>
-      <source url="https://hnrss.org/frontpage">Hacker News</source>
-    </item>
-    <item>
-      <title>Friction and Not Being Touched</title>
-      <link>https://tante.cc/2025/07/30/friction-and-not-being-touched/</link>
-      <description>Article URL: https://tante.cc/2025/07/30/friction-and-not-being-touched/ Comments URL: https://news.ycombinator.com/item?id=44742021 Points: 46 # Comments: 9</description>
-      <pubDate>Thu, 31 Jul 2025 03:18:31 +0000</pubDate>
-      <guid isPermaLink="true">https://tante.cc/2025/07/30/friction-and-not-being-touched/</guid>
-      <source url="https://hnrss.org/frontpage">Hacker News</source>
-    </item>
-    <item>
-      <title>Classic Common Desktop Environment coming to OpenBSD</title>
-      <link>https://undeadly.org/cgi?action=article;sid=20250730080301</link>
-      <description>Article URL: https://undeadly.org/cgi?action=article;sid=20250730080301 Comments URL: https://news.ycombinator.com/item?id=44741539 Points: 113 # Comments: 51</description>
-      <pubDate>Thu, 31 Jul 2025 01:42:58 +0000</pubDate>
-      <guid isPermaLink="true">https://undeadly.org/cgi?action=article;sid=20250730080301</guid>
-      <source url="https://hnrss.org/frontpage">Hacker News</source>
     </item>
     <item>
       <title>Meta profits surge helps drive Zuckerberg’s AI ambitions</title>
@@ -158,62 +262,6 @@
       <pubDate>Wed, 30 Jul 2025 23:14:44 GMT</pubDate>
       <guid isPermaLink="true">https://www.bbc.com/news/articles/cvg8z2mx508o?at_medium=RSS&amp;at_campaign=rss</guid>
       <source url="http://feeds.bbci.co.uk/news/technology/rss.xml">BBC Technology</source>
-    </item>
-    <item>
-      <title>Figma will IPO on July 31</title>
-      <link>https://www.figma.com/blog/ipo-pricing/</link>
-      <description>Article URL: https://www.figma.com/blog/ipo-pricing/ Comments URL: https://news.ycombinator.com/item?id=44740222 Points: 277 # Comments: 175</description>
-      <pubDate>Wed, 30 Jul 2025 22:24:58 +0000</pubDate>
-      <guid isPermaLink="true">https://www.figma.com/blog/ipo-pricing/</guid>
-      <source url="https://hnrss.org/frontpage">Hacker News</source>
-    </item>
-    <item>
-      <title>Ollama's new app</title>
-      <link>https://ollama.com/blog/new-app</link>
-      <description>Article URL: https://ollama.com/blog/new-app Comments URL: https://news.ycombinator.com/item?id=44739632 Points: 437 # Comments: 237</description>
-      <pubDate>Wed, 30 Jul 2025 21:19:03 +0000</pubDate>
-      <guid isPermaLink="true">https://ollama.com/blog/new-app</guid>
-      <source url="https://hnrss.org/frontpage">Hacker News</source>
-    </item>
-    <item>
-      <title>Early universe's 'little red dots' may be black hole stars</title>
-      <link>https://www.science.org/content/article/early-universe-s-little-red-dots-may-be-black-hole-stars</link>
-      <description>Article URL: https://www.science.org/content/article/early-universe-s-little-red-dots-may-be-black-hole-stars Comments URL: https://news.ycombinator.com/item?id=44739618 Points: 99 # Comments: 50</description>
-      <pubDate>Wed, 30 Jul 2025 21:18:21 +0000</pubDate>
-      <guid isPermaLink="true">https://www.science.org/content/article/early-universe-s-little-red-dots-may-be-black-hole-stars</guid>
-      <source url="https://hnrss.org/frontpage">Hacker News</source>
-    </item>
-    <item>
-      <title>Vibe code is legacy code</title>
-      <link>https://blog.val.town/vibe-code</link>
-      <description>Article URL: https://blog.val.town/vibe-code Comments URL: https://news.ycombinator.com/item?id=44739556 Points: 636 # Comments: 372</description>
-      <pubDate>Wed, 30 Jul 2025 21:13:20 +0000</pubDate>
-      <guid isPermaLink="true">https://blog.val.town/vibe-code</guid>
-      <source url="https://hnrss.org/frontpage">Hacker News</source>
-    </item>
-    <item>
-      <title>150 years of Hans Christian Andersen</title>
-      <link>https://www.newstatesman.com/culture/books/book-of-the-day/2025/07/150-years-of-the-bizarre-hans-christian-andersen</link>
-      <description>https://archive.ph/10l96 Comments URL: https://news.ycombinator.com/item?id=44739494 Points: 90 # Comments: 20</description>
-      <pubDate>Wed, 30 Jul 2025 21:07:13 +0000</pubDate>
-      <guid isPermaLink="true">https://www.newstatesman.com/culture/books/book-of-the-day/2025/07/150-years-of-the-bizarre-hans-christian-andersen</guid>
-      <source url="https://hnrss.org/frontpage">Hacker News</source>
-    </item>
-    <item>
-      <title>The Math Is Haunted</title>
-      <link>https://overreacted.io/the-math-is-haunted/</link>
-      <description>Article URL: https://overreacted.io/the-math-is-haunted/ Comments URL: https://news.ycombinator.com/item?id=44739315 Points: 283 # Comments: 120</description>
-      <pubDate>Wed, 30 Jul 2025 20:46:49 +0000</pubDate>
-      <guid isPermaLink="true">https://overreacted.io/the-math-is-haunted/</guid>
-      <source url="https://hnrss.org/frontpage">Hacker News</source>
-    </item>
-    <item>
-      <title>Fast</title>
-      <link>https://www.catherinejue.com/fast</link>
-      <description>Article URL: https://www.catherinejue.com/fast Comments URL: https://news.ycombinator.com/item?id=44736967 Points: 1382 # Comments: 379</description>
-      <pubDate>Wed, 30 Jul 2025 17:21:17 +0000</pubDate>
-      <guid isPermaLink="true">https://www.catherinejue.com/fast</guid>
-      <source url="https://hnrss.org/frontpage">Hacker News</source>
     </item>
     <item>
       <title>TikTok removes video by Huda Beauty boss over anti-Israel conspiracy theories</title>
@@ -344,14 +392,6 @@
       <source url="https://github.blog/feed/">GitHub Blog</source>
     </item>
     <item>
-      <title>VPNs top download charts as age verification law kicks in</title>
-      <link>https://www.bbc.com/news/articles/cn72ydj70g5o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Experts say free versions of such apps or services may carry potential security and privacy risks.</description>
-      <pubDate>Mon, 28 Jul 2025 14:25:21 GMT</pubDate>
-      <guid isPermaLink="true">https://www.bbc.com/news/articles/cn72ydj70g5o?at_medium=RSS&amp;at_campaign=rss</guid>
-      <source url="http://feeds.bbci.co.uk/news/technology/rss.xml">BBC Technology</source>
-    </item>
-    <item>
       <title>The beauty of ideals</title>
       <link>https://world.hey.com/dhh/the-beauty-of-ideals-b3dccf72</link>
       <description>Ideals are supposed to be unattainable for the great many. If everyone could be the smartest, strongest, prettiest, or best, there would be no need for ideals — we'd all just be perfect. But we're not, so ideals exist to show us the peak of humanity and to point our ambition and appreciation toward it.This is what I always hated about the 90s. It was a decade that made it cool to be a loser. It was the decade of MTV's Beavis and Butt-Head. It was the age of grunge. I'm generationally obliged to like Nirvana, but what a perfectly depressive, suicidal soundtrack to loser culture.Naomi Wolf's The Beauty Myth was published in 1990. It took a critical theory-like lens on beauty ideals, and finding it all so awfully oppressive. Because, actually, seeing beautiful, slim people in advertising or media is bad. Because we don't all look like that! And who's even to say what "beauty" is, anyway? It's all just socially constructed! The final stage of that dead-end argument appeared as an ad here in Copenhagen thirty years later during the 2020 insanity: I passed it every day biking the boys to school for weeks. Next to other slim, fit Danes also riding their bikes. None of whom resembled the grotesque display of obesity towering over them on their commute from Calvin Klein.While this campaign was laughably out of place in Copenhagen, it's possible that it brought recognition and representation in some parts of America. But a celebration of ideals it was not.That's the problem with the whole "representation" narrative. It proposes we're all better off if all we see is a mirror of ourselves, however obese, lazy, ignorant, or incompetent, because at least it won't be "unrealistic". Screw that. The last thing we need is a patronizing message that however little you try, you're perfect just the way you are.No, the beauty of ideals is that they ask more of us. Ask us to pursue knowledge, fitness, and competence by taking inspiration from the best human specimens.Thankfully, no amount of post-modern deconstruction or academic theory babble seems capable of suppressing the intrinsic human yearning for excellence forever. The ideals are finally starting to emerge again.</description>
@@ -366,46 +406,6 @@
       <pubDate>Sun, 27 Jul 2025 23:16:50 GMT</pubDate>
       <guid isPermaLink="true">https://www.bbc.com/news/articles/c77v2kx304go?at_medium=RSS&amp;at_campaign=rss</guid>
       <source url="http://feeds.bbci.co.uk/news/technology/rss.xml">BBC Technology</source>
-    </item>
-    <item>
-      <title>EE says latest outage fixed after 'technical fault'</title>
-      <link>https://www.bbc.com/news/articles/cx2q8qw0q0go?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The mobile phone service provider says it carried out work overnight after customers reported problems.</description>
-      <pubDate>Sat, 26 Jul 2025 19:02:36 GMT</pubDate>
-      <guid isPermaLink="true">https://www.bbc.com/news/articles/cx2q8qw0q0go?at_medium=RSS&amp;at_campaign=rss</guid>
-      <source url="http://feeds.bbci.co.uk/news/technology/rss.xml">BBC Technology</source>
-    </item>
-    <item>
-      <title>Hackers steal images from women's dating safety app that vets men</title>
-      <link>https://www.bbc.com/news/articles/c7vl57n74pqo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Thousands of women registered with Tea have had their images illegally accessed, the US firm says.</description>
-      <pubDate>Sat, 26 Jul 2025 13:58:47 GMT</pubDate>
-      <guid isPermaLink="true">https://www.bbc.com/news/articles/c7vl57n74pqo?at_medium=RSS&amp;at_campaign=rss</guid>
-      <source url="http://feeds.bbci.co.uk/news/technology/rss.xml">BBC Technology</source>
-    </item>
-    <item>
-      <title>Tech Now</title>
-      <link>https://www.bbc.co.uk/iplayer/episode/m002gm6k?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Yasmin Morgan-Griffiths has exclusive access to La Sagrada Familia in Barcelona.</description>
-      <pubDate>Sat, 26 Jul 2025 01:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://www.bbc.co.uk/iplayer/episode/m002gm6k?at_medium=RSS&amp;at_campaign=rss</guid>
-      <source url="http://feeds.bbci.co.uk/news/technology/rss.xml">BBC Technology</source>
-    </item>
-    <item>
-      <title>How to build secure and scalable remote MCP servers</title>
-      <link>https://github.blog/ai-and-ml/generative-ai/how-to-build-secure-and-scalable-remote-mcp-servers/</link>
-      <description>More context can mean more attack surfaces for your projects. Be prepared for what lies ahead with this guide. The post How to build secure and scalable remote MCP servers appeared first on The GitHub Blog.</description>
-      <pubDate>Fri, 25 Jul 2025 17:12:02 +0000</pubDate>
-      <guid isPermaLink="true">https://github.blog/ai-and-ml/generative-ai/how-to-build-secure-and-scalable-remote-mcp-servers/</guid>
-      <source url="https://github.blog/feed/">GitHub Blog</source>
-    </item>
-    <item>
-      <title>Building competency is better than therapy</title>
-      <link>https://world.hey.com/dhh/building-competency-is-better-than-therapy-4622c6b7</link>
-      <description>The world is waking to the fact that talk therapy is neither the only nor the best way to cure a garden-variety petite depression. Something many people will encounter at some point in their lives. Studies have shown that exercise, for example, is a more effective treatment than talk therapy (and pharmaceuticals!) when dealing with such episodes. But I'm just as interested in the role building competence can have in warding off the demons.And partly because of this meme: I've talked about it before, but I keep coming back to the fact that it's exactly backwards. That signing up for an educational quest into Linux, history, or motorcycle repair actually is an incredibly effective alternative to therapy! At least for men who'd prefer to feel useful over being listened to, which, in my experience, is most of them.This is why I find it so misguided when people who undertake those quests sell their journey short with self-effacing jibes about how much an unattractive nerd it makes them to care about their hobby. Mihaly Csikszentmihalyi detailed back in 1990 how peak human happiness arrives exactly in these moments of flow when your competence is stretched by a difficult-but-doable challenge. Don't tell me those endorphins don't also help counter the darkness.But it's just as much about the fact that these pursuits of competence usually offer a great opportunity for community as well that seals the deal. I've found time and again that people are starved for the kind of topic-based connections that, say, learning about Linux offers in spades. You're not just learning, you're learning with others.That is a time-tested antidote to depression: Forming and cultivating meaningful human connections. Yes, doing so over the internet isn't as powerful as doing it in person, but it's still powerful. It still offers community, involvement, and plenty of invitation to carry a meaningful burden.Open source nails this trifecta of motivations to a T. There are endless paths of discovery and mastery available. There are tons of fellow travelers with whom to connect and collaborate. And you'll find an unlimited number of meaningful burdens in maintainerships open for the taking.So next time you see that meme, you should cheer that the talk therapy table is empty. Leave it available for the severe, pathological cases that exercise and the pursuit of competence can't cure. Most people just don't need therapy, they need purpose, they need competence, they need exercise, and they need community.</description>
-      <pubDate>2025-07-25T15:16:53Z</pubDate>
-      <guid isPermaLink="true">https://world.hey.com/dhh/building-competency-is-better-than-therapy-4622c6b7</guid>
-      <source url="https://world.hey.com/dhh/feed.atom">David Heinemeier Hansson</source>
     </item>
   </channel>
 </rss>
