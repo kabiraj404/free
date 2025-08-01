@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<feeds updated="2025-08-01T08:07:32.017903+00:00" count="8">
+<feeds updated="2025-08-01T09:08:29.506022+00:00" count="8">
   <feed>
     <title>Stack Overflow Blog</title>
     <url>https://stackoverflow.blog/feed/</url>
@@ -25,7 +25,7 @@
     <url>https://hnrss.org/frontpage</url>
     <link>https://news.ycombinator.com/</link>
     <description>Hacker News RSS</description>
-    <updated>Fri, 01 Aug 2025 08:06:25 +0000</updated>
+    <updated>Fri, 01 Aug 2025 09:06:44 +0000</updated>
     <entry_count>20</entry_count>
     <category>Technology</category>
     <language>en</language>
@@ -35,7 +35,7 @@
     <url>http://feeds.bbci.co.uk/news/technology/rss.xml</url>
     <link>https://www.bbc.co.uk/news/technology</link>
     <description>BBC News - Technology</description>
-    <updated>Fri, 01 Aug 2025 08:07:30 GMT</updated>
+    <updated>Fri, 01 Aug 2025 09:08:24 GMT</updated>
     <entry_count>60</entry_count>
     <category>News</category>
     <language>en-gb</language>

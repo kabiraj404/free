@@ -4,7 +4,7 @@
     <title>My RSS Feed</title>
     <description>A collection of my favorite RSS feeds.</description>
     <link>https://github.com</link>
-    <lastBuildDate>2025-08-01 08:07:32 UTC</lastBuildDate>
+    <lastBuildDate>2025-08-01 09:08:29 UTC</lastBuildDate>
     <generator>lovelyRSS/1.0</generator>
     <ns0:link href="./latest_rss.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -18,7 +18,7 @@
     <item>
       <title>Every satellite orbiting earth and who owns them (2023)</title>
       <link>https://dewesoft.com/blog/every-satellite-orbiting-earth-and-who-owns-them</link>
-      <description>Article URL: https://dewesoft.com/blog/every-satellite-orbiting-earth-and-who-owns-them Comments URL: https://news.ycombinator.com/item?id=44753298 Points: 68 # Comments: 28</description>
+      <description>Article URL: https://dewesoft.com/blog/every-satellite-orbiting-earth-and-who-owns-them Comments URL: https://news.ycombinator.com/item?id=44753298 Points: 90 # Comments: 47</description>
       <pubDate>Fri, 01 Aug 2025 05:31:20 +0000</pubDate>
       <guid isPermaLink="true">https://dewesoft.com/blog/every-satellite-orbiting-earth-and-who-owns-them</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -26,7 +26,7 @@
     <item>
       <title>LLM leaderboard – Comparing models from OpenAI, Google, DeepSeek and others</title>
       <link>https://artificialanalysis.ai/leaderboards/models</link>
-      <description>Article URL: https://artificialanalysis.ai/leaderboards/models Comments URL: https://news.ycombinator.com/item?id=44752546 Points: 40 # Comments: 21</description>
+      <description>Article URL: https://artificialanalysis.ai/leaderboards/models Comments URL: https://news.ycombinator.com/item?id=44752546 Points: 43 # Comments: 26</description>
       <pubDate>Fri, 01 Aug 2025 02:45:52 +0000</pubDate>
       <guid isPermaLink="true">https://artificialanalysis.ai/leaderboards/models</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -34,13 +34,13 @@
     <item>
       <title>Show HN: KubeForge – A GUI for Kubernetes YAMLs</title>
       <link>https://github.com/kubenote/KubeForge</link>
-      <description>Hey HN,I'm Brandon, a solo dev, and I built KubeForge - a visual editor for Kubernetes deployments that helps you build and validate YAML configs.Origin Story: Over the past couple weeks, I got fed up manually writing Kubernetes YAMLs, especially when working with nested structures like containers, env, and volumeMounts. Even small typos or misaligned fields added lost time to broken deploys.So I started hacking together a tool to visualize the structure of Kubernetes objects based on the OpenAPI schema. That prototype quickly turned into a full manifest builder.What KubeForge does:- Pulls the latest Kubernetes OpenAPI schema (auto-updated daily)- Generates field-level forms with type safety, required fields, and smart defaults- Lets you visually build manifests like a flow editor- Outputs clean, deploy-ready YAML, with multi-object exportsPersonally, I wanted a tool that:- Validates fields as I build, not after deployment- Surfaces nested fields, tooltips, and types without switching tabs- Lets me export or share real YAMLs easilyTry it out:GitHub: https://github.com/kubenote/KubeForgeLive demo: https://demo.kubefor.geWebsite: https://kubefor.geIt’s free and open source. I’d love feedback, bug reports, or ideas. Contributions welcome too .Thanks, Brandon Comments URL: https://news.ycombinator.com/item?id=44752469 Points: 33 # Comments: 13</description>
+      <description>Hey HN,I'm Brandon, a solo dev, and I built KubeForge - a visual editor for Kubernetes deployments that helps you build and validate YAML configs.Origin Story: Over the past couple weeks, I got fed up manually writing Kubernetes YAMLs, especially when working with nested structures like containers, env, and volumeMounts. Even small typos or misaligned fields added lost time to broken deploys.So I started hacking together a tool to visualize the structure of Kubernetes objects based on the OpenAPI schema. That prototype quickly turned into a full manifest builder.What KubeForge does:- Pulls the latest Kubernetes OpenAPI schema (auto-updated daily)- Generates field-level forms with type safety, required fields, and smart defaults- Lets you visually build manifests like a flow editor- Outputs clean, deploy-ready YAML, with multi-object exportsPersonally, I wanted a tool that:- Validates fields as I build, not after deployment- Surfaces nested fields, tooltips, and types without switching tabs- Lets me export or share real YAMLs easilyTry it out:GitHub: https://github.com/kubenote/KubeForgeLive demo: https://demo.kubefor.geWebsite: https://kubefor.geIt’s free and open source. I’d love feedback, bug reports, or ideas. Contributions welcome too .Thanks, Brandon Comments URL: https://news.ycombinator.com/item?id=44752469 Points: 36 # Comments: 14</description>
       <pubDate>Fri, 01 Aug 2025 02:30:59 +0000</pubDate>
       <guid isPermaLink="true">https://github.com/kubenote/KubeForge</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
     </item>
     <item>
-      <title>Tech giants blocking some Ukraine and Gaza posts under new online rules</title>
+      <title>Some Gaza and Ukraine posts blocked under new age checks</title>
       <link>https://www.bbc.com/news/articles/cj3l0e4vr0ko?at_medium=RSS&amp;at_campaign=rss</link>
       <description>Tech companies are restricting debates of public interest to comply the Online Safety Act, analysis shows.</description>
       <pubDate>Thu, 31 Jul 2025 23:38:38 GMT</pubDate>
@@ -50,7 +50,7 @@
     <item>
       <title>“No tax on tips” is an industry plant</title>
       <link>https://www.newyorker.com/magazine/2025/08/04/no-tax-on-tips-is-an-industry-plant</link>
-      <description>Article URL: https://www.newyorker.com/magazine/2025/08/04/no-tax-on-tips-is-an-industry-plant Comments URL: https://news.ycombinator.com/item?id=44750563 Points: 92 # Comments: 143</description>
+      <description>Article URL: https://www.newyorker.com/magazine/2025/08/04/no-tax-on-tips-is-an-industry-plant Comments URL: https://news.ycombinator.com/item?id=44750563 Points: 104 # Comments: 185</description>
       <pubDate>Thu, 31 Jul 2025 21:47:27 +0000</pubDate>
       <guid isPermaLink="true">https://www.newyorker.com/magazine/2025/08/04/no-tax-on-tips-is-an-industry-plant</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -58,7 +58,7 @@
     <item>
       <title>The anti-abundance critique on housing is wrong</title>
       <link>https://www.derekthompson.org/p/the-anti-abundance-critique-on-housing</link>
-      <description>Article URL: https://www.derekthompson.org/p/the-anti-abundance-critique-on-housing Comments URL: https://news.ycombinator.com/item?id=44750416 Points: 318 # Comments: 465</description>
+      <description>Article URL: https://www.derekthompson.org/p/the-anti-abundance-critique-on-housing Comments URL: https://news.ycombinator.com/item?id=44750416 Points: 341 # Comments: 496</description>
       <pubDate>Thu, 31 Jul 2025 21:28:07 +0000</pubDate>
       <guid isPermaLink="true">https://www.derekthompson.org/p/the-anti-abundance-critique-on-housing</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -66,7 +66,7 @@
     <item>
       <title>Slow</title>
       <link>https://michaelnotebook.com/slow/index.html</link>
-      <description>Article URL: https://michaelnotebook.com/slow/index.html Comments URL: https://news.ycombinator.com/item?id=44748934 Points: 728 # Comments: 175</description>
+      <description>Article URL: https://michaelnotebook.com/slow/index.html Comments URL: https://news.ycombinator.com/item?id=44748934 Points: 750 # Comments: 182</description>
       <pubDate>Thu, 31 Jul 2025 19:00:58 +0000</pubDate>
       <guid isPermaLink="true">https://michaelnotebook.com/slow/index.html</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -74,7 +74,7 @@
     <item>
       <title>Secure boot certificate rollover is real but probably won't hurt you</title>
       <link>https://mjg59.dreamwidth.org/72892.html</link>
-      <description>Article URL: https://mjg59.dreamwidth.org/72892.html Comments URL: https://news.ycombinator.com/item?id=44747843 Points: 121 # Comments: 70</description>
+      <description>Article URL: https://mjg59.dreamwidth.org/72892.html Comments URL: https://news.ycombinator.com/item?id=44747843 Points: 124 # Comments: 74</description>
       <pubDate>Thu, 31 Jul 2025 17:21:07 +0000</pubDate>
       <guid isPermaLink="true">https://mjg59.dreamwidth.org/72892.html</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -90,7 +90,7 @@
     <item>
       <title>AI is a floor raiser, not a ceiling raiser</title>
       <link>https://elroy.bot/blog/2025/07/29/ai-is-a-floor-raiser-not-a-ceiling-raiser.html</link>
-      <description>Article URL: https://elroy.bot/blog/2025/07/29/ai-is-a-floor-raiser-not-a-ceiling-raiser.html Comments URL: https://news.ycombinator.com/item?id=44747634 Points: 296 # Comments: 174</description>
+      <description>Article URL: https://elroy.bot/blog/2025/07/29/ai-is-a-floor-raiser-not-a-ceiling-raiser.html Comments URL: https://news.ycombinator.com/item?id=44747634 Points: 304 # Comments: 180</description>
       <pubDate>Thu, 31 Jul 2025 17:01:37 +0000</pubDate>
       <guid isPermaLink="true">https://elroy.bot/blog/2025/07/29/ai-is-a-floor-raiser-not-a-ceiling-raiser.html</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -98,7 +98,7 @@
     <item>
       <title>Gemini Embedding: Powering RAG and context engineering</title>
       <link>https://developers.googleblog.com/en/gemini-embedding-powering-rag-context-engineering/</link>
-      <description>Article URL: https://developers.googleblog.com/en/gemini-embedding-powering-rag-context-engineering/ Comments URL: https://news.ycombinator.com/item?id=44747457 Points: 214 # Comments: 74</description>
+      <description>Article URL: https://developers.googleblog.com/en/gemini-embedding-powering-rag-context-engineering/ Comments URL: https://news.ycombinator.com/item?id=44747457 Points: 220 # Comments: 75</description>
       <pubDate>Thu, 31 Jul 2025 16:47:54 +0000</pubDate>
       <guid isPermaLink="true">https://developers.googleblog.com/en/gemini-embedding-powering-rag-context-engineering/</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -106,7 +106,7 @@
     <item>
       <title>Show HN: Mcp-use – Connect any LLM to any MCP</title>
       <link>https://github.com/mcp-use/mcp-use</link>
-      <description>Hey Pietro and Luigi here, we are the authors of mcp-use (https://github.com/mcp-use/mcp-use).When the first MCP servers came out we were very excited about the technology, but as soon as we wanted to get our hands dirty, we found out that MCP could be used only through Claude Desktop or Cursor. As engineers, we did not like that. MCP seemed like something you wanted to use to build products and applications yourself, not something to hide behind a closed source application.So we approached the SDK but were pretty dissatisfied with the developer experience (double async loops, lots of boilerplate). We decided to write mcp-use to make our lives easier.mcp-use lets you connect any LLM to any MCP server in just 6 lines of code. We provide a high level abstraction over the official MCP SDK that makes your life easier and supports all the functionalities of the protocol.Demo video here: https://www.youtube.com/watch?v=nL_B6LZAsp4.The key abstractions we provide are called MCPClient and MCPAgent.MCPClient takes in a set of server configurations, automatically detects the transport type and creates a background task which handles the stream from/to the server.MCPAgent is a combination of the MCPClient, an LLM, and a custom system prompt. It consumes the MCP client by transforming the tools, resources and prompts into model agnostic tools that can be called by the LLM.The library also contains some cool utilities:- secure sandboxed execution of MCP servers (we know the protocol doesn't shine for security)- meta-tools that allow the agent to search over available servers and tools (to avoid context flooding) and connect dynamically to the server it needs (you could create the omnipotent agent with this).Some cool things we did with this: - write an agent that can use a browser and create/read linear tickets updated with latest information on the internet- write an agent that has access to the metrics of our company to automatically create weekly reports.- I connected an agent to an IKEA curtain I hacked an MCP on to adapt the lighting of my room from images of the lighting situation.- recreated am open source claude code like CLI, with full MCP capability but with custom models and BYOK (https://github.com/mcp-use/mcp-use-cli).We recently crossed 100,000 download and we are used by many organizations, including NASA!We’d love to hear what you think of it, most importantly how we can improve it! We are happy to answer any questions and look forward to your comments. Comments URL: https://news.ycombinator.com/item?id=44747229 Points: 115 # Comments: 60</description>
+      <description>Hey Pietro and Luigi here, we are the authors of mcp-use (https://github.com/mcp-use/mcp-use).When the first MCP servers came out we were very excited about the technology, but as soon as we wanted to get our hands dirty, we found out that MCP could be used only through Claude Desktop or Cursor. As engineers, we did not like that. MCP seemed like something you wanted to use to build products and applications yourself, not something to hide behind a closed source application.So we approached the SDK but were pretty dissatisfied with the developer experience (double async loops, lots of boilerplate). We decided to write mcp-use to make our lives easier.mcp-use lets you connect any LLM to any MCP server in just 6 lines of code. We provide a high level abstraction over the official MCP SDK that makes your life easier and supports all the functionalities of the protocol.Demo video here: https://www.youtube.com/watch?v=nL_B6LZAsp4.The key abstractions we provide are called MCPClient and MCPAgent.MCPClient takes in a set of server configurations, automatically detects the transport type and creates a background task which handles the stream from/to the server.MCPAgent is a combination of the MCPClient, an LLM, and a custom system prompt. It consumes the MCP client by transforming the tools, resources and prompts into model agnostic tools that can be called by the LLM.The library also contains some cool utilities:- secure sandboxed execution of MCP servers (we know the protocol doesn't shine for security)- meta-tools that allow the agent to search over available servers and tools (to avoid context flooding) and connect dynamically to the server it needs (you could create the omnipotent agent with this).Some cool things we did with this: - write an agent that can use a browser and create/read linear tickets updated with latest information on the internet- write an agent that has access to the metrics of our company to automatically create weekly reports.- I connected an agent to an IKEA curtain I hacked an MCP on to adapt the lighting of my room from images of the lighting situation.- recreated am open source claude code like CLI, with full MCP capability but with custom models and BYOK (https://github.com/mcp-use/mcp-use-cli).We recently crossed 100,000 download and we are used by many organizations, including NASA!We’d love to hear what you think of it, most importantly how we can improve it! We are happy to answer any questions and look forward to your comments. Comments URL: https://news.ycombinator.com/item?id=44747229 Points: 121 # Comments: 61</description>
       <pubDate>Thu, 31 Jul 2025 16:25:51 +0000</pubDate>
       <guid isPermaLink="true">https://github.com/mcp-use/mcp-use</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -114,7 +114,7 @@
     <item>
       <title>Launch HN: Gecko Security (YC F24) – AI That Finds Vulnerabilities in Code</title>
       <link>https://news.ycombinator.com/item?id=44747204</link>
-      <description>Hey HN, I'm JJ, Co-Founder of Gecko Security (https://www.gecko.security). We're building a new kind of static analysis tool that uses LLMs to find complex business logic and multi-step vulnerabilities that current scanners miss. We’ve used it to find 30+ CVEs in projects like Ollama, Gradio, and Ragflow (https://www.gecko.security/research). You can try it yourself on any OSS repo at (https://app.gecko.security).Anyone who’s used SAST (Static Application Security Testing) tools knows the issues of high false positives while missing entire classes of vulnerabilities like AuthN/Z bypasses or privilege escalations. This limitation is a result of their core architecture. By design, SAST tools parse code into a simplistic model like an AST or call graph, which quickly loses context in dynamically typed languages or across microservice boundaries, and limits coverage to only resolving basic call chains. When detecting vulnerabilities they rely on pattern matching with Regex or YAML rules, which can be effective for basic technical classes like (XSS, SQLi) but inadequate for logic flaws that don’t conform to well-known shapes and need long sequences of dependent operations to reach an exploitable state.My co-founder and I saw these limitations throughout our careers in national intelligence and military cyber forces, where we built automated tooling to defend critical infrastructure. We realised that LLMs, with the right architecture, could finally solve them.Vulnerabilities are contextual. What's exploitable depends entirely on each application's security model. We realized accurate detection requires understanding what's supposed to be protected and why breaking it matters. This meant embedding threat modeling directly into our analysis, not treating it as an afterthought.To achieve this, we first had to solve the code parsing problem. Our solution was to build a custom, compiler-accurate indexer inspired by GitHub's stack graphs approach to precisely navigate code, like an IDE. We build on the LSIF approach (https://lsif.dev/) but replace the verbose JSON with a compact protobuf schema to serialise symbol definitions and references in a binary format. We use language‑specific tools to parse and type‑check code, emitting a sequence of Protobuf messages that record a symbol’s position, definition, and reference information. By using Protobuf’s efficiency and strong typing, we can produce smaller indexes, but also preserve the compiler‑accurate semantic information required for detecting complex call chains.This is why most "SAST + LLM" tools that use AST parsing fail - they feed LLMs incomplete or incorrect code information from traditional parsers, making it difficult to accurately reason about security issues with missing context.With our indexer providing accurate code structure, we use an LLM to perform threat modeling by analyzing developer intent, data and trust boundaries, and exposed endpoints to generate potential attack scenarios. This is where LLMs' tendency to hallucinate becomes a breakthrough feature.For each potential attack path generated, we perform a systematic search, querying the indexer to gather all necessary context and reconstruct the full call chain from source to sink. To validate the vulnerability we use a Monte Carlo Tree Self-refine (MCTSr) algorithm and a 'win function' to determine the likelihood that a hypothesized attack could work. Once a finding is above a set practicality threshold it is confirmed as a true positive.Using this approach, we discovered vulnerabilities like CVE-2025-51479 in ONYX (an OSS enterprise search platform) where Curators could modify any group instead of just their assigned ones. The user-group API had a user parameter that should check permissions but never used it. Gecko inferred developers intended to restrict Curator access because both the UI and similar API functions properly validated this permission. This established "curators have limited scope" as a security invariant that this specific API violated. Traditional SAST can't detect this. Any rule to flag unused user parameters would drown you in false positives since many functions legitimately keep unused parameters. And more importantly, detecting this requires knowing which functions handle authorization, understanding ONYX's Curator permission model, and recognizing the validation pattern across multiple files - contextual reasoning that SAST simply cannot do.We have several enterprise customers using Gecko because it solves problems they couldn't address with traditional SAST tools. They're seeing 50% fewer false positives on the same codebases and finding vulnerabilities that previously only showed up in manual pentests.Digging into false positives, no static analysis tool will ever achieve perfect accuracy, AI or otherwise. We reduce them at two key points. First, our indexer eliminates any programmatic parsing errors that create incorrect call chains that traditional AST tools are susceptible to. Second, we avoid unwanted LLM hallucinations and reasoning errors by asking specific, contextual questions rather than open-ended ones. The LLM knows which security invariants need to hold and can make deterministic assessments based on the context. When we do flag something, manual review is quick because we provide complete source-to-sink dataflow analysis with proof-of-concept code and output findings based on confidence scores.We’d love to get any feedback from the community, ideas for future direction, or experiences in this space. I’ll be in the comments to respond! Comments URL: https://news.ycombinator.com/item?id=44747204 Points: 56 # Comments: 26</description>
+      <description>Hey HN, I'm JJ, Co-Founder of Gecko Security (https://www.gecko.security). We're building a new kind of static analysis tool that uses LLMs to find complex business logic and multi-step vulnerabilities that current scanners miss. We’ve used it to find 30+ CVEs in projects like Ollama, Gradio, and Ragflow (https://www.gecko.security/research). You can try it yourself on any OSS repo at (https://app.gecko.security).Anyone who’s used SAST (Static Application Security Testing) tools knows the issues of high false positives while missing entire classes of vulnerabilities like AuthN/Z bypasses or privilege escalations. This limitation is a result of their core architecture. By design, SAST tools parse code into a simplistic model like an AST or call graph, which quickly loses context in dynamically typed languages or across microservice boundaries, and limits coverage to only resolving basic call chains. When detecting vulnerabilities they rely on pattern matching with Regex or YAML rules, which can be effective for basic technical classes like (XSS, SQLi) but inadequate for logic flaws that don’t conform to well-known shapes and need long sequences of dependent operations to reach an exploitable state.My co-founder and I saw these limitations throughout our careers in national intelligence and military cyber forces, where we built automated tooling to defend critical infrastructure. We realised that LLMs, with the right architecture, could finally solve them.Vulnerabilities are contextual. What's exploitable depends entirely on each application's security model. We realized accurate detection requires understanding what's supposed to be protected and why breaking it matters. This meant embedding threat modeling directly into our analysis, not treating it as an afterthought.To achieve this, we first had to solve the code parsing problem. Our solution was to build a custom, compiler-accurate indexer inspired by GitHub's stack graphs approach to precisely navigate code, like an IDE. We build on the LSIF approach (https://lsif.dev/) but replace the verbose JSON with a compact protobuf schema to serialise symbol definitions and references in a binary format. We use language‑specific tools to parse and type‑check code, emitting a sequence of Protobuf messages that record a symbol’s position, definition, and reference information. By using Protobuf’s efficiency and strong typing, we can produce smaller indexes, but also preserve the compiler‑accurate semantic information required for detecting complex call chains.This is why most "SAST + LLM" tools that use AST parsing fail - they feed LLMs incomplete or incorrect code information from traditional parsers, making it difficult to accurately reason about security issues with missing context.With our indexer providing accurate code structure, we use an LLM to perform threat modeling by analyzing developer intent, data and trust boundaries, and exposed endpoints to generate potential attack scenarios. This is where LLMs' tendency to hallucinate becomes a breakthrough feature.For each potential attack path generated, we perform a systematic search, querying the indexer to gather all necessary context and reconstruct the full call chain from source to sink. To validate the vulnerability we use a Monte Carlo Tree Self-refine (MCTSr) algorithm and a 'win function' to determine the likelihood that a hypothesized attack could work. Once a finding is above a set practicality threshold it is confirmed as a true positive.Using this approach, we discovered vulnerabilities like CVE-2025-51479 in ONYX (an OSS enterprise search platform) where Curators could modify any group instead of just their assigned ones. The user-group API had a user parameter that should check permissions but never used it. Gecko inferred developers intended to restrict Curator access because both the UI and similar API functions properly validated this permission. This established "curators have limited scope" as a security invariant that this specific API violated. Traditional SAST can't detect this. Any rule to flag unused user parameters would drown you in false positives since many functions legitimately keep unused parameters. And more importantly, detecting this requires knowing which functions handle authorization, understanding ONYX's Curator permission model, and recognizing the validation pattern across multiple files - contextual reasoning that SAST simply cannot do.We have several enterprise customers using Gecko because it solves problems they couldn't address with traditional SAST tools. They're seeing 50% fewer false positives on the same codebases and finding vulnerabilities that previously only showed up in manual pentests.Digging into false positives, no static analysis tool will ever achieve perfect accuracy, AI or otherwise. We reduce them at two key points. First, our indexer eliminates any programmatic parsing errors that create incorrect call chains that traditional AST tools are susceptible to. Second, we avoid unwanted LLM hallucinations and reasoning errors by asking specific, contextual questions rather than open-ended ones. The LLM knows which security invariants need to hold and can make deterministic assessments based on the context. When we do flag something, manual review is quick because we provide complete source-to-sink dataflow analysis with proof-of-concept code and output findings based on confidence scores.We’d love to get any feedback from the community, ideas for future direction, or experiences in this space. I’ll be in the comments to respond! Comments URL: https://news.ycombinator.com/item?id=44747204 Points: 56 # Comments: 27</description>
       <pubDate>Thu, 31 Jul 2025 16:23:09 +0000</pubDate>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=44747204</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -130,7 +130,7 @@
     <item>
       <title>QUIC for the kernel</title>
       <link>https://lwn.net/Articles/1029851/</link>
-      <description>Article URL: https://lwn.net/Articles/1029851/ Comments URL: https://news.ycombinator.com/item?id=44746948 Points: 252 # Comments: 184</description>
+      <description>Article URL: https://lwn.net/Articles/1029851/ Comments URL: https://news.ycombinator.com/item?id=44746948 Points: 268 # Comments: 194</description>
       <pubDate>Thu, 31 Jul 2025 15:57:32 +0000</pubDate>
       <guid isPermaLink="true">https://lwn.net/Articles/1029851/</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -138,7 +138,7 @@
     <item>
       <title>Ubiquiti launches UniFi OS Server for self-hosting</title>
       <link>https://lazyadmin.nl/home-network/unifi-os-server/</link>
-      <description>Article URL: https://lazyadmin.nl/home-network/unifi-os-server/ Comments URL: https://news.ycombinator.com/item?id=44746603 Points: 288 # Comments: 236</description>
+      <description>Article URL: https://lazyadmin.nl/home-network/unifi-os-server/ Comments URL: https://news.ycombinator.com/item?id=44746603 Points: 296 # Comments: 249</description>
       <pubDate>Thu, 31 Jul 2025 15:24:05 +0000</pubDate>
       <guid isPermaLink="true">https://lazyadmin.nl/home-network/unifi-os-server/</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -154,7 +154,7 @@
     <item>
       <title>Carbon Language: An experimental successor to C++</title>
       <link>https://docs.carbon-lang.dev/</link>
-      <description>Article URL: https://docs.carbon-lang.dev/ Comments URL: https://news.ycombinator.com/item?id=44745984 Points: 120 # Comments: 124</description>
+      <description>Article URL: https://docs.carbon-lang.dev/ Comments URL: https://news.ycombinator.com/item?id=44745984 Points: 127 # Comments: 125</description>
       <pubDate>Thu, 31 Jul 2025 14:23:40 +0000</pubDate>
       <guid isPermaLink="true">https://docs.carbon-lang.dev/</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -162,7 +162,7 @@
     <item>
       <title>MacBook Pro Insomnia</title>
       <link>https://manuel.bernhardt.io/posts/2025-07-24-macbook-pro-insomnia</link>
-      <description>Article URL: https://manuel.bernhardt.io/posts/2025-07-24-macbook-pro-insomnia Comments URL: https://news.ycombinator.com/item?id=44745897 Points: 391 # Comments: 183</description>
+      <description>Article URL: https://manuel.bernhardt.io/posts/2025-07-24-macbook-pro-insomnia Comments URL: https://news.ycombinator.com/item?id=44745897 Points: 411 # Comments: 189</description>
       <pubDate>Thu, 31 Jul 2025 14:16:07 +0000</pubDate>
       <guid isPermaLink="true">https://manuel.bernhardt.io/posts/2025-07-24-macbook-pro-insomnia</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -170,7 +170,7 @@
     <item>
       <title>Show HN: AgentMail – Email infra for AI agents</title>
       <link>https://chat.agentmail.to/</link>
-      <description>Hey HN, we're Haakam, Michael, and Adi. We're building AgentMail (https://agentmail.to/), an API to give AI agents their own email inboxes. We’re not talking about AI for your email, this is email for your AI.We started building email agents because they can converse with users in their inboxes, automate email-based workflows, and authenticate with third-party applications. Given these unique capabilities, we think email will be a core interface for agents.But we were building on top of Gmail, which was a struggle: poor API support, expensive subscriptions, rate limits, sending limits, GCP Pub/Sub, OAuth, crappy keyword search, and an overall terrible developer experience.Gmail and other providers didn’t work for us. So we decided to bite the bullet and build our own.AgentMail is like Gmail, but API-first, with programmatic inbox creation, events over webhooks and websockets, simple API key auth, organization-wide semantic search, structured data extraction, and usage-based pricing that scales with emails sent/received.Here’s a demo of building an email agent: https://youtu.be/1V7BISeFUTM, and here’s a demo of a voice agent with its own email inbox: https://youtu.be/eG2fCsRK4RYSo far AgentMail has been deployed to use cases such as apps with dedicated inboxes for each user, voice agents that receive documents in real time, automated account provisioning and QA testing, cold outbound platforms with thousands of inboxes, automations for processing invoices, and agents that coordinate work with humans and other agents.We would love to hear your thoughts and feedback. You can try our playground at https://chat.agentmail.to Comments URL: https://news.ycombinator.com/item?id=44745820 Points: 77 # Comments: 49</description>
+      <description>Hey HN, we're Haakam, Michael, and Adi. We're building AgentMail (https://agentmail.to/), an API to give AI agents their own email inboxes. We’re not talking about AI for your email, this is email for your AI.We started building email agents because they can converse with users in their inboxes, automate email-based workflows, and authenticate with third-party applications. Given these unique capabilities, we think email will be a core interface for agents.But we were building on top of Gmail, which was a struggle: poor API support, expensive subscriptions, rate limits, sending limits, GCP Pub/Sub, OAuth, crappy keyword search, and an overall terrible developer experience.Gmail and other providers didn’t work for us. So we decided to bite the bullet and build our own.AgentMail is like Gmail, but API-first, with programmatic inbox creation, events over webhooks and websockets, simple API key auth, organization-wide semantic search, structured data extraction, and usage-based pricing that scales with emails sent/received.Here’s a demo of building an email agent: https://youtu.be/1V7BISeFUTM, and here’s a demo of a voice agent with its own email inbox: https://youtu.be/eG2fCsRK4RYSo far AgentMail has been deployed to use cases such as apps with dedicated inboxes for each user, voice agents that receive documents in real time, automated account provisioning and QA testing, cold outbound platforms with thousands of inboxes, automations for processing invoices, and agents that coordinate work with humans and other agents.We would love to hear your thoughts and feedback. You can try our playground at https://chat.agentmail.to Comments URL: https://news.ycombinator.com/item?id=44745820 Points: 78 # Comments: 55</description>
       <pubDate>Thu, 31 Jul 2025 14:08:33 +0000</pubDate>
       <guid isPermaLink="true">https://chat.agentmail.to/</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -178,7 +178,7 @@
     <item>
       <title>Releasing weights for FLUX.1 Krea</title>
       <link>https://www.krea.ai/blog/flux-krea-open-source-release</link>
-      <description>Article URL: https://www.krea.ai/blog/flux-krea-open-source-release Comments URL: https://news.ycombinator.com/item?id=44745555 Points: 270 # Comments: 88</description>
+      <description>Article URL: https://www.krea.ai/blog/flux-krea-open-source-release Comments URL: https://news.ycombinator.com/item?id=44745555 Points: 283 # Comments: 89</description>
       <pubDate>Thu, 31 Jul 2025 13:41:45 +0000</pubDate>
       <guid isPermaLink="true">https://www.krea.ai/blog/flux-krea-open-source-release</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -210,7 +210,7 @@
     <item>
       <title>Many countries that said no to ChatControl in 2024 are now undecided</title>
       <link>https://digitalcourage.social/@echo_pbreyer/114946559233051667</link>
-      <description>Article URL: https://digitalcourage.social/@echo_pbreyer/114946559233051667 Comments URL: https://news.ycombinator.com/item?id=44744715 Points: 377 # Comments: 271</description>
+      <description>Article URL: https://digitalcourage.social/@echo_pbreyer/114946559233051667 Comments URL: https://news.ycombinator.com/item?id=44744715 Points: 386 # Comments: 282</description>
       <pubDate>Thu, 31 Jul 2025 11:54:22 +0000</pubDate>
       <guid isPermaLink="true">https://digitalcourage.social/@echo_pbreyer/114946559233051667</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -218,7 +218,7 @@
     <item>
       <title>How was the Universal Pictures 1936 opening logo created?</title>
       <link>https://movies.stackexchange.com/questions/128020/how-was-the-universal-pictures-1936-opening-logo-created</link>
-      <description>Article URL: https://movies.stackexchange.com/questions/128020/how-was-the-universal-pictures-1936-opening-logo-created Comments URL: https://news.ycombinator.com/item?id=44744454 Points: 492 # Comments: 67</description>
+      <description>Article URL: https://movies.stackexchange.com/questions/128020/how-was-the-universal-pictures-1936-opening-logo-created Comments URL: https://news.ycombinator.com/item?id=44744454 Points: 494 # Comments: 67</description>
       <pubDate>Thu, 31 Jul 2025 11:19:54 +0000</pubDate>
       <guid isPermaLink="true">https://movies.stackexchange.com/questions/128020/how-was-the-universal-pictures-1936-opening-logo-created</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -258,7 +258,7 @@
     <item>
       <title>150 years of Hans Christian Andersen</title>
       <link>https://www.newstatesman.com/culture/books/book-of-the-day/2025/07/150-years-of-the-bizarre-hans-christian-andersen</link>
-      <description>https://archive.ph/10l96 Comments URL: https://news.ycombinator.com/item?id=44739494 Points: 123 # Comments: 45</description>
+      <description>https://archive.ph/10l96 Comments URL: https://news.ycombinator.com/item?id=44739494 Points: 125 # Comments: 48</description>
       <pubDate>Wed, 30 Jul 2025 21:07:13 +0000</pubDate>
       <guid isPermaLink="true">https://www.newstatesman.com/culture/books/book-of-the-day/2025/07/150-years-of-the-bizarre-hans-christian-andersen</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
