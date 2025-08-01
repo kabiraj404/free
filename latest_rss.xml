@@ -4,7 +4,7 @@
     <title>My RSS Feed</title>
     <description>A collection of my favorite RSS feeds.</description>
     <link>https://github.com</link>
-    <lastBuildDate>2025-08-01 06:14:12 UTC</lastBuildDate>
+    <lastBuildDate>2025-08-01 07:09:00 UTC</lastBuildDate>
     <generator>lovelyRSS/1.0</generator>
     <ns0:link href="./latest_rss.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -18,7 +18,7 @@
     <item>
       <title>Every satellite orbiting earth and who owns them (2023)</title>
       <link>https://dewesoft.com/blog/every-satellite-orbiting-earth-and-who-owns-them</link>
-      <description>Article URL: https://dewesoft.com/blog/every-satellite-orbiting-earth-and-who-owns-them Comments URL: https://news.ycombinator.com/item?id=44753298 Points: 18 # Comments: 4</description>
+      <description>Article URL: https://dewesoft.com/blog/every-satellite-orbiting-earth-and-who-owns-them Comments URL: https://news.ycombinator.com/item?id=44753298 Points: 44 # Comments: 15</description>
       <pubDate>Fri, 01 Aug 2025 05:31:20 +0000</pubDate>
       <guid isPermaLink="true">https://dewesoft.com/blog/every-satellite-orbiting-earth-and-who-owns-them</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -26,7 +26,7 @@
     <item>
       <title>LLM leaderboard – Comparing models from OpenAI, Google, DeepSeek and others</title>
       <link>https://artificialanalysis.ai/leaderboards/models</link>
-      <description>Article URL: https://artificialanalysis.ai/leaderboards/models Comments URL: https://news.ycombinator.com/item?id=44752546 Points: 32 # Comments: 14</description>
+      <description>Article URL: https://artificialanalysis.ai/leaderboards/models Comments URL: https://news.ycombinator.com/item?id=44752546 Points: 37 # Comments: 20</description>
       <pubDate>Fri, 01 Aug 2025 02:45:52 +0000</pubDate>
       <guid isPermaLink="true">https://artificialanalysis.ai/leaderboards/models</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -34,7 +34,7 @@
     <item>
       <title>Show HN: KubeForge – A GUI for Kubernetes YAMLs</title>
       <link>https://github.com/kubenote/KubeForge</link>
-      <description>Hey HN,I'm Brandon, a solo dev, and I built KubeForge - a visual editor for Kubernetes deployments that helps you build and validate YAML configs.Origin Story: Over the past couple weeks, I got fed up manually writing Kubernetes YAMLs, especially when working with nested structures like containers, env, and volumeMounts. Even small typos or misaligned fields added lost time to broken deploys.So I started hacking together a tool to visualize the structure of Kubernetes objects based on the OpenAPI schema. That prototype quickly turned into a full manifest builder.What KubeForge does:- Pulls the latest Kubernetes OpenAPI schema (auto-updated daily)- Generates field-level forms with type safety, required fields, and smart defaults- Lets you visually build manifests like a flow editor- Outputs clean, deploy-ready YAML, with multi-object exportsPersonally, I wanted a tool that:- Validates fields as I build, not after deployment- Surfaces nested fields, tooltips, and types without switching tabs- Lets me export or share real YAMLs easilyTry it out:GitHub: https://github.com/kubenote/KubeForgeLive demo: https://demo.kubefor.geWebsite: https://kubefor.geIt’s free and open source. I’d love feedback, bug reports, or ideas. Contributions welcome too .Thanks, Brandon Comments URL: https://news.ycombinator.com/item?id=44752469 Points: 17 # Comments: 9</description>
+      <description>Hey HN,I'm Brandon, a solo dev, and I built KubeForge - a visual editor for Kubernetes deployments that helps you build and validate YAML configs.Origin Story: Over the past couple weeks, I got fed up manually writing Kubernetes YAMLs, especially when working with nested structures like containers, env, and volumeMounts. Even small typos or misaligned fields added lost time to broken deploys.So I started hacking together a tool to visualize the structure of Kubernetes objects based on the OpenAPI schema. That prototype quickly turned into a full manifest builder.What KubeForge does:- Pulls the latest Kubernetes OpenAPI schema (auto-updated daily)- Generates field-level forms with type safety, required fields, and smart defaults- Lets you visually build manifests like a flow editor- Outputs clean, deploy-ready YAML, with multi-object exportsPersonally, I wanted a tool that:- Validates fields as I build, not after deployment- Surfaces nested fields, tooltips, and types without switching tabs- Lets me export or share real YAMLs easilyTry it out:GitHub: https://github.com/kubenote/KubeForgeLive demo: https://demo.kubefor.geWebsite: https://kubefor.geIt’s free and open source. I’d love feedback, bug reports, or ideas. Contributions welcome too .Thanks, Brandon Comments URL: https://news.ycombinator.com/item?id=44752469 Points: 25 # Comments: 12</description>
       <pubDate>Fri, 01 Aug 2025 02:30:59 +0000</pubDate>
       <guid isPermaLink="true">https://github.com/kubenote/KubeForge</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -48,17 +48,17 @@
       <source url="http://feeds.bbci.co.uk/news/technology/rss.xml">BBC Technology</source>
     </item>
     <item>
-      <title>Age verification doesn't need to be a privacy footgun</title>
-      <link>https://soatok.blog/2025/07/31/age-verification-doesnt-need-to-be-a-privacy-footgun/</link>
-      <description>Article URL: https://soatok.blog/2025/07/31/age-verification-doesnt-need-to-be-a-privacy-footgun/ Comments URL: https://news.ycombinator.com/item?id=44750817 Points: 34 # Comments: 26</description>
-      <pubDate>Thu, 31 Jul 2025 22:19:54 +0000</pubDate>
-      <guid isPermaLink="true">https://soatok.blog/2025/07/31/age-verification-doesnt-need-to-be-a-privacy-footgun/</guid>
+      <title>“No tax on tips” is an industry plant</title>
+      <link>https://www.newyorker.com/magazine/2025/08/04/no-tax-on-tips-is-an-industry-plant</link>
+      <description>Article URL: https://www.newyorker.com/magazine/2025/08/04/no-tax-on-tips-is-an-industry-plant Comments URL: https://news.ycombinator.com/item?id=44750563 Points: 76 # Comments: 99</description>
+      <pubDate>Thu, 31 Jul 2025 21:47:27 +0000</pubDate>
+      <guid isPermaLink="true">https://www.newyorker.com/magazine/2025/08/04/no-tax-on-tips-is-an-industry-plant</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
     </item>
     <item>
       <title>The anti-abundance critique on housing is wrong</title>
       <link>https://www.derekthompson.org/p/the-anti-abundance-critique-on-housing</link>
-      <description>Article URL: https://www.derekthompson.org/p/the-anti-abundance-critique-on-housing Comments URL: https://news.ycombinator.com/item?id=44750416 Points: 290 # Comments: 408</description>
+      <description>Article URL: https://www.derekthompson.org/p/the-anti-abundance-critique-on-housing Comments URL: https://news.ycombinator.com/item?id=44750416 Points: 305 # Comments: 444</description>
       <pubDate>Thu, 31 Jul 2025 21:28:07 +0000</pubDate>
       <guid isPermaLink="true">https://www.derekthompson.org/p/the-anti-abundance-critique-on-housing</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -66,7 +66,7 @@
     <item>
       <title>Denver rent is back to 2022 prices after 20k new units hit the market</title>
       <link>https://denverite.com/2025/07/25/denver-rent-prices-drop-q2/</link>
-      <description>Article URL: https://denverite.com/2025/07/25/denver-rent-prices-drop-q2/ Comments URL: https://news.ycombinator.com/item?id=44749772 Points: 241 # Comments: 268</description>
+      <description>Article URL: https://denverite.com/2025/07/25/denver-rent-prices-drop-q2/ Comments URL: https://news.ycombinator.com/item?id=44749772 Points: 250 # Comments: 277</description>
       <pubDate>Thu, 31 Jul 2025 20:29:55 +0000</pubDate>
       <guid isPermaLink="true">https://denverite.com/2025/07/25/denver-rent-prices-drop-q2/</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -74,7 +74,7 @@
     <item>
       <title>Slow</title>
       <link>https://michaelnotebook.com/slow/index.html</link>
-      <description>Article URL: https://michaelnotebook.com/slow/index.html Comments URL: https://news.ycombinator.com/item?id=44748934 Points: 670 # Comments: 165</description>
+      <description>Article URL: https://michaelnotebook.com/slow/index.html Comments URL: https://news.ycombinator.com/item?id=44748934 Points: 696 # Comments: 169</description>
       <pubDate>Thu, 31 Jul 2025 19:00:58 +0000</pubDate>
       <guid isPermaLink="true">https://michaelnotebook.com/slow/index.html</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -82,7 +82,7 @@
     <item>
       <title>Secure boot certificate rollover is real but probably won't hurt you</title>
       <link>https://mjg59.dreamwidth.org/72892.html</link>
-      <description>Article URL: https://mjg59.dreamwidth.org/72892.html Comments URL: https://news.ycombinator.com/item?id=44747843 Points: 115 # Comments: 58</description>
+      <description>Article URL: https://mjg59.dreamwidth.org/72892.html Comments URL: https://news.ycombinator.com/item?id=44747843 Points: 119 # Comments: 64</description>
       <pubDate>Thu, 31 Jul 2025 17:21:07 +0000</pubDate>
       <guid isPermaLink="true">https://mjg59.dreamwidth.org/72892.html</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -98,23 +98,15 @@
     <item>
       <title>AI is a floor raiser, not a ceiling raiser</title>
       <link>https://elroy.bot/blog/2025/07/29/ai-is-a-floor-raiser-not-a-ceiling-raiser.html</link>
-      <description>Article URL: https://elroy.bot/blog/2025/07/29/ai-is-a-floor-raiser-not-a-ceiling-raiser.html Comments URL: https://news.ycombinator.com/item?id=44747634 Points: 271 # Comments: 162</description>
+      <description>Article URL: https://elroy.bot/blog/2025/07/29/ai-is-a-floor-raiser-not-a-ceiling-raiser.html Comments URL: https://news.ycombinator.com/item?id=44747634 Points: 283 # Comments: 169</description>
       <pubDate>Thu, 31 Jul 2025 17:01:37 +0000</pubDate>
       <guid isPermaLink="true">https://elroy.bot/blog/2025/07/29/ai-is-a-floor-raiser-not-a-ceiling-raiser.html</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
     </item>
     <item>
-      <title>Kaizen (YC X25) is hiring engineers to build browser agents that work</title>
-      <link>https://www.kaizenautomation.com/jobs</link>
-      <description>Article URL: https://www.kaizenautomation.com/jobs Comments URL: https://news.ycombinator.com/item?id=44747625 Points: 0 # Comments: 0</description>
-      <pubDate>Thu, 31 Jul 2025 17:00:56 +0000</pubDate>
-      <guid isPermaLink="true">https://www.kaizenautomation.com/jobs</guid>
-      <source url="https://hnrss.org/frontpage">Hacker News</source>
-    </item>
-    <item>
       <title>Gemini Embedding: Powering RAG and context engineering</title>
       <link>https://developers.googleblog.com/en/gemini-embedding-powering-rag-context-engineering/</link>
-      <description>Article URL: https://developers.googleblog.com/en/gemini-embedding-powering-rag-context-engineering/ Comments URL: https://news.ycombinator.com/item?id=44747457 Points: 201 # Comments: 68</description>
+      <description>Article URL: https://developers.googleblog.com/en/gemini-embedding-powering-rag-context-engineering/ Comments URL: https://news.ycombinator.com/item?id=44747457 Points: 206 # Comments: 70</description>
       <pubDate>Thu, 31 Jul 2025 16:47:54 +0000</pubDate>
       <guid isPermaLink="true">https://developers.googleblog.com/en/gemini-embedding-powering-rag-context-engineering/</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -122,7 +114,7 @@
     <item>
       <title>Show HN: Mcp-use – Connect any LLM to any MCP</title>
       <link>https://github.com/mcp-use/mcp-use</link>
-      <description>Hey Pietro and Luigi here, we are the authors of mcp-use (https://github.com/mcp-use/mcp-use).When the first MCP servers came out we were very excited about the technology, but as soon as we wanted to get our hands dirty, we found out that MCP could be used only through Claude Desktop or Cursor. As engineers, we did not like that. MCP seemed like something you wanted to use to build products and applications yourself, not something to hide behind a closed source application.So we approached the SDK but were pretty dissatisfied with the developer experience (double async loops, lots of boilerplate). We decided to write mcp-use to make our lives easier.mcp-use lets you connect any LLM to any MCP server in just 6 lines of code. We provide a high level abstraction over the official MCP SDK that makes your life easier and supports all the functionalities of the protocol.Demo video here: https://www.youtube.com/watch?v=nL_B6LZAsp4.The key abstractions we provide are called MCPClient and MCPAgent.MCPClient takes in a set of server configurations, automatically detects the transport type and creates a background task which handles the stream from/to the server.MCPAgent is a combination of the MCPClient, an LLM, and a custom system prompt. It consumes the MCP client by transforming the tools, resources and prompts into model agnostic tools that can be called by the LLM.The library also contains some cool utilities:- secure sandboxed execution of MCP servers (we know the protocol doesn't shine for security)- meta-tools that allow the agent to search over available servers and tools (to avoid context flooding) and connect dynamically to the server it needs (you could create the omnipotent agent with this).Some cool things we did with this: - write an agent that can use a browser and create/read linear tickets updated with latest information on the internet- write an agent that has access to the metrics of our company to automatically create weekly reports.- I connected an agent to an IKEA curtain I hacked an MCP on to adapt the lighting of my room from images of the lighting situation.- recreated am open source claude code like CLI, with full MCP capability but with custom models and BYOK (https://github.com/mcp-use/mcp-use-cli).We recently crossed 100,000 download and we are used by many organizations, including NASA!We’d love to hear what you think of it, most importantly how we can improve it! We are happy to answer any questions and look forward to your comments. Comments URL: https://news.ycombinator.com/item?id=44747229 Points: 107 # Comments: 57</description>
+      <description>Hey Pietro and Luigi here, we are the authors of mcp-use (https://github.com/mcp-use/mcp-use).When the first MCP servers came out we were very excited about the technology, but as soon as we wanted to get our hands dirty, we found out that MCP could be used only through Claude Desktop or Cursor. As engineers, we did not like that. MCP seemed like something you wanted to use to build products and applications yourself, not something to hide behind a closed source application.So we approached the SDK but were pretty dissatisfied with the developer experience (double async loops, lots of boilerplate). We decided to write mcp-use to make our lives easier.mcp-use lets you connect any LLM to any MCP server in just 6 lines of code. We provide a high level abstraction over the official MCP SDK that makes your life easier and supports all the functionalities of the protocol.Demo video here: https://www.youtube.com/watch?v=nL_B6LZAsp4.The key abstractions we provide are called MCPClient and MCPAgent.MCPClient takes in a set of server configurations, automatically detects the transport type and creates a background task which handles the stream from/to the server.MCPAgent is a combination of the MCPClient, an LLM, and a custom system prompt. It consumes the MCP client by transforming the tools, resources and prompts into model agnostic tools that can be called by the LLM.The library also contains some cool utilities:- secure sandboxed execution of MCP servers (we know the protocol doesn't shine for security)- meta-tools that allow the agent to search over available servers and tools (to avoid context flooding) and connect dynamically to the server it needs (you could create the omnipotent agent with this).Some cool things we did with this: - write an agent that can use a browser and create/read linear tickets updated with latest information on the internet- write an agent that has access to the metrics of our company to automatically create weekly reports.- I connected an agent to an IKEA curtain I hacked an MCP on to adapt the lighting of my room from images of the lighting situation.- recreated am open source claude code like CLI, with full MCP capability but with custom models and BYOK (https://github.com/mcp-use/mcp-use-cli).We recently crossed 100,000 download and we are used by many organizations, including NASA!We’d love to hear what you think of it, most importantly how we can improve it! We are happy to answer any questions and look forward to your comments. Comments URL: https://news.ycombinator.com/item?id=44747229 Points: 113 # Comments: 59</description>
       <pubDate>Thu, 31 Jul 2025 16:25:51 +0000</pubDate>
       <guid isPermaLink="true">https://github.com/mcp-use/mcp-use</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -146,7 +138,7 @@
     <item>
       <title>QUIC for the kernel</title>
       <link>https://lwn.net/Articles/1029851/</link>
-      <description>Article URL: https://lwn.net/Articles/1029851/ Comments URL: https://news.ycombinator.com/item?id=44746948 Points: 227 # Comments: 174</description>
+      <description>Article URL: https://lwn.net/Articles/1029851/ Comments URL: https://news.ycombinator.com/item?id=44746948 Points: 237 # Comments: 180</description>
       <pubDate>Thu, 31 Jul 2025 15:57:32 +0000</pubDate>
       <guid isPermaLink="true">https://lwn.net/Articles/1029851/</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -154,7 +146,7 @@
     <item>
       <title>Ubiquiti launches UniFi OS Server for self-hosting</title>
       <link>https://lazyadmin.nl/home-network/unifi-os-server/</link>
-      <description>Article URL: https://lazyadmin.nl/home-network/unifi-os-server/ Comments URL: https://news.ycombinator.com/item?id=44746603 Points: 263 # Comments: 218</description>
+      <description>Article URL: https://lazyadmin.nl/home-network/unifi-os-server/ Comments URL: https://news.ycombinator.com/item?id=44746603 Points: 277 # Comments: 230</description>
       <pubDate>Thu, 31 Jul 2025 15:24:05 +0000</pubDate>
       <guid isPermaLink="true">https://lazyadmin.nl/home-network/unifi-os-server/</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -170,7 +162,7 @@
     <item>
       <title>Carbon Language: An experimental successor to C++</title>
       <link>https://docs.carbon-lang.dev/</link>
-      <description>Article URL: https://docs.carbon-lang.dev/ Comments URL: https://news.ycombinator.com/item?id=44745984 Points: 109 # Comments: 109</description>
+      <description>Article URL: https://docs.carbon-lang.dev/ Comments URL: https://news.ycombinator.com/item?id=44745984 Points: 115 # Comments: 112</description>
       <pubDate>Thu, 31 Jul 2025 14:23:40 +0000</pubDate>
       <guid isPermaLink="true">https://docs.carbon-lang.dev/</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -178,7 +170,7 @@
     <item>
       <title>MacBook Pro Insomnia</title>
       <link>https://manuel.bernhardt.io/posts/2025-07-24-macbook-pro-insomnia</link>
-      <description>Article URL: https://manuel.bernhardt.io/posts/2025-07-24-macbook-pro-insomnia Comments URL: https://news.ycombinator.com/item?id=44745897 Points: 361 # Comments: 171</description>
+      <description>Article URL: https://manuel.bernhardt.io/posts/2025-07-24-macbook-pro-insomnia Comments URL: https://news.ycombinator.com/item?id=44745897 Points: 380 # Comments: 177</description>
       <pubDate>Thu, 31 Jul 2025 14:16:07 +0000</pubDate>
       <guid isPermaLink="true">https://manuel.bernhardt.io/posts/2025-07-24-macbook-pro-insomnia</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -186,7 +178,7 @@
     <item>
       <title>Show HN: AgentMail – Email infra for AI agents</title>
       <link>https://chat.agentmail.to/</link>
-      <description>Hey HN, we're Haakam, Michael, and Adi. We're building AgentMail (https://agentmail.to/), an API to give AI agents their own email inboxes. We’re not talking about AI for your email, this is email for your AI.We started building email agents because they can converse with users in their inboxes, automate email-based workflows, and authenticate with third-party applications. Given these unique capabilities, we think email will be a core interface for agents.But we were building on top of Gmail, which was a struggle: poor API support, expensive subscriptions, rate limits, sending limits, GCP Pub/Sub, OAuth, crappy keyword search, and an overall terrible developer experience.Gmail and other providers didn’t work for us. So we decided to bite the bullet and build our own.AgentMail is like Gmail, but API-first, with programmatic inbox creation, events over webhooks and websockets, simple API key auth, organization-wide semantic search, structured data extraction, and usage-based pricing that scales with emails sent/received.Here’s a demo of building an email agent: https://youtu.be/1V7BISeFUTM, and here’s a demo of a voice agent with its own email inbox: https://youtu.be/eG2fCsRK4RYSo far AgentMail has been deployed to use cases such as apps with dedicated inboxes for each user, voice agents that receive documents in real time, automated account provisioning and QA testing, cold outbound platforms with thousands of inboxes, automations for processing invoices, and agents that coordinate work with humans and other agents.We would love to hear your thoughts and feedback. You can try our playground at https://chat.agentmail.to Comments URL: https://news.ycombinator.com/item?id=44745820 Points: 70 # Comments: 44</description>
+      <description>Hey HN, we're Haakam, Michael, and Adi. We're building AgentMail (https://agentmail.to/), an API to give AI agents their own email inboxes. We’re not talking about AI for your email, this is email for your AI.We started building email agents because they can converse with users in their inboxes, automate email-based workflows, and authenticate with third-party applications. Given these unique capabilities, we think email will be a core interface for agents.But we were building on top of Gmail, which was a struggle: poor API support, expensive subscriptions, rate limits, sending limits, GCP Pub/Sub, OAuth, crappy keyword search, and an overall terrible developer experience.Gmail and other providers didn’t work for us. So we decided to bite the bullet and build our own.AgentMail is like Gmail, but API-first, with programmatic inbox creation, events over webhooks and websockets, simple API key auth, organization-wide semantic search, structured data extraction, and usage-based pricing that scales with emails sent/received.Here’s a demo of building an email agent: https://youtu.be/1V7BISeFUTM, and here’s a demo of a voice agent with its own email inbox: https://youtu.be/eG2fCsRK4RYSo far AgentMail has been deployed to use cases such as apps with dedicated inboxes for each user, voice agents that receive documents in real time, automated account provisioning and QA testing, cold outbound platforms with thousands of inboxes, automations for processing invoices, and agents that coordinate work with humans and other agents.We would love to hear your thoughts and feedback. You can try our playground at https://chat.agentmail.to Comments URL: https://news.ycombinator.com/item?id=44745820 Points: 72 # Comments: 45</description>
       <pubDate>Thu, 31 Jul 2025 14:08:33 +0000</pubDate>
       <guid isPermaLink="true">https://chat.agentmail.to/</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -194,7 +186,7 @@
     <item>
       <title>Releasing weights for FLUX.1 Krea</title>
       <link>https://www.krea.ai/blog/flux-krea-open-source-release</link>
-      <description>Article URL: https://www.krea.ai/blog/flux-krea-open-source-release Comments URL: https://news.ycombinator.com/item?id=44745555 Points: 244 # Comments: 82</description>
+      <description>Article URL: https://www.krea.ai/blog/flux-krea-open-source-release Comments URL: https://news.ycombinator.com/item?id=44745555 Points: 254 # Comments: 85</description>
       <pubDate>Thu, 31 Jul 2025 13:41:45 +0000</pubDate>
       <guid isPermaLink="true">https://www.krea.ai/blog/flux-krea-open-source-release</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
@@ -226,9 +218,17 @@
     <item>
       <title>Many countries that said no to ChatControl in 2024 are now undecided</title>
       <link>https://digitalcourage.social/@echo_pbreyer/114946559233051667</link>
-      <description>Article URL: https://digitalcourage.social/@echo_pbreyer/114946559233051667 Comments URL: https://news.ycombinator.com/item?id=44744715 Points: 347 # Comments: 242</description>
+      <description>Article URL: https://digitalcourage.social/@echo_pbreyer/114946559233051667 Comments URL: https://news.ycombinator.com/item?id=44744715 Points: 361 # Comments: 259</description>
       <pubDate>Thu, 31 Jul 2025 11:54:22 +0000</pubDate>
       <guid isPermaLink="true">https://digitalcourage.social/@echo_pbreyer/114946559233051667</guid>
+      <source url="https://hnrss.org/frontpage">Hacker News</source>
+    </item>
+    <item>
+      <title>How was the Universal Pictures 1936 opening logo created?</title>
+      <link>https://movies.stackexchange.com/questions/128020/how-was-the-universal-pictures-1936-opening-logo-created</link>
+      <description>Article URL: https://movies.stackexchange.com/questions/128020/how-was-the-universal-pictures-1936-opening-logo-created Comments URL: https://news.ycombinator.com/item?id=44744454 Points: 489 # Comments: 67</description>
+      <pubDate>Thu, 31 Jul 2025 11:19:54 +0000</pubDate>
+      <guid isPermaLink="true">https://movies.stackexchange.com/questions/128020/how-was-the-universal-pictures-1936-opening-logo-created</guid>
       <source url="https://hnrss.org/frontpage">Hacker News</source>
     </item>
     <item>
