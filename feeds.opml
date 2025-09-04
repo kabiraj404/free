@@ -5,6 +5,7 @@
     <dateCreated>Sun, 27 Jul 2025 17:13:50 GMT</dateCreated>
   </head>
   <body>
+    <outline category="weblogs"  text="Hacker News: Best" xmlUrl="https://hnrss.org/best" htmlUrl="https://hnrss.org/best" title="Hacker News: Best"/>
     <outline category="weblogs" created="Thu Jul 17 2025 21:35:26 GMT+0200 (Central European Summer Time)" text="berlin.de: News" xmlUrl="https://www.berlin.de/en/news/rubric.rss" htmlUrl="https://www.berlin.de/en/news/" title="berlin.de: News"/>
     <outline category="weblogs" created="Thu Jul 17 2025 21:28:31 GMT+0200 (Central European Summer Time)" text="David Heinemeier Hansson" xmlUrl="https://world.hey.com/dhh/feed.atom" htmlUrl="https://world.hey.com/dhh"/>
     <outline category="weblogs" created="Fri Jul 18 2025 07:04:15 GMT+0200 (Central European Summer Time)" text="Derek Sivers blog" xmlUrl="https://sive.rs/en.atom" htmlUrl="https://sive.rs/blog"/>
