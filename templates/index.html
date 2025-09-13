@@ -1049,9 +1049,6 @@
                 <div class="theme-option" data-theme="auto">🌓 Auto</div>
                 <div class="theme-option" data-theme="light">☀️ Light</div>
                 <div class="theme-option" data-theme="dark">🌙 Dark</div>
-                <div class="theme-option" data-theme="blue">💙 Blue</div>
-                <div class="theme-option" data-theme="green">💚 Green</div>
-                <div class="theme-option" data-theme="purple">💜 Purple</div>
             </div>
         </div>
         
@@ -1080,7 +1077,7 @@
         </div>
     </div>
     
-    <header class="header fade-in">
+    <!-- <header class="header fade-in">
         <h1>🌟 {{ title }}</h1>
         <p>{{ description }}</p>
         
@@ -1102,10 +1099,10 @@
                 <span class="stat-label">Updates Every</span>
             </div>
         </div>
-    </header>
+    </header> -->
 
     <main>
-        <section class="section fade-in" id="latest-posts-section">
+        <!-- <section class="section fade-in" id="latest-posts-section">
             <div class="section-header">
                 <h2>🔥 Latest Posts</h2>
                 <button class="section-toggle" onclick="toggleSection('latest-posts')" id="latest-posts-toggle">
@@ -1147,7 +1144,7 @@
                     {% endfor %}
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <section class="section fade-in" id="feeds-section">
             <div class="section-header">
@@ -1157,34 +1154,14 @@
                 </button>
             </div>
 
-            <div class="tabs">
-                <ul class="tab-list" role="tablist">
-                    {% for category in categories.keys() %}
-                    <li class="tab" role="tab" aria-selected="false" tabindex="-1" data-category="{{ category }}">
-                    {{ category }}
-                    </li>
-                    {% endfor %}
-                </ul>
-
-                {% for category, feeds in categories.items() %}
-                <div class="tab-panel" data-category="{{ category }}" hidden>
-                    {% for feed in feeds %}
-                    <div class="feed-item" data-feed-url="{{ feed.url }}">
-                    <!-- feed display here -->
-                    </div>
-                    {% endfor %}
-                </div>
-                {% endfor %}
-                </div>
-
-            
-            <!-- <div class="section-content" id="feeds-content">
+             
+            <div class="section-content" id="feeds-content">
                 {% for category, feeds in categories.items() %}
                 <div class="category-section" data-category="{{ category }}">
                     <div class="category-title" onclick="toggleCategory('{{ category }}')">
                         <span class="category-name">{{ category }}</span>
                         <span class="category-expand-icon">▼</span>
-                    </div> -->
+                    </div>
                     <div class="feed-list" id="category-{{ category | replace(' ', '-') | replace('/', '-') | replace(':', '-') }}">
                         {% for feed in feeds %}
                         <div class="feed-item{% if feed.has_recent_update %} fresh-updates{% endif %}" data-feed-url="{{ feed.url }}">
