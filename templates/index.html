@@ -11,294 +11,117 @@
         :root {
             --bg-color: #fefefe;
             --text-color: #333;
-            --link-color: #0066cc;
-            --border-color: #e1e1e1;
-            --card-bg: #f9f9f9;
             --accent-color: #ff6b6b;
-            --accent-rgb: 255, 107, 107;
-            --secondary-color: #4ecdc4;
-            --muted-color: #666;
-            --shadow-color: rgba(0, 0, 0, 0.1);
-            --header-bg: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         }
         [data-theme="dark"] {
             --bg-color: #1a1a1a;
             --text-color: #e1e1e1;
-            --link-color: #66b3ff;
-            --border-color: #333;
-            --card-bg: #2d2d2d;
             --accent-color: #ff8a8a;
-            --accent-rgb: 255, 138, 138;
-            --secondary-color: #6ee7dd;
-            --muted-color: #aaa;
-            --shadow-color: rgba(255, 255, 255, 0.1);
-            --header-bg: linear-gradient(135deg, #434343 0%, #000000 100%);
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            max-width: 1200px;
+            font-family: Arial, sans-serif;
             margin: 0 auto;
             padding: 20px;
-            line-height: 1.6;
             color: var(--text-color);
-            background-color: var(--bg-color);
-            transition: background-color 0.3s, color 0.3s;
+            background: var(--bg-color);
+            transition: background 0.3s, color 0.3s;
+            max-width: 800px;
         }
         .settings-toggle {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            z-index: 1000;
-            background: var(--accent-color);
-            color: white;
-            border: none;
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-            font-size: 1.2rem;
-            cursor: pointer;
-            box-shadow: 0 2px 10px var(--shadow-color);
+            position: fixed; top: 20px; right: 20px;
+            background: var(--accent-color); color: #fff;
+            border: none; border-radius: 50%; width: 40px; height: 40px;
+            font-size: 1.2rem; cursor: pointer;
         }
         .settings-panel {
-            position: fixed;
-            top: 0;
-            right: -350px;
-            width: 350px;
-            height: 100vh;
-            background: var(--card-bg);
-            border-left: 1px solid var(--border-color);
-            z-index: 999;
-            padding: 20px;
-            transition: right 0.3s;
-            overflow-y: auto;
-            box-shadow: -5px 0 15px var(--shadow-color);
+            position: fixed; top: 0; right: -300px; width: 300px; height: 100vh;
+            background: #fff; color: #222; z-index: 999; padding: 20px;
+            transition: right 0.3s; box-shadow: -2px 0 10px rgba(0,0,0,0.1);
         }
+        [data-theme="dark"] .settings-panel { background: #222; color: #eee; }
         .settings-panel.open { right: 0; }
-        .settings-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 30px;
-            padding-bottom: 15px;
-            border-bottom: 1px solid var(--border-color);
-        }
-        .setting-group { margin-bottom: 25px; }
-        .setting-label { display: block; margin-bottom: 8px; font-weight: 600; }
-        .theme-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
         .theme-option {
-            padding: 10px;
-            border: 2px solid var(--border-color);
-            border-radius: 8px;
-            cursor: pointer;
-            text-align: center;
-            background: var(--card-bg);
+            display: inline-block; margin: 5px; padding: 8px 12px;
+            border: 1px solid #ccc; border-radius: 6px; cursor: pointer;
         }
-        .theme-option.active {
-            border-color: var(--accent-color);
-            background: var(--accent-color);
-            color: white;
-        }
-        .number-input {
-            width: 100%;
-            padding: 8px 12px;
-            border: 1px solid var(--border-color);
-            border-radius: 6px;
-            background: var(--card-bg);
-            color: var(--text-color);
-            font-size: 1rem;
-        }
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
-            padding: 15px 20px;
-            background: var(--header-bg);
-            border-radius: 12px;
-            color: white;
-        }
-        .header h1 { font-size: 1.5rem; margin-bottom: 5px; }
-        .header p { font-size: 0.9rem; opacity: 0.9; }
-        .section { margin-bottom: 50px; }
-        .section-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 25px;
-            padding-bottom: 15px;
-            border-bottom: 2px solid var(--border-color);
-        }
-        .section h2 { font-size: 1.8rem; margin: 0; color: var(--accent-color); font-weight: 600; }
-        .section-toggle {
-            background: var(--secondary-color);
-            color: white;
-            border: none;
-            padding: 8px 16px;
-            border-radius: 20px;
-            cursor: pointer;
-            font-size: 0.9rem;
-            font-weight: 500;
-        }
-        .section-content.hidden { display: none; }
-        .category-section { margin-bottom: 30px; }
-        .category-title {
-            font-size: 1.1rem;
-            font-weight: 600;
-            color: var(--accent-color);
-            margin-bottom: 15px;
-            padding: 8px 12px;
-            border-bottom: 1px solid var(--border-color);
-            cursor: pointer;
-            user-select: none;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .category-expand-icon { font-size: 0.8rem; color: var(--muted-color); margin-left: 8px; }
-        .category-section.collapsed .category-expand-icon { transform: rotate(-90deg); }
-        .feed-list { border: 1px solid var(--border-color); border-radius: 8px; overflow: hidden; }
-        .category-section.collapsed .feed-list { max-height: 0; opacity: 0; overflow: hidden; border: none; }
-        .feed-item { border-bottom: 1px solid var(--border-color); background: var(--card-bg); }
-        .feed-header {
-            padding: 12px 16px;
-            cursor: pointer;
-            user-select: none;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .feed-info { flex: 1; }
-        .feed-title { font-weight: 600; color: var(--text-color); display: block; margin-bottom: 4px; }
-        .feed-meta { font-size: 0.85rem; color: var(--muted-color); }
-        .expand-icon { font-size: 0.8rem; color: var(--muted-color); }
-        .feed-item.expanded .expand-icon { transform: rotate(180deg); }
-        .feed-posts { max-height: 0; overflow: hidden; transition: max-height 0.3s; background: rgba(var(--accent-rgb), 0.02); }
-        .feed-item.expanded .feed-posts { max-height: 400px; overflow-y: auto; }
-        .post-item {
-            padding: 8px 16px;
-            border-bottom: 1px solid rgba(var(--accent-rgb), 0.1);
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            gap: 12px;
-        }
-        .post-title {
-            color: var(--text-color);
-            text-decoration: none;
-            font-size: 0.9rem;
-            line-height: 1.4;
-            flex: 1;
-        }
-        .post-title:hover { color: var(--accent-color); }
-        .post-date { font-size: 0.8rem; color: var(--muted-color); white-space: nowrap; }
-        .footer {
-            text-align: center;
-            margin-top: 60px;
-            padding: 40px 20px;
-            border-top: 2px solid var(--border-color);
-            color: var(--muted-color);
-            background: var(--card-bg);
-            border-radius: 16px;
-        }
-        .footer a { color: var(--link-color); text-decoration: none; }
-        .footer a:hover { color: var(--accent-color); }
-        @media (max-width: 768px) {
-            body { padding: 15px; }
-            .settings-panel { width: 100vw; right: -100vw; }
-            .header { padding: 30px 15px; }
-            .header h1 { font-size: 2rem; }
-            .theme-grid { grid-template-columns: 1fr; }
-        }
+        .theme-option.active { background: var(--accent-color); color: #fff; border: none; }
+        .header { text-align: center; margin-bottom: 30px; }
+        .section { margin-bottom: 30px; }
+        .feed-list { border: 1px solid #eee; border-radius: 6px; }
+        .feed-item { border-bottom: 1px solid #eee; padding: 10px; }
+        .feed-title { font-weight: bold; }
+        .post-item { padding: 5px 0; }
+        .post-title { color: var(--text-color); text-decoration: none; }
+        .footer { text-align: center; margin-top: 40px; color: #888; }
     </style>
 </head>
 <body>
     <button class="settings-toggle" onclick="toggleSettings()" title="Settings">⚙️</button>
     <div class="settings-panel" id="settings-panel">
-        <div class="settings-header">
-            <h3>⚙️ Settings</h3>
-            <button class="close-settings" onclick="toggleSettings()">×</button>
-        </div>
-        <div class="setting-group">
-            <label class="setting-label">🎨 Theme</label>
-            <div class="theme-grid">
-                <div class="theme-option" data-theme="light">☀️ Light</div>
-                <div class="theme-option" data-theme="dark">🌙 Dark</div>
+        <h3>Settings <button onclick="toggleSettings()" style="float:right;">×</button></h3>
+        <div>
+            <label>Theme:</label>
+            <div>
+                <span class="theme-option" data-theme="light">☀️ Light</span>
+                <span class="theme-option" data-theme="dark">🌙 Dark</span>
             </div>
         </div>
-        <div class="setting-group">
-            <label class="setting-label">📰 Posts to Show</label>
-            <input type="number" class="number-input" id="posts-count" min="5" max="100" value="10">
-            <small style="color: var(--muted-color); margin-top: 5px; display: block;">
-                Number of posts to display in Latest Posts section
-            </small>
+        <div style="margin-top:15px;">
+            <label>Posts to Show:</label>
+            <input type="number" id="posts-count" min="10" max="100" value="10" style="width:60px;">
         </div>
     </div>
+    <div class="header">
+        <h1>{{ title }}</h1>
+        <p>{{ description }}</p>
+    </div>
     <main>
-        <section class="section" id="feeds-section">
-            <div class="section-header">
-                <h2>📡 Subscribed Feeds</h2>
-                <button class="section-toggle" onclick="toggleSection('feeds')" id="feeds-toggle"></button>
-            </div>
-            <div class="section-content" id="feeds-content">
-                {% for category, feeds in categories.items() %}
-                <div class="category-section" data-category="{{ category }}">
-                    <div class="category-title" onclick="toggleCategory('{{ category }}')">
-                        <span class="category-name">{{ category }}</span>
-                        <span class="category-expand-icon">▼</span>
-                    </div>
-                    <div class="feed-list" id="category-{{ category | replace(' ', '-') | replace('/', '-') | replace(':', '-') }}">
-                        {% for feed in feeds %}
-                        <div class="feed-item{% if feed.has_recent_update %} fresh-updates{% endif %}" data-feed-url="{{ feed.url }}">
-                            <div class="feed-header" onclick="toggleFeedPosts('{{ feed.url }}')">
-                                <div class="feed-info">
-                                    <span class="feed-title">{{ feed.title or 'Unknown Feed' }}</span>
-                                    <span class="feed-meta">{{ feed.entry_count }} posts • {{ format_date(feed.latest_post_date or feed.updated) }}</span>
-                                </div>
-                                <span class="expand-icon">▼</span>
-                            </div>
-                            <div class="feed-posts" id="feed-posts-{{ feed.url | replace('/', '-') | replace(':', '-') | replace('.', '-') }}">
-                                {% set feed_entries = entries_by_feed.get(feed.url, []) %}
-                                {% if feed_entries %}
-                                    {% for entry in feed_entries %}
-                                    <div class="post-item">
-                                        <a href="{{ entry.link or '#' }}" target="_blank" class="post-title">{{ entry.title or 'No Title' }}</a>
-                                        <span class="post-date">{{ format_date(entry.published) }}</span>
-                                    </div>
-                                    {% endfor %}
-                                {% else %}
+        <section class="section">
+            <h2>Subscribed Feeds</h2>
+            {% for category, feeds in categories.items() %}
+            <div>
+                <strong>{{ category }}</strong>
+                <div class="feed-list">
+                    {% for feed in feeds %}
+                    <div class="feed-item">
+                        <span class="feed-title">{{ feed.title or 'Unknown Feed' }}</span>
+                        <div>
+                            {% set feed_entries = entries_by_feed.get(feed.url, []) %}
+                            {% if feed_entries %}
+                                {% for entry in feed_entries %}
                                 <div class="post-item">
-                                    <span class="post-title">No recent posts</span>
+                                    <a href="{{ entry.link or '#' }}" target="_blank" class="post-title">{{ entry.title or 'No Title' }}</a>
                                 </div>
-                                {% endif %}
-                            </div>
+                                {% endfor %}
+                            {% else %}
+                                <div class="post-item">No recent posts</div>
+                            {% endif %}
                         </div>
-                        {% endfor %}
                     </div>
+                    {% endfor %}
                 </div>
-                {% endfor %}
             </div>
+            {% endfor %}
         </section>
     </main>
-    <footer class="footer">
-        <p>
-            Updated {{ updated_time }}<br>
-            <a href="latest_rss.xml">Latest Posts Feed</a> • 
-            <a href="latest_feeds.xml">List of All Feeds</a> • 
-            <a href="{{ opml_export_url }}">Export Feeds (OPML)</a>
-        </p>
-        <p>
-            <small>
-                Made with ❤️ by <a href="https://github.com/pesarkhobeee/lovelyRSS" target="_blank">lovelyRSS</a> v{{ version }}
-            </small>
-        </p>
-    </footer>
+    <div class="footer">
+        Updated {{ updated_time }}<br>
+        <a href="latest_rss.xml">Latest Posts Feed</a> • 
+        <a href="latest_feeds.xml">All Feeds</a> • 
+        <a href="{{ opml_export_url }}">Export (OPML)</a>
+        <br>
+        <small>Made with <span style="color:red;">♥</span> by <a href="https://github.com/pesarkhobeee/lovelyRSS" target="_blank">lovelyRSS</a> v{{ version }}</small>
+    </div>
     <script>
         const settings = {
-            theme: localStorage.getItem('rss-theme') || 'green',
+            theme: localStorage.getItem('rss-theme') || 'light',
             postsCount: parseInt(localStorage.getItem('rss-posts-count')) || 10
         };
         document.addEventListener('DOMContentLoaded', function() {
+            document.body.setAttribute('data-theme', settings.theme);
             document.querySelectorAll('.theme-option').forEach(option => {
-                option.addEventListener('click', () => setTheme(option.dataset.theme));
-                if (option.dataset.theme === settings.theme) option.classList.add('active');
+                option.classList.toggle('active', option.dataset.theme === settings.theme);
+                option.onclick = () => setTheme(option.dataset.theme);
             });
             document.getElementById('posts-count').value = settings.postsCount;
         });
@@ -312,30 +135,6 @@
         }
         function toggleSettings() {
             document.getElementById('settings-panel').classList.toggle('open');
-        }
-        function toggleCategory(categoryName) {
-            const categorySection = document.querySelector(`.category-section[data-category="${categoryName}"]`);
-            if (categorySection) categorySection.classList.toggle('collapsed');
-        }
-        function toggleFeedPosts(feedUrl) {
-            const feedElement = document.querySelector(`.feed-item[data-feed-url="${feedUrl}"]`);
-            if (!feedElement) return;
-            document.querySelectorAll('.feed-item.expanded').forEach(item => {
-                if (item !== feedElement) item.classList.remove('expanded');
-            });
-            feedElement.classList.toggle('expanded');
-        }
-        function toggleSection(sectionName) {
-            const content = document.getElementById(`${sectionName}-content`);
-            const toggle = document.getElementById(`${sectionName}-toggle`);
-            const isHidden = content.classList.contains('hidden');
-            if (isHidden) {
-                content.classList.remove('hidden');
-                toggle.textContent = sectionName === 'latest-posts' ? 'Hide Posts' : 'Hide Feeds';
-            } else {
-                content.classList.add('hidden');
-                toggle.textContent = sectionName === 'latest-posts' ? 'Show Posts' : 'Show Feeds';
-            }
         }
     </script>
 </body>
