@@ -1105,6 +1105,18 @@
                 </div>
             </div>
         </section> -->
+        <!-- Category List at the Top -->
+        <div class="category-list" style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 25px;">
+            {% for category, feeds in categories.items() %}
+            <button 
+                class="category-link" 
+                style="background: var(--secondary-color); color: white; border: none; border-radius: 8px; padding: 6px 14px; cursor: pointer; font-size: 0.95rem; font-weight: 500; transition: background 0.2s;"
+                onclick="document.querySelector('.category-section[data-category=\'{{ category }}\']').scrollIntoView({behavior: 'smooth', block: 'start'});"
+            >
+                {{ category }}
+            </button>
+            {% endfor %}
+        </div>
 
         <section class="section fade-in" id="feeds-section">
             <div class="section-header">
