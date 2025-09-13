@@ -1141,7 +1141,7 @@
                                     <span class="feed-title">
                                         {{ feed.title or 'Unknown Feed' }}
                                         <small style="font-size:0.75em; color:var(--muted-color); margin-left:6px;">
-                                            <a href="feeds.opml#{{ feed.htmlUrl | urlencode }}" target="_blank" style="color:var(--muted-color); text-decoration:underline;">{{ feed.htmlUrl }}</a>
+                                            <a href="{{ feed.html_url or feed.url }}" target="_blank" style="color:var(--muted-color); text-decoration:underline;">{{ feed.html_url or feed.url }}</a>
                                         </small>
                                     </span>
                                     <span class="feed-meta">
