@@ -1128,7 +1128,7 @@
 
             <div class="section-content" id="feeds-content">
                 {% for category, feeds in categories.items() %}
-                <div class="category-section" data-category="{{ category }}">
+                <div class="category-section collapsed" data-category="{{ category }}">
                     <div class="category-title" onclick="toggleCategory('{{ category }}')">
                         <span class="category-name">{{ category }}</span>
                         <span class="category-expand-icon">▼</span>
@@ -1140,6 +1140,9 @@
                                 <div class="feed-info">
                                     <span class="feed-title">
                                         {{ feed.title or 'Unknown Feed' }}
+                                        <small style="font-size:0.75em; color:var(--muted-color); margin-left:6px;">
+                                            <a href="{{ feed.url }}" target="_blank" style="color:var(--muted-color); text-decoration:underline;">{{ feed.url }}</a>
+                                        </small>
                                     </span>
                                     <span class="feed-meta">
                                         {{ feed.entry_count }} posts • {{ format_date(feed.latest_post_date or feed.updated) }}
