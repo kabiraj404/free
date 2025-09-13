@@ -289,7 +289,7 @@
             backdrop-filter: blur(10px);
         }
         
-        .header > * {
+        /* .header > * {
             position: relative;
             z-index: 1;
         }
@@ -303,7 +303,22 @@
         .header p {
             font-size: 1.1rem;
             opacity: 0.9;
+        } */
+
+        .header {
+            padding: 15px 20px;  /* reduce vertical padding */
+            border-radius: 12px;
+            color: white;
         }
+        .header h1 {
+            font-size: 1.5rem;  /* smaller font size */
+            margin-bottom: 5px;
+        }
+        .header p {
+            font-size: 0.9rem;  /* smaller subtitle text */
+            opacity: 0.9;
+        }
+
         
         .stats {
             display: flex;
@@ -967,7 +982,35 @@
                 align-items: flex-start;
                 gap: 8px;
             }
-            
+
+            .tabs {
+                border-bottom: 2px solid var(--border-color);
+                margin-bottom: 1rem;
+            }
+
+            .tab-list {
+                display: flex;
+                gap: 1rem;
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                border-bottom: 2px solid var(--border-color);
+            }
+
+            .tab {
+                padding: 8px 16px;
+                cursor: pointer;
+                border-bottom: 3px solid transparent;
+                color: var(--muted-color);
+                font-weight: 600;
+                user-select: none;
+                transition: color 0.2s ease, border-color 0.2s ease;
+            }
+            .tab.active {
+                border-bottom: 3px solid var(--accent-color);
+                color: var(--accent-color);
+            }
+
             .feed-grid {
                 grid-template-columns: 1fr;
             }
@@ -1113,14 +1156,35 @@
                     Hide Feeds
                 </button>
             </div>
+
+            <div class="tabs">
+                <ul class="tab-list" role="tablist">
+                    {% for category in categories.keys() %}
+                    <li class="tab" role="tab" aria-selected="false" tabindex="-1" data-category="{{ category }}">
+                    {{ category }}
+                    </li>
+                    {% endfor %}
+                </ul>
+
+                {% for category, feeds in categories.items() %}
+                <div class="tab-panel" data-category="{{ category }}" hidden>
+                    {% for feed in feeds %}
+                    <div class="feed-item" data-feed-url="{{ feed.url }}">
+                    <!-- feed display here -->
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endfor %}
+                </div>
+
             
-            <div class="section-content" id="feeds-content">
+            <!-- <div class="section-content" id="feeds-content">
                 {% for category, feeds in categories.items() %}
                 <div class="category-section" data-category="{{ category }}">
                     <div class="category-title" onclick="toggleCategory('{{ category }}')">
                         <span class="category-name">{{ category }}</span>
                         <span class="category-expand-icon">▼</span>
-                    </div>
+                    </div> -->
                     <div class="feed-list" id="category-{{ category | replace(' ', '-') | replace('/', '-') | replace(':', '-') }}">
                         {% for feed in feeds %}
                         <div class="feed-item{% if feed.has_recent_update %} fresh-updates{% endif %}" data-feed-url="{{ feed.url }}">
