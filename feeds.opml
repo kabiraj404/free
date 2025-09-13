@@ -12,7 +12,6 @@
     <outline category="Data and science" text="Climate Etc. » Feed" title="Climate Etc. » Feed" xmlUrl="https://judithcurry.com/feed/" htmlUrl="https://judithcurry.com/"/>
     <outline category="Data and science" text="The Thesis Whisperer » Feed" title="The Thesis Whisperer » Feed" xmlUrl="https://thesiswhisperer.com/feed/" htmlUrl="https://thesiswhisperer.com"/>
     <outline category="Data and science" text="MIT Technology Review" title="MIT Technology Review" xmlUrl="https://www.technologyreview.com/feed" htmlUrl="https://www.technologyreview.com"/>
-    <outline category="Data and science" text="NOAA Climate.Gov | Facebook" title="NOAA Climate.Gov | Facebook" xmlUrl="https://www.facebook.com/NOAAClimateGov?loc=footer" htmlUrl="https://www.facebook.com/NOAAClimateGov?loc=footer"/>
 
     <!-- JOurnal followed -->
     <outline category="Journal RSS" text="JGR Biogeoscience" title="Journal RSS" type="rss" xmlUrl="https://agupubs.onlinelibrary.wiley.com/action/showFeed?type=etoc&amp;feed=rss&amp;jc=21698961" htmlUrl="https://agupubs.onlinelibrary.wiley.com/journal/21698961?af=R"/> 
