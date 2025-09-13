@@ -84,29 +84,31 @@ class RSSHub:
         try:
             with open(self.opml_file, 'r', encoding='utf-8') as f:
                 content = f.read()
-            
+
             root = ET.fromstring(content)
-            
+
             # Find all outline elements with xmlUrl attribute
             for outline in root.findall('.//outline[@xmlUrl]'):
                 feed_url = outline.get('xmlUrl')
+                html_url = outline.get('htmlUrl')
                 title = outline.get('title') or outline.get('text', 'Unknown Feed')
                 category = outline.get('category', '')
-                
+
                 if validate_url(feed_url):
                     feeds.append({
                         'title': title.strip(),
                         'url': feed_url.strip(),
+                        'html_url': html_url.strip() if html_url else '',
                         'category': category.strip()
                     })
                 else:
                     print(f"⚠️  Skipping invalid URL: {feed_url}")
-        
+
         except ET.ParseError as e:
             print(f"❌ Error parsing OPML: {e}")
         except Exception as e:
             print(f"❌ Error reading OPML file: {e}")
-        
+
         return feeds
     
     def fetch_feed(self, feed_info: Dict[str, str]) -> Optional[feedparser.FeedParserDict]:
