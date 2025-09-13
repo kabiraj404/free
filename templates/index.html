@@ -1013,12 +1013,30 @@
         </div>
         
         <div class="setting-group">
+
+        <!-- <div class="setting-group">
             <label class="setting-label">📰 Posts to Show</label>
             <input type="number" class="number-input" id="posts-count" min="5" max="100" value="10">
             <small style="color: var(--muted-color); margin-top: 5px; display: block;">
                 Number of posts to display in Latest Posts section
             </small>
+        </div> -->
+
+        <div class="setting-group">
+            <label class="setting-label">✉️ Posts per Website</label>
+            <input type="number" class="number-input" id="posts-per-feed" min="1" max="50" value="15">
+            <small style="color: var(--muted-color); margin-top: 5px; display: block;">
+                Number of posts to display for each website/feed
+            </small>
         </div>
+
+        <!-- <div class="setting-group">
+            <label class="setting-label">🌐 Feeds to Show</label>
+            <input type="number" class="number-input" id="feeds-count" min="1" max="100" value="10">
+            <small style="color: var(--muted-color); margin-top: 5px; display: block;">
+                Number of websites to display per category
+            </small>
+        </div> -->
         
         <!-- <div class="setting-group">
             <label class="setting-label">👁️ Show Latest Posts</label>
@@ -1186,7 +1204,7 @@
         </p>
         <p>
             <small>
-                Made with ❤️ by <a href="https://github.com/pesarkhobeee/lovelyRSS" target="_blank">lovelyRSS</a> v{{ version }}
+                Made with <a href="https://github.com/pesarkhobeee/lovelyRSS" target="_blank">lovelyRSS</a> v{{ version }}
             </small>
         </p>
     </footer>
@@ -1196,6 +1214,7 @@
         const settings = {
             theme: localStorage.getItem('rss-theme') || 'green',
             postsCount: parseInt(localStorage.getItem('rss-posts-count')) || 10,
+            postsPerFeed: parseInt(localStorage.getItem('rss-posts-per-feed')) || 5,
             showPosts: localStorage.getItem('rss-show-posts') !== 'false',
             showFeeds: localStorage.getItem('rss-show-feeds') !== 'false'
         };
@@ -1346,6 +1365,8 @@
 
             // Set posts count
             document.getElementById('posts-count').value = settings.postsCount;
+            // Set posts per feed
+            document.getElementById('posts-per-feed').value = settings.postsPerFeed;
             
             // Set toggles
             document.getElementById('show-posts').checked = settings.showPosts;
@@ -1353,11 +1374,19 @@
         }
 
         function setupEventListeners() {
+
             // Posts count change
             document.getElementById('posts-count').addEventListener('change', function() {
                 settings.postsCount = parseInt(this.value);
                 saveSettings();
                 updateVisiblePosts();
+            });
+
+            // Posts per feed change
+            document.getElementById('posts-per-feed').addEventListener('change', function() {
+                settings.postsPerFeed = parseInt(this.value);
+                saveSettings();
+                updateVisiblePostsPerFeed();
             });
 
             // Toggle changes
@@ -1414,6 +1443,7 @@
         function applySettings() {
             applyTheme();
             updateVisiblePosts();
+            updateVisiblePostsPerFeed();
             toggleSectionVisibility('latest-posts', settings.showPosts);
             toggleSectionVisibility('feeds', settings.showFeeds);
         }
@@ -1499,8 +1529,25 @@
         function saveSettings() {
             localStorage.setItem('rss-theme', settings.theme);
             localStorage.setItem('rss-posts-count', settings.postsCount.toString());
+            localStorage.setItem('rss-posts-per-feed', settings.postsPerFeed.toString());
             localStorage.setItem('rss-show-posts', settings.showPosts.toString());
             localStorage.setItem('rss-show-feeds', settings.showFeeds.toString());
+
+        }
+
+        // Limit number of posts shown for each feed
+        function updateVisiblePostsPerFeed() {
+            const postsPerFeed = settings.postsPerFeed;
+            document.querySelectorAll('.feed-posts').forEach(feedPosts => {
+                const postItems = feedPosts.querySelectorAll('.post-item');
+                postItems.forEach((item, idx) => {
+                    if (idx < postsPerFeed) {
+                        item.style.display = '';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
         }
 
         // Keyboard shortcuts
