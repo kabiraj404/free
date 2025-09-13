@@ -5,16 +5,16 @@
     <dateCreated>Sat, 13 Sep 2025 17:13:50 GMT</dateCreated>
   </head>
   <body>
-    <!-- Data and science -->
+    Data and science
     <outline category="Data and science" text="…and Then There&#39;s Physics" title="…and Then There&#39;s Physics" xmlUrl="http://andthentheresphysics.wordpress.com/feed/" htmlUrl="https://andthentheresphysics.wordpress.com"/>
     <outline category="Data and science" text="Skeptical Science" title="Skeptical Science" xmlUrl="http://skepticalscience.com/feed.xml" htmlUrl="https://skepticalscience.com/"/>
-    <outline category="Data and science" text="RealClimate RSS Feed" title="RealClimate RSS Feed" xmlUrl="http://feeds.feedburner.com/realclimate/HYVV" htmlUrl="https://www.realclimate.org"/>
+    <!-- <outline category="Data and science" text="RealClimate RSS Feed" title="RealClimate RSS Feed" xmlUrl="http://feeds.feedburner.com/realclimate/HYVV" htmlUrl="https://www.realclimate.org"/>
     <outline category="Data and science" text="Climate Etc. » Feed" title="Climate Etc. » Feed" xmlUrl="https://judithcurry.com/feed/" htmlUrl="https://judithcurry.com/"/>
     <outline category="Data and science" text="The Thesis Whisperer » Feed" title="The Thesis Whisperer » Feed" xmlUrl="https://thesiswhisperer.com/feed/" htmlUrl="https://thesiswhisperer.com"/>
     <outline category="Data and science" text="MIT Technology Review" title="MIT Technology Review" xmlUrl="https://www.technologyreview.com//feed" htmlUrl="https://www.technologyreview.com"/>
-    <outline category="Data and science" text="NOAA Climate.Gov | Facebook" title="NOAA Climate.Gov | Facebook" xmlUrl="https://www.facebook.com/NOAAClimateGov?loc=footer" htmlUrl="https://www.facebook.com/NOAAClimateGov?loc=footer"/>
+    <outline category="Data and science" text="NOAA Climate.Gov | Facebook" title="NOAA Climate.Gov | Facebook" xmlUrl="https://www.facebook.com/NOAAClimateGov?loc=footer" htmlUrl="https://www.facebook.com/NOAAClimateGov?loc=footer"/> -->
 
-    <!-- JOurnal followed -->
+    <!-- JOurnal followed
     <outline category="Journal RSS" text="JGR Biogeoscience" title="Journal RSS" type="rss" xmlUrl="https://agupubs.onlinelibrary.wiley.com/action/showFeed?type=etoc&amp;feed=rss&amp;jc=21698961" htmlUrl="https://agupubs.onlinelibrary.wiley.com/journal/21698961?af=R"/> 
     <outline category="Journal RSS" text="Nature comm" title="Nature comm" type="rss" xmlUrl="https://www.nature.com/ncomms.rss" htmlUrl="http://feeds.nature.com/ncomms/rss/current"/>
     <outline category="Journal RSS" title="Science main page" type="rss" xmlUrl="https://www.science.org/action/showFeed?type=etoc&amp;feed=rss&amp;jc=science" htmlUrl="https://www.science.org/loi/science?af=R"/>
@@ -55,13 +55,13 @@
     <outline category="blogNbread" text="Bear Blog Trending Posts" title="Bear Blog Trending Posts" xmlUrl="https://bearblog.dev/discover/feed/" htmlUrl="https://bearblog.dev/discover/"/>
     <outline category="blogNbread" text="NYT &#62; Letter of Recommendation" title="NYT &#62; Letter of Recommendation" xmlUrl="https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/column/letter-of-recommendation/rss.xml" htmlUrl="https://www.nytimes.com/column/letter-of-recommendation"/>
     <outline category="blogNbread" text="Astral Codex Ten" title="Astral Codex Ten" xmlUrl="https://astralcodexten.substack.com/feed" htmlUrl="https://www.astralcodexten.com"/>
- 
+  -->
 
     <!-- photos -->
     <outline category="photos" text="The Atlantic Photo" title="The Atlantic Photo" xmlUrl="http://feeds.feedburner.com/theatlantic/infocus" htmlUrl="https://www.theatlantic.com/photo/"/>
     <outline category="photos" text="Magnum Photos" title="Magnum Photos" xmlUrl="https://www.magnumphotos.com//feed" htmlUrl="https://www.magnumphotos.com"/>
 
-    
+<!--     
     <!-- news_pod -->
     <outline category="news_pod" text="The Daily" title="The Daily" xmlUrl="https://feeds.simplecast.com/54nAGcIl" htmlUrl="https://www.nytimes.com/column/the-daily"/>
     <outline category="news_pod" text="AllSides" title="AllSides " type="rss" xmlUrl="https://www.allsides.com/rss/news" htmlUrl="https://www.allsides.com/rss/news"/>
@@ -69,7 +69,7 @@
     <outline category="news_pod" text="NYT Top Stories" title="NYT Top Stories" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml" htmlUrl="https://www.nytimes.com" scanDelay="30"/>
     <outline category="news_pod" text="The Atlantic" title="The Atlantic" type="rss" xmlUrl="https://www.theatlantic.com/feed/all/" htmlUrl="https://www.theatlantic.com/"/>
     <outline category="news_pod" text="Financial Times" title="Financial Time" type="rss" xmlUrl="https://www.ft.com/news-feed?format=rss" htmlUrl="https://www.ft.com/news-feed"/>
-    <outline category="news_pod" text="PBS" title="PBS" type="rss"  xmlUrl="https://www.pbs.org/newshour/feeds/rss/headlines" htmlUrl="https://www.pbs.org/newshour/"/>
+    <outline category="news_pod" text="PBS" title="PBS" type="rss"  xmlUrl="https://www.pbs.org/newshour/feeds/rss/headlines" htmlUrl="https://www.pbs.org/newshour/"/> -->
 
 
 
