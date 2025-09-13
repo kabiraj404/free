@@ -16,23 +16,23 @@
 
     <!-- JOurnal followed -->
     <outline category="Journal RSS" text="JGR Biogeoscience" title="Journal RSS" type="rss" xmlUrl="https://agupubs.onlinelibrary.wiley.com/action/showFeed?type=etoc&amp;feed=rss&amp;jc=21698961" htmlUrl="https://agupubs.onlinelibrary.wiley.com/journal/21698961?af=R"/> 
-    <outline category="Journal RSS" text="Nature comm" title = "Nature comm" type="rss"  xmlUrl="https://www.nature.com/ncomms.rss" htmlUrl="http://feeds.nature.com/ncomms/rss/current"/>
-    <outline category="Journal RSS" title="Science main page" type="rss"  xmlUrl="https://www.science.org/action/showFeed?type=etoc&amp;feed=rss&amp;jc=science" htmlUrl="https://www.science.org/loi/science?af=R"/>
-    <outline category = "Journal RSS" text="EGU biogeo" title="BG - recent papers" type="rss" xmlUrl="https://bg.copernicus.org/xml/rss0_91.xml" htmlUrl="https://bg.copernicus.org/articles/"/>
-    <outline category = "Journal RSS" text="Nature climate change" title="Nature climate change" type="rss" xmlUrl="https://www.nature.com/nclimate.rss" htmlUrl="http://feeds.nature.com/nclimate/rss/current"/>
-    <outline category = "Journal RSS" text="ESSD - recent papers" title="ESSD - recent papers" type="rss" xmlUrl="https://essd.copernicus.org/articles/xml/rss1_0.xml" htmlUrl="https://essd.copernicus.org/articles/"/>
+    <outline category="Journal RSS" text="Nature comm" title="Nature comm" type="rss" xmlUrl="https://www.nature.com/ncomms.rss" htmlUrl="http://feeds.nature.com/ncomms/rss/current"/>
+    <outline category="Journal RSS" title="Science main page" type="rss" xmlUrl="https://www.science.org/action/showFeed?type=etoc&amp;feed=rss&amp;jc=science" htmlUrl="https://www.science.org/loi/science?af=R"/>
+    <outline category="Journal RSS" text="EGU biogeo" title="BG - recent papers" type="rss" xmlUrl="https://bg.copernicus.org/xml/rss0_91.xml" htmlUrl="https://bg.copernicus.org/articles/"/>
+    <outline category="Journal RSS" text="Nature climate change" title="Nature climate change" type="rss" xmlUrl="https://www.nature.com/nclimate.rss" htmlUrl="http://feeds.nature.com/nclimate/rss/current"/>
+    <outline category="Journal RSS" text="ESSD - recent papers" title="ESSD - recent papers" type="rss" xmlUrl="https://essd.copernicus.org/articles/xml/rss1_0.xml" htmlUrl="https://essd.copernicus.org/articles/"/>
 
 
     <!-- A person of interest -->
-    <outline category = " A person of interest" text ="Nick Wignall" title="Nick Wignall" type="rss" xmlUrl="https://nickwignall.com/feed/" htmlUrl="https://nickwignall.com/"/>
-    <outline category = " A person of interest" text ="Ted Gioia" title="Ted Gioia" type="rss" xmlUrl="https://tedgioia.substack.com/feed/" htmlUrl="https://www.honest-broker.com"/>
-    <outline category = " A person of interest" text ="Sam Altman" title="Sam Altman" type="rss" xmlUrl="https://blog.samaltman.com/posts.atom" htmlUrl="https://blog.samaltman.com"/>
-    <outline category = " A person of interest" text ="Paul Graham: Essays" title="Paul Graham" xmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_paulgraham.xml" htmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_paulgraham.xml"/>
+    <outline category="A person of interest" text="Nick Wignall" title="Nick Wignall" type="rss" xmlUrl="https://nickwignall.com/feed/" htmlUrl="https://nickwignall.com/"/>
+    <outline category="A person of interest" text="Ted Gioia" title="Ted Gioia" type="rss" xmlUrl="https://tedgioia.substack.com/feed/" htmlUrl="https://www.honest-broker.com"/>
+    <outline category="A person of interest" text="Sam Altman" title="Sam Altman" type="rss" xmlUrl="https://blog.samaltman.com/posts.atom" htmlUrl="https://blog.samaltman.com"/>
+    <outline category="A person of interest" text="Paul Graham: Essays" title="Paul Graham" xmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_paulgraham.xml" htmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_paulgraham.xml"/>
 
 
     <!-- Tech news -->
     <outline category="Tech news" text="The MIT Press Reader" title="The MIT Press Reader" xmlUrl="https://thereader.mitpress.mit.edu/feed/" htmlUrl="https://thereader.mitpress.mit.edu/"/>
-    <outline category="Tech news" text="Hacker News front page" title="Hacker News fontpage" xmlUrl="https://hnrss.org/frontpage" htmlUrl="https://news.ycombinator.com/"/>
+    <outline category="Tech news" text="Hacker News front page" title="Hacker News front page" xmlUrl="https://hnrss.org/frontpage" htmlUrl="https://news.ycombinator.com/"/>
     <outline category="Tech news" text="Hacker top stories" title="Hacker News stories" xmlUrl="https://hnrss.org/newest?points=300" htmlUrl="https://hnrss.org/newest?points=300"/>
 
 
@@ -43,10 +43,10 @@
     <outline category="Randomly" text="Incremental forgetting" title="Incremental forgetting" xmlUrl="https://blog.incrementalforgetting.tech/feed" htmlUrl="https://blog.incrementalforgetting.tech"/>
     <outline category="Randomly" text="Aeon | a world of ideas" title="Aeon | a world of ideas" xmlUrl="https://aeon.co/feed" htmlUrl="https://aeon.co"/>
     <outline category="Randomly" text="Longreads" title="Longreads" xmlUrl="https://longreads.com/feed/" htmlUrl="https://longreads.com/"/>
-    <outline category = "Randomly" text="/r/malefashionadvice" title="/r/malefashionadvice" type="rss" xmlUrl="https://www.reddit.com/r/malefashionadvice/.rss" htmlUrl="https://www.reddit.com/r/malefashionadvice/"/>
-    <outline category = "Randomly" text="Arts &#38; Letters Daily" title="Arts &#38; Letters Daily" type="rss" xmlUrl="https://www.aldaily.com//feed" htmlUrl="https://www.aldaily.com/"/>
+    <outline category="Randomly" text="/r/malefashionadvice" title="/r/malefashionadvice" type="rss" xmlUrl="https://www.reddit.com/r/malefashionadvice/.rss" htmlUrl="https://www.reddit.com/r/malefashionadvice/"/>
+    <outline category="Randomly" text="Arts &#38; Letters Daily" title="Arts &#38; Letters Daily" type="rss" xmlUrl="https://www.aldaily.com//feed" htmlUrl="https://www.aldaily.com/"/>
     <outline category="Randomly" text="All Our Yesterdays" title="All Our Yesterdays" xmlUrl="https://allouryesterdays.info/feed/" htmlUrl="https://allouryesterdays.info/"/>
-    <outline category = "Randomly" text = "r/Poetry" title = "r/Poetry" xmlUrl = "https://www.reddit.com/r/Poetry/.rss" htmlUrl = "https://www.reddit.com/r/Poetry/"/>
+    <outline category="Randomly" text="r/Poetry" title="r/Poetry" xmlUrl="https://www.reddit.com/r/Poetry/.rss" htmlUrl="https://www.reddit.com/r/Poetry/"/>
 
     <!-- Entertainment -->
     <outline category="blogNbread" text="Roger Ebert" title="Roger Ebert" xmlUrl="https://www.rogerebert.com//feed" htmlUrl="https://www.rogerebert.com"/>
