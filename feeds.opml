@@ -6,100 +6,74 @@
   </head>
   <body>
     <!-- Data and science -->
-    <outline category="Data and science" text="Skeptical Science RSS" title="Skeptical Science RSS" xmlUrl="https://skepticalscience.com/feed.xml" htmlUrl="https://skepticalscience.com/"/>
     <outline category="Data and science" text="…and Then There&#39;s Physics" title="…and Then There&#39;s Physics" xmlUrl="http://andthentheresphysics.wordpress.com/feed/" htmlUrl="https://andthentheresphysics.wordpress.com"/>
     <outline category="Data and science" text="Skeptical Science" title="Skeptical Science" xmlUrl="http://skepticalscience.com/feed.xml" htmlUrl="https://skepticalscience.com/"/>
     <outline category="Data and science" text="RealClimate RSS Feed" title="RealClimate RSS Feed" xmlUrl="http://feeds.feedburner.com/realclimate/HYVV" htmlUrl="https://www.realclimate.org"/>
     <outline category="Data and science" text="Climate Etc. » Feed" title="Climate Etc. » Feed" xmlUrl="https://judithcurry.com/feed/" htmlUrl="https://judithcurry.com/"/>
     <outline category="Data and science" text="The Thesis Whisperer » Feed" title="The Thesis Whisperer » Feed" xmlUrl="https://thesiswhisperer.com/feed/" htmlUrl="https://thesiswhisperer.com"/>
-    <outline category="Data and science" text="RSS" title="RSS" xmlUrl="https://news.ycombinator.com/rss" htmlUrl="https://news.ycombinator.com/"/>
     <outline category="Data and science" text="All Our Yesterdays » Feed" title="All Our Yesterdays » Feed" xmlUrl="https://allouryesterdays.info/feed/" htmlUrl="https://allouryesterdays.info/"/>
     <outline category="Data and science" text="MIT Technology Review" title="MIT Technology Review" xmlUrl="https://www.technologyreview.com//feed" htmlUrl="https://www.technologyreview.com"/>
     <outline category="Data and science" text="NOAA Climate.Gov | Facebook" title="NOAA Climate.Gov | Facebook" xmlUrl="https://www.facebook.com/NOAAClimateGov?loc=footer" htmlUrl="https://www.facebook.com/NOAAClimateGov?loc=footer"/>
 
-    <!-- learnENG -->
-    <outline category="learnENG" text="Feed of recent questions" title="Feed of recent questions" xmlUrl="https://english.stackexchange.com/feeds" htmlUrl="https://english.stackexchange.com/questions"/>
-    <outline category="learnENG" text="Poetry - spoken word, literature code, less is more" title="Poetry - spoken word, literature code, less is more" xmlUrl="https://www.reddit.com/r/Poetry/.rss" htmlUrl="https://www.reddit.com/r/Poetry/"/>
+    <!-- JOurnal followed -->
+    <outline category="Journal RSS" text="JGR Biogeoscience" title="Journal RSS" type="rss" xmlUrl="https://agupubs.onlinelibrary.wiley.com/action/showFeed?type=etoc&amp;feed=rss&amp;jc=21698961" htmlUrl="https://agupubs.onlinelibrary.wiley.com/journal/21698961?af=R"/>
+    <outline category="Journal RSS" text="Nature geoscience" title="Untitled feed" type="rss" xmlUrl="https://www.nature.com/ngeo.rss" htmlUrl="http://feeds.nature.com/ngeo/rss/current"/>    
+    <outline category="Journal RSS" text="Nature comm" title = "Nature comm" type="rss"  xmlUrl="https://www.nature.com/ncomms.rss" htmlUrl="http://feeds.nature.com/ncomms/rss/current"/>
+    <outline category="Journal RSS" title="Science main page" type="rss"  xmlUrl="https://www.science.org/action/showFeed?type=etoc&amp;feed=rss&amp;jc=science" htmlUrl="https://www.science.org/loi/science?af=R"/>
+    <outline category = "Journal RSS" text="EGU biogeo" title="BG - recent papers" type="rss" xmlUrl="https://bg.copernicus.org/xml/rss0_91.xml" htmlUrl="https://bg.copernicus.org/articles/"/>
+    <outline category = "Journal RSS" text="Nature climate change" title="Nature climate change" type="rss" mlUrl="https://www.nature.com/nclimate.rss" htmlUrl="http://feeds.nature.com/nclimate/rss/current"/>
+    <outline category = "Journal RSS" text="ESSD - recent papers" title="ESSD - recent papers" type="rss" xmlUrl="https://essd.copernicus.org/articles/xml/rss1_0.xml" htmlUrl="https://essd.copernicus.org/articles/"/>
 
-    <!-- local -->
-    <outline category="local" text="fayetteville Flyer" title="fayetteville Flyer" xmlUrl="https://fayettevilleflyer.com/feed/" htmlUrl="https://fayettevilleflyer.com/"/>
-    <outline category="local" text="What&#39;s up fayetteville" title="What&#39;s up fayetteville" xmlUrl="https://www.facebook.com/groups/1583654081886796" htmlUrl="https://www.facebook.com/groups/1583654081886796"/>
-    <outline category="local" text="asknwa" title="asknwa" xmlUrl="https://www.facebook.com/groups/137880933538883" htmlUrl="https://www.facebook.com/groups/137880933538883"/>
-    <outline category="local" text="NWA" title="NWA" xmlUrl="https://www.facebook.com/groups/northwestarkansas" htmlUrl="https://www.facebook.com/groups/northwestarkansas"/>
-    <outline category="local" text="Northwest Arkansas Community" title="Northwest Arkansas Community" xmlUrl="https://www.reddit.com/r/northwestarkansas/.rss" htmlUrl="https://www.reddit.com/r/northwestarkansas/"/>
-    <outline category="local" text="Fayetteville, Arkansas. Ozark Mountains. Home of the Razorbacks and a bunch of other awesome people." title="Fayetteville, Arkansas. Ozark Mountains. Home of the Razorbacks and a bunch of other awesome people." xmlUrl="https://www.reddit.com/r/fayetteville/.rss" htmlUrl="https://www.reddit.com/r/fayetteville/"/>
-    <outline category="local" text="Popular Fayetteville coffee shop Dodo Coffee relocates | News | uatrav.com" title="Popular Fayetteville coffee shop Dodo Coffee relocates | News | uatrav.com" xmlUrl="http://www.uatrav.com/search/?f=rss&amp;t=article&amp;c=news&amp;l=50&amp;s=start_time&amp;sd=desc" htmlUrl="https://www.uatrav.com/search/?f=rss&amp;t=article&amp;c=news&amp;l=50&amp;s=start_time&amp;sd=desc"/>
-    <outline category="local" text="NWA Daily RSS Feed" title="NWA Daily RSS Feed" xmlUrl="https://rss.beehiiv.com/feeds/Itc4wYx872.xml" htmlUrl="https://www.nwadaily.com/"/>
-    <outline category="local" text="Fayetteville, Arkansas" title="Fayetteville, Arkansas" xmlUrl="https://www.reddit.com/r/FayettevilleAr/.rss" htmlUrl="https://www.reddit.com/r/FayettevilleAr/"/>
-    <outline category="local" text="Visit Northwest Arkansas | Things to Do in Fayetteville" title="Visit Northwest Arkansas | Things to Do in Fayetteville" xmlUrl="https://www.experiencefayetteville.com/?format=feed&amp;type=rss" htmlUrl="https://www.experiencefayetteville.com/"/>
-    <outline category="local" text="CACHE » Calander" title="CACHE » Feed" xmlUrl="https://cachecreate.org/feed/" htmlUrl="https://cachecreate.org/"/>
 
-    <!-- uark -->
-    <outline category="uark" text="University of Arkansas System » Feed" title="University of Arkansas System » Feed" xmlUrl="https://uasys.edu/feed/" htmlUrl="https://uasys.edu"/>
-    <outline category="uark" text="University of Arkansas" title="University of Arkansas" xmlUrl="https://www.reddit.com/r/UniversityofArkansas/.rss" htmlUrl="https://www.reddit.com/r/UniversityofArkansas/"/>
-    <outline category="uark" text="uark calender" title="uark calender" xmlUrl="https://calendars.uark.edu/calendar.xml" htmlUrl="https://calendars.uark.edu/calendar"/>
-    <outline category="uark" text="fullbright review" title="fullbright review" xmlUrl="https://fulbrightreview.uark.edu/feed/" htmlUrl="https://fulbrightreview.uark.edu"/>
-    <outline category="uark" text="uark almuni Events" title="Events Calendar Calendar" xmlUrl="https://www.arkansasalumni.org/controls/cms_v2/components/rss/rss.aspx?sid=1429&amp;gid=1&amp;calcid=13070&amp;page_id=5404" htmlUrl="https://www.arkansasalumni.org/?sid=1429&amp;gid=1&amp;pgid=5404&amp;cid=13070"/>
+    <!-- A person of interest -->
+    <outline category = " A person of interest" text ="Nick Wignall" title="Nick Wignall" type="rss" xmlUrl="https://nickwignall.com/feed/" htmlUrl="https://nickwignall.com/"/>
+    <outline category = " A person of interest" text ="Ted Gioia" title="Ted Gioia" type="rss" xmlUrl="https://tedgioia.substack.com/feed/" htmlUrl="https://www.honest-broker.com"/>
+    <outline category = " A person of interest" text ="Sam Altman" title="Sam Altman" type="rss" xmlUrl="https://blog.samaltman.com/posts.atom" htmlUrl="https://blog.samaltman.com"/>
+    <outline category = " A person of interest" text ="Paul Graham: Essays" title="Paul Graham: Essays" type="rss" xmlUrl="http://www.aaronsw.com/2002/feeds/pgessays.rss" htmlUrl="http://www.paulgraham.com/"/>
 
-    <!-- free_item -->
-    <outline category="free_item" text="buy nothing NWA | Facebook" title="buy nothing NWA | Facebook" xmlUrl="https://www.facebook.com/groups/581998535657840" htmlUrl="https://www.facebook.com/groups/581998535657840"/>
-    <outline category="free_item" text="Freebies! :-)" title="Freebies! :-)" xmlUrl="https://www.reddit.com/r/freebies/.rss" htmlUrl="https://www.reddit.com/r/freebies/"/>
 
-    <!-- frugal -->
-    <outline category="frugal" text="Free Stuff Finder » Feed" title="Free Stuff Finder » Feed" xmlUrl="https://www.freestufffinder.com/feed/" htmlUrl="https://www.freestufffinder.com"/>
-    <outline category="frugal" text="Wirecutter: Reviews for the Real World" title="Wirecutter: Reviews for the Real World" xmlUrl="https://www.nytimes.com/wirecutter//feed" htmlUrl="https://www.nytimes.com/wirecutter"/>
-    <outline category="frugal" text="Untitled feed" title="Untitled feed" xmlUrl="https://www.tomsguide.com/feeds/articletype/news" htmlUrl="https://www.tomsguide.com"/>
-    <outline category="frugal" text="Frugal Living: Waste Less, Gain More!" title="Frugal Living: Waste Less, Gain More!" xmlUrl="https://www.reddit.com/r/Frugal/.rss" htmlUrl="https://www.reddit.com/r/Frugal/"/>
-    <outline category="frugal" text="Unethical Life Pro Tips" title="Unethical Life Pro Tips" xmlUrl="https://www.reddit.com/r/UnethicalLifeProTips/.rss" htmlUrl="https://www.reddit.com/r/UnethicalLifeProTips/"/>
-    <outline category="frugal" text="Slickdeals" title="Slickdeals" xmlUrl="https://slickdeals.net/newsearch.php?mode=frontpage&amp;searcharea=deals&amp;searchin=first&amp;rss=1" htmlUrl="https://slickdeals.net/"/>
-    <outline category="frugal" text="Value Investing" title="Value Investing" xmlUrl="https://www.reddit.com/r/ValueInvesting/.rss" htmlUrl="https://www.reddit.com/r/ValueInvesting/"/>
-    <outline category="frugal" text="r/deals: Make your wallet happy!" title="r/deals: Make your wallet happy!" xmlUrl="https://www.reddit.com/r/deals/.rss" htmlUrl="https://www.reddit.com/r/deals/"/>
-    <outline category="frugal" text="Alicia&#39;s Deals » Feed" title="Alicia&#39;s Deals » Feed" xmlUrl="https://dealsinaz.com/feed/" htmlUrl="https://dealsinaz.com"/>
-    <outline category="frugal" text="The Penny Hoarder" title="The Penny Hoarder » Save Money Category Feed" xmlUrl="https://www.thepennyhoarder.com/save-money/feed/"/>
+    <!-- Tech news -->
+    <outline category="Tech news" text="The MIT Press Reader" title="The MIT Press Reader" xmlUrl="https://thereader.mitpress.mit.edu/feed/" htmlUrl="https://thereader.mitpress.mit.edu/"/>
+    <outline category="Tech news" text="Hacker News front page" title="Hacker News fontpage" xmlUrl="https://hnrss.org/frontpage" htmlUrl="https://news.ycombinator.com/"/>
+    <outline category="Tech news" text="Hacker top stories" title="Hacker News stories" xmlUrl="https://hnrss.org/newest?points=300" htmlUrl="https://hnrss.org/newest?points=300"/>
 
-    <!-- nephop -->
-    <outline category="nephop" text="Nepal | The Guardian" title="Nepal | The Guardian" xmlUrl="http://www.guardian.co.uk/world/nepal/rss" htmlUrl="https://www.theguardian.com/world/nepal"/>
-    <outline category="nephop" text="NYT &#62; Nepal" title="NYT &#62; Nepal" xmlUrl="http://topics.nytimes.com/top/news/international/countriesandterritories/nepal/?rss=1"/>
-    <outline category="nephop" text="&#34;kathmandu&#34; - Google News" title="&#34;kathmandu&#34; - Google News" xmlUrl="https://news.google.com/rss/search?hl=en-US&amp;gl=US&amp;ceid=US%3Aen&amp;oc=11&amp;q=kathmandu" htmlUrl="https://news.google.com/search?hl=en-US&amp;gl=US&amp;ceid=US:en&amp;oc=11&amp;q=kathmandu"/>
 
     <!-- Randomly -->
-    <outline category="Randomly" text="Roger Ebert" title="Roger Ebert" xmlUrl="https://www.rogerebert.com//feed" htmlUrl="https://www.rogerebert.com"/>
     <outline category="Randomly" text="LessWrong" title="LessWrong" xmlUrl="http://lesswrong.com/.rss" htmlUrl="https://www.lesswrong.com"/>
-    <outline category="Randomly" text="The MIT Press Reader" title="The MIT Press Reader" xmlUrl="https://thereader.mitpress.mit.edu/feed/" htmlUrl="https://thereader.mitpress.mit.edu/"/>
-    <outline category="Randomly" text="NYT &#62; Letter of Recommendation" title="NYT &#62; Letter of Recommendation" xmlUrl="https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/column/letter-of-recommendation/rss.xml" htmlUrl="https://www.nytimes.com/column/letter-of-recommendation"/>
     <outline category="Randomly" text="Brain Pickings" title="Brain Pickings" xmlUrl="https://feeds.feedburner.com/brainpickings/rss" htmlUrl="https://www.themarginalian.org"/>
-    <outline category="Randomly" text="Astral Codex Ten" title="Astral Codex Ten" xmlUrl="https://astralcodexten.substack.com/feed" htmlUrl="https://www.astralcodexten.com"/>
-    <outline category="Randomly" text="Current | The Criterion Collection" title="Current | The Criterion Collection" xmlUrl="https://www.criterion.com/feeds/current" htmlUrl="https://www.criterion.com/feeds/current"/>
-    <outline category="Randomly" text="Bear Blog Trending Posts" title="Bear Blog Trending Posts" xmlUrl="https://bearblog.dev/discover/feed/" htmlUrl="https://bearblog.dev/discover/"/>
-    <outline category="Randomly" text="Wait But Why" title="Wait But Why" xmlUrl="https://waitbutwhy.com/feed" htmlUrl="https://waitbutwhy.com/"/>
-    <outline category="Randomly" text="Short Story Reader" title="Short Story Reader" xmlUrl="http://shortstoryreader.blogspot.com/feeds/posts/default"/>
-    <outline category="Randomly" text="The Daily | The Criterion Collection" title="The Daily | The Criterion Collection" xmlUrl="https://www.criterion.com/feeds/the-daily" htmlUrl="https://www.criterion.com/feeds/the-daily"/>
     <outline category="Randomly" text="Nautilus | Science Connected" title="Nautilus | Science Connected" xmlUrl="https://nautil.us/feed/" htmlUrl="https://nautil.us/"/>
     <outline category="Randomly" text="Incremental forgetting" title="Incremental forgetting" xmlUrl="https://blog.incrementalforgetting.tech/feed" htmlUrl="https://blog.incrementalforgetting.tech"/>
-    <outline category="Randomly" text="Farnam Street" title="Farnam Street" xmlUrl="https://www.farnamstreetblog.com/feed/" htmlUrl="https://fs.blog/"/>
-    <outline category="Randomly" text="Scraps from the loft » Feed" title="Scraps from the loft » Feed" xmlUrl="https://scrapsfromtheloft.com/feed/" htmlUrl="https://scrapsfromtheloft.com/"/>
-    <outline category="Randomly" text="benkuhn.net" title="benkuhn.net" xmlUrl="https://www.benkuhn.net/index.xml" htmlUrl="https://www.benkuhn.net/"/>
-    <outline category="Randomly" text="Slate Star Codex: In a Mad World, All Blogging is Psychiatry Blogging" title="Slate Star Codex: In a Mad World, All Blogging is Psychiatry Blogging" xmlUrl="https://www.reddit.com/r/slatestarcodex/.rss" htmlUrl="https://www.reddit.com/r/slatestarcodex/"/>
-    <outline category="Randomly" text="NYT &#62; Modern Love" title="NYT &#62; Modern Love" xmlUrl="https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/column/modern-love/rss.xml" htmlUrl="https://www.nytimes.com/column/modern-love"/>
-    <outline category="Randomly" text="Untitled feed" title="Untitled feed" xmlUrl="https://bearblog.dev/feed/"/>
-    <outline category="Randomly" text="FiveThirtyEight" title="FiveThirtyEight" xmlUrl="https://fivethirtyeight.com/features/feed/" htmlUrl="https://fivethirtyeight.com"/>
-    <outline category="Randomly" text="Meta-rationality" title="Meta-rationality" xmlUrl="https://metarationality.com/rss.xml" htmlUrl="https://metarationality.com/rss.xml"/>
+    <outline category="Randomly" text="Aeon | a world of ideas" title="Aeon | a world of ideas" xmlUrl="https://aeon.co/feed" htmlUrl="https://aeon.co"/>
+    <outline category="Randomly" text="Longreads" title="Longreads" xmlUrl="https://longreads.com/feed/" htmlUrl="https://longreads.com/"/>
+    <outline category = "Randomly" text="/r/malefashionadvice" title="/r/malefashionadvice" type="rss" xmlUrl="https://www.reddit.com/r/malefashionadvice/.rss" htmlUrl="https://www.reddit.com/r/malefashionadvice/"/>
+    <outline category = "Randomly" text="Arts &#38; Letters Daily" title="Arts &#38; Letters Daily" type="rss" xmlUrl="https://www.aldaily.com//feed" htmlUrl="https://www.aldaily.com/"/>
+ 
 
-    <!-- language -->
-    <outline category="language" text="The Language Nerds | Facebook" title="The Language Nerds | Facebook" xmlUrl="https://www.facebook.com/thelanguagenerds" htmlUrl="https://www.facebook.com/thelanguagenerds"/>
+    <!-- Entertainment -->
+    <outline category="blogNbread" text="Roger Ebert" title="Roger Ebert" xmlUrl="https://www.rogerebert.com//feed" htmlUrl="https://www.rogerebert.com"/>
+    <outline category="blogNbread" text="NYT Modern Love" title="NYT Modern Love" xmlUrl="https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/column/modern-love/rss.xml" htmlUrl="https://www.nytimes.com/column/modern-love"/>
+    <outline category="blogNbread" text="Current | The Criterion Collection" title="Current | The Criterion Collection" xmlUrl="https://www.criterion.com/feeds/current" htmlUrl="https://www.criterion.com/feeds/current"/>
+    <outline category="blogNbread" text="Bear Blog Trending Posts" title="Bear Blog Trending Posts" xmlUrl="https://bearblog.dev/discover/feed/" htmlUrl="https://bearblog.dev/discover/"/>
+    <outline category="blogNbread" text="NYT &#62; Letter of Recommendation" title="NYT &#62; Letter of Recommendation" xmlUrl="https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/column/letter-of-recommendation/rss.xml" htmlUrl="https://www.nytimes.com/column/letter-of-recommendation"/>
+    <outline category="blogNbread" text="Astral Codex Ten" title="Astral Codex Ten" xmlUrl="https://astralcodexten.substack.com/feed" htmlUrl="https://www.astralcodexten.com"/>
+ 
 
     <!-- photos -->
     <outline category="photos" text="The Atlantic Photo" title="The Atlantic Photo" xmlUrl="http://feeds.feedburner.com/theatlantic/infocus" htmlUrl="https://www.theatlantic.com/photo/"/>
     <outline category="photos" text="Magnum Photos" title="Magnum Photos" xmlUrl="https://www.magnumphotos.com//feed" htmlUrl="https://www.magnumphotos.com"/>
-    <outline category="photos" text="PSNWA - Photography Society Northwest Arkansas | Facebook" title="PSNWA - Photography Society Northwest Arkansas | Facebook" xmlUrl="https://www.facebook.com/groups/PSNWAgroup/" htmlUrl="https://www.facebook.com/groups/PSNWAgroup/"/>
+    <outline category="photos" text="National Geographic Your Shot" title="National Geographic Your Shot" xmlUrl="https://www.nationalgeographic.com/photography/photo-of-the-day/_jcr_content/.feed" htmlUrl="https://www.nationalgeographic.com/photography/photo-of-the-day/"/>
 
-    <!-- long_read -->
-    <outline category="long_read" text="Aeon | a world of ideas" title="Aeon | a world of ideas" xmlUrl="https://aeon.co/feed" htmlUrl="https://aeon.co"/>
-    <outline category="long_read" text="Longreads" title="Longreads" xmlUrl="https://longreads.com/feed/" htmlUrl="https://longreads.com/"/>
-    <outline category="long_read" text="Untitled feed" title="Untitled feed" xmlUrl="https://thebrowser.com/feed/"/>
-
+    
     <!-- news_pod -->
-    <outline category="news_pod" text="NPR Topics: News Podcast" title="NPR Topics: News Podcast" xmlUrl="https://feeds.npr.org/500005/podcast.xml" htmlUrl="https://www.npr.org/podcasts/500005/npr-news-now"/>
     <outline category="news_pod" text="The Daily" title="The Daily" xmlUrl="https://feeds.simplecast.com/54nAGcIl" htmlUrl="https://www.nytimes.com/column/the-daily"/>
+    <outline category="news_pod" text="AllSides" title="AllSides " type="rss" xmlUrl="https://www.allsides.com/rss/news" htmlUrl="https://www.allsides.com/rss/news"/>
+    <outline category="news_pod" text="NPR" title="NPR " type="rss"  xmlUrl="https://feeds.npr.org/1001/rss.xml" htmlUrl="https://www.npr.org/templates/story/story.php?storyId=1001"/>
+    <outline category="news_pod" text="NYT Top Stories" title="NYT Top Stories" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml" htmlUrl="https://www.nytimes.com" scanDelay="30"/>
+    <outline category="news_pod" text="The Atlantic" title="The Atlantic" type="rss" xmlUrl="https://www.theatlantic.com/feed/all/" htmlUrl="https://www.theatlantic.com/"/>
+    <outline category="news_pod" text="Financial Times" title="Financial Time" type="rss" xmlUrl="https://www.ft.com/news-feed?format=rss" htmlUrl="https://www.ft.com/news-feed"/>
+    <outline category="news_pod" text="PBS" title="PBS" type="rss"  xmlUrl="https://www.pbs.org/newshour/feeds/rss/headlines" htmlUrl="https://www.pbs.org/newshour/"/>
+
+
+
   </body>
 </opml>
