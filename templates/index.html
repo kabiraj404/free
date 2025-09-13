@@ -983,33 +983,6 @@
                 gap: 8px;
             }
 
-            .tabs {
-                border-bottom: 2px solid var(--border-color);
-                margin-bottom: 1rem;
-            }
-
-            .tab-list {
-                display: flex;
-                gap: 1rem;
-                list-style: none;
-                padding: 0;
-                margin: 0;
-                border-bottom: 2px solid var(--border-color);
-            }
-
-            .tab {
-                padding: 8px 16px;
-                cursor: pointer;
-                border-bottom: 3px solid transparent;
-                color: var(--muted-color);
-                font-weight: 600;
-                user-select: none;
-                transition: color 0.2s ease, border-color 0.2s ease;
-            }
-            .tab.active {
-                border-bottom: 3px solid var(--accent-color);
-                color: var(--accent-color);
-            }
 
             .feed-grid {
                 grid-template-columns: 1fr;
@@ -1031,6 +1004,8 @@
     </style>
 </head>
 <body>
+
+
     <!-- Settings Toggle Button -->
     <button class="settings-toggle" onclick="toggleSettings()" title="Settings">
         ⚙️
@@ -1057,84 +1032,30 @@
             <small style="color: var(--muted-color); margin-top: 5px; display: block;">
                 Number of posts to display in Latest Posts section
             </small>
-        </div>
-        
+    </div>
+</div> <!-- Close settings-panel -->
 
-    
+<main>
     <!-- <header class="header fade-in">
-        <h1>🌟 {{ title }}</h1>
-        <p>{{ description }}</p>
-        
-        <div class="stats">
-            <div class="stat-item">
-                <span class="stat-number">{{ total_feeds }}</span>
-                <span class="stat-label">Feeds</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-number">{{ total_entries }}</span>
-                <span class="stat-label">Total Posts</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-number" id="visible-posts-count">{{ latest_entries|length }}</span>
-                <span class="stat-label">Latest Posts</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-number">{{ update_interval_hours }}h</span>
-                <span class="stat-label">Updates Every</span>
-            </div>
-        </div>
-    </header> -->
-
-    <main>
-        <!-- <section class="section fade-in" id="latest-posts-section">
-            <div class="section-header">
-                <h2>🔥 Latest Posts</h2>
-                <button class="section-toggle" onclick="toggleSection('latest-posts')" id="latest-posts-toggle">
-                    Hide Posts
-                </button>
-            </div>
-            
-            <div class="section-content" id="latest-posts-content">
-                <div class="posts-filter-banner" id="posts-filter-banner">
-                    <span id="filter-text">Showing posts from: </span>
-                    <button class="clear-filter-btn" onclick="clearPostsFilter()">Show All Posts</button>
+            <h1>LovelyRSS</h1>
+            <p>Your personalized RSS feed reader</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-number">{{ total_feeds }}</span>
+                    <span class="stat-label">Feeds</span>
                 </div>
-                
-                <div class="entry-list" id="entry-list">
-                    {% for entry in latest_entries %}
-                    <article class="entry-item" data-index="{{ loop.index0 }}" data-feed-url="{{ entry.feed_url }}">
-                        <div class="entry-title">
-                            <a href="{{ entry.link or '#' }}" target="_blank" rel="noopener noreferrer">
-                                {{ entry.title or 'No Title' }}
-                            </a>
-                        </div>
-                        <div class="entry-meta">
-                            <span class="entry-source" onclick="highlightFeed('{{ entry.feed_url }}')" title="Click to highlight this feed in the feeds section">
-                                {{ entry.feed_title or 'Unknown Feed' }}
-                            </span>
-                            <span class="entry-time" data-published="{{ entry.published or '' }}">
-                                {{ format_date(entry.published) }}
-                            </span>
-                            {% if entry.feed_category %}
-                            <span class="entry-category">📂 {{ entry.feed_category }}</span>
-                            {% endif %}
-                        </div>
-                        {% if entry.summary %}
-                        <div class="entry-summary">
-                            {{ truncate_text(clean_html(entry.summary), 250) }}
-                        </div>
-                        {% endif %}
-                    </article>
-                    {% endfor %}
+                <div class="stat-item">
+                    <span class="stat-number">{{ total_entries }}</span>
+                    <span class="stat-label">Entries</span>
                 </div>
             </div>
-        </section> -->
+        </header> -->
 
         <section class="section fade-in" id="feeds-section">
             <div class="section-header">
                 <h2>📡 Subscribed Feeds</h2>
                 <button class="section-toggle" onclick="toggleSection('feeds')" id="feeds-toggle">
-                    Hide Feeds
+                    <!-- Hide Feeds -->
                 </button>
             </div>
 
@@ -1146,6 +1067,7 @@
                         <span class="category-name">{{ category }}</span>
                         <span class="category-expand-icon">▼</span>
                     </div>
+
                     <div class="feed-list" id="category-{{ category | replace(' ', '-') | replace('/', '-') | replace(':', '-') }}">
                         {% for feed in feeds %}
                         <div class="feed-item{% if feed.has_recent_update %} fresh-updates{% endif %}" data-feed-url="{{ feed.url }}">
