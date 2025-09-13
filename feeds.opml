@@ -1,230 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<opml version="2.0">
+<opml version="1.0">
   <head>
-    <title>Fraidycat Follows</title>
-    <dateCreated>Sun, 27 Jul 2025 17:13:50 GMT</dateCreated>
+    <title>lovelyRSS - Personal Feed Collection</title>
+    <dateCreated>{{ get_current_timestamp() }}</dateCreated>
+    <dateModified>{{ get_current_timestamp() }}</dateModified>
+    <ownerName>RSS Hub User</ownerName>
+    <ownerEmail>user@example.com</ownerEmail>
+    <docs>http://www.opml.org/spec2</docs>
   </head>
   <body>
-    <outline category="weblogs"  text="Hacker News: Best" xmlUrl="https://hnrss.org/best" htmlUrl="https://hnrss.org/best" title="Hacker News: Best"/>
-    <outline category="weblogs" created="Thu Jul 17 2025 21:35:26 GMT+0200 (Central European Summer Time)" text="berlin.de: News" xmlUrl="https://www.berlin.de/en/news/rubric.rss" htmlUrl="https://www.berlin.de/en/news/" title="berlin.de: News"/>
-    <outline category="weblogs" created="Thu Jul 17 2025 21:28:31 GMT+0200 (Central European Summer Time)" text="David Heinemeier Hansson" xmlUrl="https://world.hey.com/dhh/feed.atom" htmlUrl="https://world.hey.com/dhh"/>
-    <outline category="weblogs" created="Fri Jul 18 2025 07:04:15 GMT+0200 (Central European Summer Time)" text="Derek Sivers blog" xmlUrl="https://sive.rs/en.atom" htmlUrl="https://sive.rs/blog"/>
-    <outline category="weblogs" created="Wed Jul 23 2025 17:10:15 GMT+0200 (Central European Summer Time)" text="Home on A Security Engineer's blog" xmlUrl="https://asecurityengineer.com/index.xml" htmlUrl="https://asecurityengineer.com/"/>
-    <outline category="Social Media" created="Tue Aug 13 2024 10:12:49 GMT+0200 (Central European Summer Time)" text="Jadi" xmlUrl="https://mastodon.bsd.cafe/@jadi.rss" htmlUrl="https://mastodon.bsd.cafe/@jadi"/>
-    <outline category="Social Media" created="Thu Aug 15 2024 15:30:14 GMT+0200 (Central European Summer Time)" text="Chris Heilmann" xmlUrl="https://toot.cafe/@codepo8.rss" htmlUrl="https://toot.cafe/@codepo8"/>
-    <outline category="weblogs" created="Wed Jul 23 2025 17:09:31 GMT+0200 (Central European Summer Time)" text="یادداشت‌های فرید" xmlUrl="https://pesarkhobeee.github.io/fa/index.xml" htmlUrl="https://pesarkhobeee.github.io/fa/"/>
-    <outline category="weblogs" created="Wed Jul 23 2025 17:10:23 GMT+0200 (Central European Summer Time)" text="یادداشتهای پراکنده بیت‌نیمسوز" xmlUrl="http://fzero.rubi.gd/index.xml" htmlUrl="https://fzero.rubi.gd/"/>
-    <outline category="weblogs" created="Wed Jul 23 2025 17:09:19 GMT+0200 (Central European Summer Time)" text="فرهاد سپیدفکر" xmlUrl="http://www.sepidfekr.com/feed/" htmlUrl="http://www.sepidfekr.com"/>
-    <outline category="weblogs" created="Thu Jul 17 2025 21:36:21 GMT+0200 (Central European Summer Time)" text="آپدیت ام دی" xmlUrl="https://updatemd.com/feed/" htmlUrl="https://updatemd.com/"/>
-    <outline category="weblogs" created="Thu Jul 17 2025 21:33:25 GMT+0200 (Central European Summer Time)" text="Loopwerk" xmlUrl="https://www.loopwerk.io/articles/feed.xml" htmlUrl="https://www.loopwerk.io/articles/"/>
-    <outline category="weblogs" created="Fri Jul 18 2025 07:02:51 GMT+0200 (Central European Summer Time)" text="Nic Chan" xmlUrl="https://www.nicchan.me/feed.xml" htmlUrl="https://www.nicchan.me/"/>
-    <outline category="Jobs" created="Sun Nov 10 2024 19:06:55 GMT+0100 (Central European Standard Time)" text="https://www.blinkist.com/en/jobs" xmlUrl="https://www.blinkist.com/en/jobs" htmlUrl="https://www.blinkist.com/en/jobs"/>
-    <outline category="weblogs" created="Fri Jul 18 2025 07:06:11 GMT+0200 (Central European Summer Time)" text="arp242.net" xmlUrl="https://www.arp242.net/feed.xml" htmlUrl="https://www.arp242.net/"/>
-    <outline category="weblogs" created="Wed Jul 23 2025 17:09:58 GMT+0200 (Central European Summer Time)" text="fastpaced.com" xmlUrl="https://fastpaced.com/atom.xml" htmlUrl="https://fastpaced.com/"/>
-    <outline category="weblogs" created="Fri Jul 18 2025 07:03:43 GMT+0200 (Central European Summer Time)" text="Posts on Yekta Leblebici" xmlUrl="https://iamyekta.com/post/index.xml" htmlUrl="https://iamyekta.com/post/"/>
-    <outline category="weblogs" created="Wed Jul 23 2025 17:09:37 GMT+0200 (Central European Summer Time)" text="fr123k" xmlUrl="https://profile.fr123k.uk/feed.xml" htmlUrl="https://fr123k.github.io//"/>
-    <outline category="weblogs" created="Wed Jul 23 2025 17:09:48 GMT+0200 (Central European Summer Time)" text="Cursor Blog | RSS Feed" xmlUrl="https://cursor.com/atom.xml" htmlUrl="https://cursor.com/"/>
-    <outline category="weblogs" created="Fri Jul 18 2025 07:04:58 GMT+0200 (Central European Summer Time)" text="jackkelly" xmlUrl="http://jackkelly.name/blog/rss.xml" htmlUrl="http://jackkelly.name" title="jackkelly"/>
-    <outline category="weblogs" created="Wed Jul 23 2025 17:08:52 GMT+0200 (Central European Summer Time)" text="Mostafa Mirmousavi" xmlUrl="https://mirmousavi.com/index.xml" htmlUrl="https://mirmousavi.com/"/>
-    <outline category="weblogs" created="Wed Jul 23 2025 17:09:03 GMT+0200 (Central European Summer Time)" text="مصطفی میرموسوی" xmlUrl="https://mirmousavi.com/fa/index.xml" htmlUrl="https://mirmousavi.com/fa/"/>
-    <outline category="weblogs" created="Fri Jul 18 2025 07:04:43 GMT+0200 (Central European Summer Time)" text="Matthias Endler" xmlUrl="https://endler.dev/rss.xml" htmlUrl="https://endler.dev"/>
-    <outline category="weblogs" created="Fri Jul 18 2025 07:05:29 GMT+0200 (Central European Summer Time)" text="Recent Commits to the-book-of-secret-knowledge:master" xmlUrl="https://github.com/trimstray/the-book-of-secret-knowledge/commits.atom" htmlUrl="https://github.com/trimstray/the-book-of-secret-knowledge/commits/master"/>
-    <outline category="Jobs" created="Sat May 17 2025 20:43:59 GMT+0200 (Central European Summer Time)" text="Current Mozilla job openings" xmlUrl="https://www.mozilla.org/en-US/careers/feed/" htmlUrl="https://www.mozilla.org/en-US/careers/listings/"/>
-    <outline category="Jobs" created="Sun May 18 2025 16:34:00 GMT+0200 (Central European Summer Time)" text="https://jobs.ashbyhq.com/ecosia.org" xmlUrl="https://jobs.ashbyhq.com/ecosia.org" htmlUrl="https://jobs.ashbyhq.com/ecosia.org"/>
-    <outline category="weblogs" created="Fri Jul 18 2025 07:03:34 GMT+0200 (Central European Summer Time)" text="Noel Berry" xmlUrl="https://noelberry.ca/rss.xml" htmlUrl="https://noelberry.ca"/>
-    <outline category="weblogs" created="Fri Jul 18 2025 07:07:40 GMT+0200 (Central European Summer Time)" text="Dave Cheney" xmlUrl="https://dave.cheney.net/feed" htmlUrl="https://dave.cheney.net"/>
-    <outline category="importance/1" created="Thu Jul 17 2025 21:44:00 GMT+0200 (Central European Summer Time)" text="Pejman Moghadam" xmlUrl="https://www.instagram.com/pejman.moghadam/" htmlUrl="https://www.instagram.com/pejman.moghadam/"/>
-    <outline category="importance/1" created="Fri Jul 18 2025 00:14:05 GMT+0200 (Central European Summer Time)" text="Yalda Alaei 📖" xmlUrl="https://www.instagram.com/yaldarta/" htmlUrl="https://www.instagram.com/yaldarta/"/>
-    <outline category="Social Media" created="Fri Jul 18 2025 07:48:07 GMT+0200 (Central European Summer Time)" text="Bplus Podcast" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UChWB95_-n9rUc3H9srsn9bQ" htmlUrl="https://www.youtube.com/channel/UChWB95_-n9rUc3H9srsn9bQ"/>
-    <outline category="Social Media" created="Fri Jul 18 2025 08:08:01 GMT+0200 (Central European Summer Time)" text="Jafekri | جافکری" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCU1bB2uRgDxiR9vXTEYnbTQ" htmlUrl="https://www.youtube.com/channel/UCU1bB2uRgDxiR9vXTEYnbTQ"/>
-    <outline category="Social Media" created="Sat Jul 19 2025 11:30:08 GMT+0200 (Central European Summer Time)" text="Noclip" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC0fDG3byEcMtbOqPMymDNbw" htmlUrl="https://www.youtube.com/channel/UC0fDG3byEcMtbOqPMymDNbw"/>
-    <outline category="Social Media" created="Sat Jul 19 2025 11:35:44 GMT+0200 (Central European Summer Time)" text="Principles by Ray Dalio" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCqvaXJ1K3HheTPNjH-KpwXQ" htmlUrl="https://www.youtube.com/channel/UCqvaXJ1K3HheTPNjH-KpwXQ"/>
-    <outline category="Social Media" created="Sat Jul 19 2025 11:37:10 GMT+0200 (Central European Summer Time)" text="Headspace" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC3JhfsgFPLSLNEROQCdj-GQ" htmlUrl="https://www.youtube.com/channel/UC3JhfsgFPLSLNEROQCdj-GQ"/>
-    <outline category="Social Media" created="Sat Jul 19 2025 11:39:29 GMT+0200 (Central European Summer Time)" text="Lenny's Podcast" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC6t1O76G0jYXOAoYCm153dA" htmlUrl="https://www.youtube.com/channel/UC6t1O76G0jYXOAoYCm153dA"/>
-    <outline category="Social Media" created="Sat Jul 19 2025 11:42:20 GMT+0200 (Central European Summer Time)" text="GOTO Conferences" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCs_tLP3AiwYKwdUHpltJPuA" htmlUrl="https://www.youtube.com/channel/UCs_tLP3AiwYKwdUHpltJPuA"/>
-    <outline category="Social Media" created="Sat Jul 19 2025 11:46:05 GMT+0200 (Central European Summer Time)" text="GitHub" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC7c3Kb6jYCRj4JOHHZTxKsQ" htmlUrl="https://www.youtube.com/channel/UC7c3Kb6jYCRj4JOHHZTxKsQ"/>
-    <outline category="Social Media" created="Sat Jul 19 2025 11:47:33 GMT+0200 (Central European Summer Time)" text="thoughtbot" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUR1pFG_3XoZn3JNKjulqZg" htmlUrl="https://www.youtube.com/channel/UCUR1pFG_3XoZn3JNKjulqZg"/>
-    <outline category="Social Media" created="Sat Jul 19 2025 11:52:17 GMT+0200 (Central European Summer Time)" text="CultRepo (formerly Honeypot)" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCsUalyRg43M8D60mtHe6YcA" htmlUrl="https://www.youtube.com/channel/UCsUalyRg43M8D60mtHe6YcA"/>
-    <outline category="Social Media" created="Sat Jul 19 2025 11:55:32 GMT+0200 (Central European Summer Time)" text="Kurzgesagt – In a Nutshell" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCsXVk37bltHxD1rDPwtNM8Q" htmlUrl="https://www.youtube.com/channel/UCsXVk37bltHxD1rDPwtNM8Q"/>
-    <outline category="Social Media" created="Sat Jul 19 2025 11:57:10 GMT+0200 (Central European Summer Time)" text="Corey Schafer" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCCezIgC97PvUuR4_gbFUs5g" htmlUrl="https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g"/>
-    <outline category="Social Media" created="Sat Jul 19 2025 11:59:19 GMT+0200 (Central European Summer Time)" text="IBM Technology" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCKWaEZ-_VweaEx1j62do_vQ" htmlUrl="https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ"/>
-    <outline category="Social Media" created="Sat Jul 26 2025 09:55:17 GMT+0200 (Central European Summer Time)" text="Core Dumped" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCGKEMK3s-ZPbjVOIuAV8clQ" htmlUrl="https://www.youtube.com/channel/UCGKEMK3s-ZPbjVOIuAV8clQ"/>
-    <outline category="Social Media" created="Sat Jul 26 2025 09:56:32 GMT+0200 (Central European Summer Time)" text="Big Think" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCvQECJukTDE2i6aCoMnS-Vg" htmlUrl="https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg"/>
-    <outline category="Social Media" created="Sat Jul 26 2025 09:58:07 GMT+0200 (Central European Summer Time)" text="Ecosia" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC1_up347GdfKBDVGqwjt7Aw" htmlUrl="https://www.youtube.com/channel/UC1_up347GdfKBDVGqwjt7Aw"/>
-    <outline category="Github" text="schacon" xmlUrl="https://github.com/schacon" htmlUrl="https://github.com/schacon" title="schacon"/>
-    <outline category="Github" text="jkatz" xmlUrl="https://github.com/jkatz" htmlUrl="https://github.com/jkatz" title="jkatz"/>
-    <outline category="Github" text="dhh" xmlUrl="https://github.com/dhh" htmlUrl="https://github.com/dhh" title="dhh"/>
-    <outline category="Github" text="amir" xmlUrl="https://github.com/amir" htmlUrl="https://github.com/amir" title="amir"/>
-    <outline category="Github" text="armen" xmlUrl="https://github.com/armen" htmlUrl="https://github.com/armen" title="armen"/>
-    <outline category="Github" text="mitsuhiko" xmlUrl="https://github.com/mitsuhiko" htmlUrl="https://github.com/mitsuhiko" title="mitsuhiko"/>
-    <outline category="Github" text="basecamp" xmlUrl="https://github.com/basecamp" htmlUrl="https://github.com/basecamp" title="basecamp"/>
-    <outline category="Github" text="apparentlymart" xmlUrl="https://github.com/apparentlymart" htmlUrl="https://github.com/apparentlymart" title="apparentlymart"/>
-    <outline category="Github" text="ChrisChinchilla" xmlUrl="https://github.com/ChrisChinchilla" htmlUrl="https://github.com/ChrisChinchilla" title="ChrisChinchilla"/>
-    <outline category="Github" text="omid" xmlUrl="https://github.com/omid" htmlUrl="https://github.com/omid" title="omid"/>
-    <outline category="Github" text="matttproud" xmlUrl="https://github.com/matttproud" htmlUrl="https://github.com/matttproud" title="matttproud"/>
-    <outline category="Github" text="rui314" xmlUrl="https://github.com/rui314" htmlUrl="https://github.com/rui314" title="rui314"/>
-    <outline category="Github" text="wikimedia" xmlUrl="https://github.com/wikimedia" htmlUrl="https://github.com/wikimedia" title="wikimedia"/>
-    <outline category="Github" text="rspivak" xmlUrl="https://github.com/rspivak" htmlUrl="https://github.com/rspivak" title="rspivak"/>
-    <outline category="Github" text="philsturgeon" xmlUrl="https://github.com/philsturgeon" htmlUrl="https://github.com/philsturgeon" title="philsturgeon"/>
-    <outline category="Github" text="jjo" xmlUrl="https://github.com/jjo" htmlUrl="https://github.com/jjo" title="jjo"/>
-    <outline category="Github" text="schlomo" xmlUrl="https://github.com/schlomo" htmlUrl="https://github.com/schlomo" title="schlomo"/>
-    <outline category="Github" text="farhadi" xmlUrl="https://github.com/farhadi" htmlUrl="https://github.com/farhadi" title="farhadi"/>
-    <outline category="Github" text="wez" xmlUrl="https://github.com/wez" htmlUrl="https://github.com/wez" title="wez"/>
-    <outline category="Github" text="tinymce" xmlUrl="https://github.com/tinymce" htmlUrl="https://github.com/tinymce" title="tinymce"/>
-    <outline category="Github" text="mozilla" xmlUrl="https://github.com/mozilla" htmlUrl="https://github.com/mozilla" title="mozilla"/>
-    <outline category="Github" text="behdad" xmlUrl="https://github.com/behdad" htmlUrl="https://github.com/behdad" title="behdad"/>
-    <outline category="Github" text="joshtriplett" xmlUrl="https://github.com/joshtriplett" htmlUrl="https://github.com/joshtriplett" title="joshtriplett"/>
-    <outline category="Github" text="mre" xmlUrl="https://github.com/mre" htmlUrl="https://github.com/mre" title="mre"/>
-    <outline category="Github" text="everplays" xmlUrl="https://github.com/everplays" htmlUrl="https://github.com/everplays" title="everplays"/>
-    <outline category="Github" text="ilius" xmlUrl="https://github.com/ilius" htmlUrl="https://github.com/ilius" title="ilius"/>
-    <outline category="Github" text="karlseguin" xmlUrl="https://github.com/karlseguin" htmlUrl="https://github.com/karlseguin" title="karlseguin"/>
-    <outline category="Github" text="hamed" xmlUrl="https://github.com/hamed" htmlUrl="https://github.com/hamed" title="hamed"/>
-    <outline category="Github" text="NoelFB" xmlUrl="https://github.com/NoelFB" htmlUrl="https://github.com/NoelFB" title="NoelFB"/>
-    <outline category="Github" text="YektaLeblebici" xmlUrl="https://github.com/YektaLeblebici" htmlUrl="https://github.com/YektaLeblebici" title="YektaLeblebici"/>
-    <outline category="Github" text="vahid-sohrabloo" xmlUrl="https://github.com/vahid-sohrabloo" htmlUrl="https://github.com/vahid-sohrabloo" title="vahid-sohrabloo"/>
-    <outline category="Github" text="roozbehp" xmlUrl="https://github.com/roozbehp" htmlUrl="https://github.com/roozbehp" title="roozbehp"/>
-    <outline category="Github" text="afshinm" xmlUrl="https://github.com/afshinm" htmlUrl="https://github.com/afshinm" title="afshinm"/>
-    <outline category="Github" text="lucastorri" xmlUrl="https://github.com/lucastorri" htmlUrl="https://github.com/lucastorri" title="lucastorri"/>
-    <outline category="Github" text="atkrad" xmlUrl="https://github.com/atkrad" htmlUrl="https://github.com/atkrad" title="atkrad"/>
-    <outline category="Github" text="burrsutter" xmlUrl="https://github.com/burrsutter" htmlUrl="https://github.com/burrsutter" title="burrsutter"/>
-    <outline category="Github" text="czerasz" xmlUrl="https://github.com/czerasz" htmlUrl="https://github.com/czerasz" title="czerasz"/>
-    <outline category="Github" text="antonbabenko" xmlUrl="https://github.com/antonbabenko" htmlUrl="https://github.com/antonbabenko" title="antonbabenko"/>
-    <outline category="Github" text="benoitbleuze" xmlUrl="https://github.com/benoitbleuze" htmlUrl="https://github.com/benoitbleuze" title="benoitbleuze"/>
-    <outline category="Github" text="mfat" xmlUrl="https://github.com/mfat" htmlUrl="https://github.com/mfat" title="mfat"/>
-    <outline category="Github" text="aantipov" xmlUrl="https://github.com/aantipov" htmlUrl="https://github.com/aantipov" title="aantipov"/>
-    <outline category="Github" text="wfaler" xmlUrl="https://github.com/wfaler" htmlUrl="https://github.com/wfaler" title="wfaler"/>
-    <outline category="Github" text="BurntSushi" xmlUrl="https://github.com/BurntSushi" htmlUrl="https://github.com/BurntSushi" title="BurntSushi"/>
-    <outline category="Github" text="lizrice" xmlUrl="https://github.com/lizrice" htmlUrl="https://github.com/lizrice" title="lizrice"/>
-    <outline category="Github" text="mirmousaviii" xmlUrl="https://github.com/mirmousaviii" htmlUrl="https://github.com/mirmousaviii" title="mirmousaviii"/>
-    <outline category="Github" text="geerlingguy" xmlUrl="https://github.com/geerlingguy" htmlUrl="https://github.com/geerlingguy" title="geerlingguy"/>
-    <outline category="Github" text="hjacobs" xmlUrl="https://github.com/hjacobs" htmlUrl="https://github.com/hjacobs" title="hjacobs"/>
-    <outline category="Github" text="sdispater" xmlUrl="https://github.com/sdispater" htmlUrl="https://github.com/sdispater" title="sdispater"/>
-    <outline category="Github" text="pmoghadam" xmlUrl="https://github.com/pmoghadam" htmlUrl="https://github.com/pmoghadam" title="pmoghadam"/>
-    <outline category="Github" text="jnsgruk" xmlUrl="https://github.com/jnsgruk" htmlUrl="https://github.com/jnsgruk" title="jnsgruk"/>
-    <outline category="Github" text="shahinism" xmlUrl="https://github.com/shahinism" htmlUrl="https://github.com/shahinism" title="shahinism"/>
-    <outline category="Github" text="mhlavac" xmlUrl="https://github.com/mhlavac" htmlUrl="https://github.com/mhlavac" title="mhlavac"/>
-    <outline category="Github" text="sallar" xmlUrl="https://github.com/sallar" htmlUrl="https://github.com/sallar" title="sallar"/>
-    <outline category="Github" text="flashbyte" xmlUrl="https://github.com/flashbyte" htmlUrl="https://github.com/flashbyte" title="flashbyte"/>
-    <outline category="Github" text="ncase" xmlUrl="https://github.com/ncase" htmlUrl="https://github.com/ncase" title="ncase"/>
-    <outline category="Github" text="arfo90" xmlUrl="https://github.com/arfo90" htmlUrl="https://github.com/arfo90" title="arfo90"/>
-    <outline category="Github" text="ebraminio" xmlUrl="https://github.com/ebraminio" htmlUrl="https://github.com/ebraminio" title="ebraminio"/>
-    <outline category="Github" text="arashm" xmlUrl="https://github.com/arashm" htmlUrl="https://github.com/arashm" title="arashm"/>
-    <outline category="Github" text="dansup" xmlUrl="https://github.com/dansup" htmlUrl="https://github.com/dansup" title="dansup"/>
-    <outline category="Github" text="mariux" xmlUrl="https://github.com/mariux" htmlUrl="https://github.com/mariux" title="mariux"/>
-    <outline category="Github" text="soerenmartius" xmlUrl="https://github.com/soerenmartius" htmlUrl="https://github.com/soerenmartius" title="soerenmartius"/>
-    <outline category="Github" text="fzerorubigd" xmlUrl="https://github.com/fzerorubigd" htmlUrl="https://github.com/fzerorubigd" title="fzerorubigd"/>
-    <outline category="Github" text="reverentgeek" xmlUrl="https://github.com/reverentgeek" htmlUrl="https://github.com/reverentgeek" title="reverentgeek"/>
-    <outline category="Github" text="torvalds" xmlUrl="https://github.com/torvalds" htmlUrl="https://github.com/torvalds" title="torvalds"/>
-    <outline category="Github" text="kelseyhightower" xmlUrl="https://github.com/kelseyhightower" htmlUrl="https://github.com/kelseyhightower" title="kelseyhightower"/>
-    <outline category="Github" text="efazati" xmlUrl="https://github.com/efazati" htmlUrl="https://github.com/efazati" title="efazati"/>
-    <outline category="Github" text="David-Guillot" xmlUrl="https://github.com/David-Guillot" htmlUrl="https://github.com/David-Guillot" title="David-Guillot"/>
-    <outline category="Github" text="jadijadi" xmlUrl="https://github.com/jadijadi" htmlUrl="https://github.com/jadijadi" title="jadijadi"/>
-    <outline category="Github" text="timothystewart6" xmlUrl="https://github.com/timothystewart6" htmlUrl="https://github.com/timothystewart6" title="timothystewart6"/>
-    <outline category="Github" text="tiangolo" xmlUrl="https://github.com/tiangolo" htmlUrl="https://github.com/tiangolo" title="tiangolo"/>
-    <outline category="Github" text="martinohmann" xmlUrl="https://github.com/martinohmann" htmlUrl="https://github.com/martinohmann" title="martinohmann"/>
-    <outline category="Github" text="louislam" xmlUrl="https://github.com/louislam" htmlUrl="https://github.com/louislam" title="louislam"/>
-    <outline category="Github" text="rtanwar" xmlUrl="https://github.com/rtanwar" htmlUrl="https://github.com/rtanwar" title="rtanwar"/>
-    <outline category="Github" text="jadeqwang" xmlUrl="https://github.com/jadeqwang" htmlUrl="https://github.com/jadeqwang" title="jadeqwang"/>
-    <outline category="Github" text="Zouuup" xmlUrl="https://github.com/Zouuup" htmlUrl="https://github.com/Zouuup" title="Zouuup"/>
-    <outline category="Github" text="farshadasadpour" xmlUrl="https://github.com/farshadasadpour" htmlUrl="https://github.com/farshadasadpour" title="farshadasadpour"/>
-    <outline category="Github" text="jamiehannaford" xmlUrl="https://github.com/jamiehannaford" htmlUrl="https://github.com/jamiehannaford" title="jamiehannaford"/>
-    <outline category="Github" text="dtolnay" xmlUrl="https://github.com/dtolnay" htmlUrl="https://github.com/dtolnay" title="dtolnay"/>
-    <outline category="Github" text="yazdan" xmlUrl="https://github.com/yazdan" htmlUrl="https://github.com/yazdan" title="yazdan"/>
-    <outline category="Github" text="poettering" xmlUrl="https://github.com/poettering" htmlUrl="https://github.com/poettering" title="poettering"/>
-    <outline category="Github" text="tomwheeler" xmlUrl="https://github.com/tomwheeler" htmlUrl="https://github.com/tomwheeler" title="tomwheeler"/>
-    <outline category="Github" text="miladjafary" xmlUrl="https://github.com/miladjafary" htmlUrl="https://github.com/miladjafary" title="miladjafary"/>
-    <outline category="Github" text="pjungermann" xmlUrl="https://github.com/pjungermann" htmlUrl="https://github.com/pjungermann" title="pjungermann"/>
-    <outline category="Github" text="ammorteza" xmlUrl="https://github.com/ammorteza" htmlUrl="https://github.com/ammorteza" title="ammorteza"/>
-    <outline category="Github" text="Garthof" xmlUrl="https://github.com/Garthof" htmlUrl="https://github.com/Garthof" title="Garthof"/>
-    <outline category="Github" text="jankoulaga" xmlUrl="https://github.com/jankoulaga" htmlUrl="https://github.com/jankoulaga" title="jankoulaga"/>
-    <outline category="Github" text="rastikerdar" xmlUrl="https://github.com/rastikerdar" htmlUrl="https://github.com/rastikerdar" title="rastikerdar"/>
-    <outline category="Github" text="hramezani" xmlUrl="https://github.com/hramezani" htmlUrl="https://github.com/hramezani" title="hramezani"/>
-    <outline category="Github" text="moev7" xmlUrl="https://github.com/moev7" htmlUrl="https://github.com/moev7" title="moev7"/>
-    <outline category="Github" text="farzadi" xmlUrl="https://github.com/farzadi" htmlUrl="https://github.com/farzadi" title="farzadi"/>
-    <outline category="Github" text="viniciuspalma" xmlUrl="https://github.com/viniciuspalma" htmlUrl="https://github.com/viniciuspalma" title="viniciuspalma"/>
-    <outline category="Github" text="alinzm" xmlUrl="https://github.com/alinzm" htmlUrl="https://github.com/alinzm" title="alinzm"/>
-    <outline category="Github" text="karthikraobr" xmlUrl="https://github.com/karthikraobr" htmlUrl="https://github.com/karthikraobr" title="karthikraobr"/>
-    <outline category="Github" text="masoud91" xmlUrl="https://github.com/masoud91" htmlUrl="https://github.com/masoud91" title="masoud91"/>
-    <outline category="Github" text="Andre-Pires" xmlUrl="https://github.com/Andre-Pires" htmlUrl="https://github.com/Andre-Pires" title="Andre-Pires"/>
-    <outline category="Github" text="kentonv" xmlUrl="https://github.com/kentonv" htmlUrl="https://github.com/kentonv" title="kentonv"/>
-    <outline category="Github" text="erdemtopak" xmlUrl="https://github.com/erdemtopak" htmlUrl="https://github.com/erdemtopak" title="erdemtopak"/>
-    <outline category="Github" text="samuelcolvin" xmlUrl="https://github.com/samuelcolvin" htmlUrl="https://github.com/samuelcolvin" title="samuelcolvin"/>
-    <outline category="Github" text="sharkdp" xmlUrl="https://github.com/sharkdp" htmlUrl="https://github.com/sharkdp" title="sharkdp"/>
-    <outline category="Github" text="ganjoor" xmlUrl="https://github.com/ganjoor" htmlUrl="https://github.com/ganjoor" title="ganjoor"/>
-    <outline category="Github" text="1fawadshah" xmlUrl="https://github.com/1fawadshah" htmlUrl="https://github.com/1fawadshah" title="1fawadshah"/>
-    <outline category="Github" text="andyjud" xmlUrl="https://github.com/andyjud" htmlUrl="https://github.com/andyjud" title="andyjud"/>
-    <outline category="Github" text="paulo-sampaio" xmlUrl="https://github.com/paulo-sampaio" htmlUrl="https://github.com/paulo-sampaio" title="paulo-sampaio"/>
-    <outline category="Github" text="m2sh" xmlUrl="https://github.com/m2sh" htmlUrl="https://github.com/m2sh" title="m2sh"/>
-    <outline category="Github" text="beorn7" xmlUrl="https://github.com/beorn7" htmlUrl="https://github.com/beorn7" title="beorn7"/>
-    <outline category="Github" text="p3ym4n" xmlUrl="https://github.com/p3ym4n" htmlUrl="https://github.com/p3ym4n" title="p3ym4n"/>
-    <outline category="Github" text="crhuber" xmlUrl="https://github.com/crhuber" htmlUrl="https://github.com/crhuber" title="crhuber"/>
-    <outline category="Github" text="savitharaghunathan" xmlUrl="https://github.com/savitharaghunathan" htmlUrl="https://github.com/savitharaghunathan" title="savitharaghunathan"/>
-    <outline category="Github" text="zwopir" xmlUrl="https://github.com/zwopir" htmlUrl="https://github.com/zwopir" title="zwopir"/>
-    <outline category="Github" text="devrandom0" xmlUrl="https://github.com/devrandom0" htmlUrl="https://github.com/devrandom0" title="devrandom0"/>
-    <outline category="Github" text="sadegh-msa" xmlUrl="https://github.com/sadegh-msa" htmlUrl="https://github.com/sadegh-msa" title="sadegh-msa"/>
-    <outline category="Github" text="ngoduykhanh" xmlUrl="https://github.com/ngoduykhanh" htmlUrl="https://github.com/ngoduykhanh" title="ngoduykhanh"/>
-    <outline category="Github" text="mhrlife" xmlUrl="https://github.com/mhrlife" htmlUrl="https://github.com/mhrlife" title="mhrlife"/>
-    <outline category="Github" text="invisumer" xmlUrl="https://github.com/invisumer" htmlUrl="https://github.com/invisumer" title="invisumer"/>
-    <outline category="Github" text="jmoschon" xmlUrl="https://github.com/jmoschon" htmlUrl="https://github.com/jmoschon" title="jmoschon"/>
-    <outline category="Github" text="Kludex" xmlUrl="https://github.com/Kludex" htmlUrl="https://github.com/Kludex" title="Kludex"/>
-    <outline category="Github" text="eXtrem0us" xmlUrl="https://github.com/eXtrem0us" htmlUrl="https://github.com/eXtrem0us" title="eXtrem0us"/>
-    <outline category="Github" text="fasterthanlime" xmlUrl="https://github.com/fasterthanlime" htmlUrl="https://github.com/fasterthanlime" title="fasterthanlime"/>
-    <outline category="Github" text="alrocha" xmlUrl="https://github.com/alrocha" htmlUrl="https://github.com/alrocha" title="alrocha"/>
-    <outline category="Github" text="jurabek" xmlUrl="https://github.com/jurabek" htmlUrl="https://github.com/jurabek" title="jurabek"/>
-    <outline category="Github" text="nielsole" xmlUrl="https://github.com/nielsole" htmlUrl="https://github.com/nielsole" title="nielsole"/>
-    <outline category="Github" text="tehlug" xmlUrl="https://github.com/tehlug" htmlUrl="https://github.com/tehlug" title="tehlug"/>
-    <outline category="Github" text="mertcangurcan" xmlUrl="https://github.com/mertcangurcan" htmlUrl="https://github.com/mertcangurcan" title="mertcangurcan"/>
-    <outline category="Github" text="ahangarha" xmlUrl="https://github.com/ahangarha" htmlUrl="https://github.com/ahangarha" title="ahangarha"/>
-    <outline category="Github" text="maanti" xmlUrl="https://github.com/maanti" htmlUrl="https://github.com/maanti" title="maanti"/>
-    <outline category="Github" text="mvitale1989" xmlUrl="https://github.com/mvitale1989" htmlUrl="https://github.com/mvitale1989" title="mvitale1989"/>
-    <outline category="Github" text="sydorovdmytro" xmlUrl="https://github.com/sydorovdmytro" htmlUrl="https://github.com/sydorovdmytro" title="sydorovdmytro"/>
-    <outline category="Github" text="Nonononoki" xmlUrl="https://github.com/Nonononoki" htmlUrl="https://github.com/Nonononoki" title="Nonononoki"/>
-    <outline category="Github" text="aleksandrzhiliaev" xmlUrl="https://github.com/aleksandrzhiliaev" htmlUrl="https://github.com/aleksandrzhiliaev" title="aleksandrzhiliaev"/>
-    <outline category="Github" text="Ali-Yazdani" xmlUrl="https://github.com/Ali-Yazdani" htmlUrl="https://github.com/Ali-Yazdani" title="Ali-Yazdani"/>
-    <outline category="Github" text="farbodahm" xmlUrl="https://github.com/farbodahm" htmlUrl="https://github.com/farbodahm" title="farbodahm"/>
-    <outline category="Github" text="meain" xmlUrl="https://github.com/meain" htmlUrl="https://github.com/meain" title="meain"/>
-    <outline category="Github" text="srahnama" xmlUrl="https://github.com/srahnama" htmlUrl="https://github.com/srahnama" title="srahnama"/>
-    <outline category="Github" text="serpilacar" xmlUrl="https://github.com/serpilacar" htmlUrl="https://github.com/serpilacar" title="serpilacar"/>
-    <outline category="Github" text="burningalchemist" xmlUrl="https://github.com/burningalchemist" htmlUrl="https://github.com/burningalchemist" title="burningalchemist"/>
-    <outline category="Github" text="E-ricus" xmlUrl="https://github.com/E-ricus" htmlUrl="https://github.com/E-ricus" title="E-ricus"/>
-    <outline category="Github" text="helloworlddan" xmlUrl="https://github.com/helloworlddan" htmlUrl="https://github.com/helloworlddan" title="helloworlddan"/>
-    <outline category="Github" text="axiomhq" xmlUrl="https://github.com/axiomhq" htmlUrl="https://github.com/axiomhq" title="axiomhq"/>
-    <outline category="Github" text="louisbarclay" xmlUrl="https://github.com/louisbarclay" htmlUrl="https://github.com/louisbarclay" title="louisbarclay"/>
-    <outline category="Github" text="freenetman" xmlUrl="https://github.com/freenetman" htmlUrl="https://github.com/freenetman" title="freenetman"/>
-    <outline category="Github" text="fuzsh" xmlUrl="https://github.com/fuzsh" htmlUrl="https://github.com/fuzsh" title="fuzsh"/>
-    <outline category="Github" text="sbabashahi" xmlUrl="https://github.com/sbabashahi" htmlUrl="https://github.com/sbabashahi" title="sbabashahi"/>
-    <outline category="Github" text="jneidel" xmlUrl="https://github.com/jneidel" htmlUrl="https://github.com/jneidel" title="jneidel"/>
-    <outline category="Github" text="EXOK" xmlUrl="https://github.com/EXOK" htmlUrl="https://github.com/EXOK" title="EXOK"/>
-    <outline category="Github" text="ManamiMonIto" xmlUrl="https://github.com/ManamiMonIto" htmlUrl="https://github.com/ManamiMonIto" title="ManamiMonIto"/>
-    <outline category="Github" text="Kristina-Pianykh" xmlUrl="https://github.com/Kristina-Pianykh" htmlUrl="https://github.com/Kristina-Pianykh" title="Kristina-Pianykh"/>
-    <outline category="Github" text="elianiva" xmlUrl="https://github.com/elianiva" htmlUrl="https://github.com/elianiva" title="elianiva"/>
-    <outline category="Github" text="hiAndrewQuinn" xmlUrl="https://github.com/hiAndrewQuinn" htmlUrl="https://github.com/hiAndrewQuinn" title="hiAndrewQuinn"/>
-    <outline category="Github" text="amiria703" xmlUrl="https://github.com/amiria703" htmlUrl="https://github.com/amiria703" title="amiria703"/>
-    <outline category="Github" text="persian-calendar" xmlUrl="https://github.com/persian-calendar" htmlUrl="https://github.com/persian-calendar" title="persian-calendar"/>
-    <outline category="Github" text="mineiros-io" xmlUrl="https://github.com/mineiros-io" htmlUrl="https://github.com/mineiros-io" title="mineiros-io"/>
-    <outline category="Github" text="michalb-goflink" xmlUrl="https://github.com/michalb-goflink" htmlUrl="https://github.com/michalb-goflink" title="michalb-goflink"/>
-    <outline category="Github" text="fr123k" xmlUrl="https://github.com/fr123k" htmlUrl="https://github.com/fr123k" title="fr123k"/>
-    <outline category="Github" text="siduck" xmlUrl="https://github.com/siduck" htmlUrl="https://github.com/siduck" title="siduck"/>
-    <outline category="Github" text="alibahadoripoor" xmlUrl="https://github.com/alibahadoripoor" htmlUrl="https://github.com/alibahadoripoor" title="alibahadoripoor"/>
-    <outline category="Github" text="samuelkim7" xmlUrl="https://github.com/samuelkim7" htmlUrl="https://github.com/samuelkim7" title="samuelkim7"/>
-    <outline category="Github" text="iv-org" xmlUrl="https://github.com/iv-org" htmlUrl="https://github.com/iv-org" title="iv-org"/>
-    <outline category="Github" text="ading2210" xmlUrl="https://github.com/ading2210" htmlUrl="https://github.com/ading2210" title="ading2210"/>
-    <outline category="Github" text="nafasebra" xmlUrl="https://github.com/nafasebra" htmlUrl="https://github.com/nafasebra" title="nafasebra"/>
-    <outline category="Github" text="nl-alina" xmlUrl="https://github.com/nl-alina" htmlUrl="https://github.com/nl-alina" title="nl-alina"/>
-    <outline category="Github" text="henrikrexed" xmlUrl="https://github.com/henrikrexed" htmlUrl="https://github.com/henrikrexed" title="henrikrexed"/>
-    <outline category="Github" text="cafkafk" xmlUrl="https://github.com/cafkafk" htmlUrl="https://github.com/cafkafk" title="cafkafk"/>
-    <outline category="Github" text="alejsdev" xmlUrl="https://github.com/alejsdev" htmlUrl="https://github.com/alejsdev" title="alejsdev"/>
-    <outline category="Github" text="sadeq-n-yazdi" xmlUrl="https://github.com/sadeq-n-yazdi" htmlUrl="https://github.com/sadeq-n-yazdi" title="sadeq-n-yazdi"/>
-    <outline category="Github" text="AliSRizi" xmlUrl="https://github.com/AliSRizi" htmlUrl="https://github.com/AliSRizi" title="AliSRizi"/>
-    <outline category="Github" text="sabber-slt" xmlUrl="https://github.com/sabber-slt" htmlUrl="https://github.com/sabber-slt" title="sabber-slt"/>
-    <outline category="Github" text="xkcdstickfigure" xmlUrl="https://github.com/xkcdstickfigure" htmlUrl="https://github.com/xkcdstickfigure" title="xkcdstickfigure"/>
-    <outline category="Github" text="ErfanTech" xmlUrl="https://github.com/ErfanTech" htmlUrl="https://github.com/ErfanTech" title="ErfanTech"/>
-    <outline category="Github" text="imanbakhtiari" xmlUrl="https://github.com/imanbakhtiari" htmlUrl="https://github.com/imanbakhtiari" title="imanbakhtiari"/>
-    <outline category="Github" text="tanha921" xmlUrl="https://github.com/tanha921" htmlUrl="https://github.com/tanha921" title="tanha921"/>
-    <outline category="Github" text="fr12k" xmlUrl="https://github.com/fr12k" htmlUrl="https://github.com/fr12k" title="fr12k"/>
-    <outline category="Github" text="mozilla-firefox" xmlUrl="https://github.com/mozilla-firefox" htmlUrl="https://github.com/mozilla-firefox" title="mozilla-firefox"/>
-    <outline category="Github" text="jtheopillus" xmlUrl="https://github.com/jtheopillus" htmlUrl="https://github.com/jtheopillus" title="jtheopillus"/>
-    <outline category="Github" text="containifyci" xmlUrl="https://github.com/containifyci" htmlUrl="https://github.com/containifyci" title="containifyci"/>
-    <outline category="Github" text="SaurabhSSB" xmlUrl="https://github.com/SaurabhSSB" htmlUrl="https://github.com/SaurabhSSB" title="SaurabhSSB"/>
+    <!-- Technology & Programming -->
+    <outline text="Technology" title="Technology">
+      <outline text="Hacker News" title="Hacker News" type="rss" 
+               xmlUrl="https://hnrss.org/frontpage" 
+               htmlUrl="https://news.ycombinator.com/"
+               category="Technology"/>
+      
+      <outline text="GitHub Blog" title="GitHub Blog" type="rss" 
+               xmlUrl="https://github.blog/feed/" 
+               htmlUrl="https://github.blog/"
+               category="Technology"/>
+      
+      <outline text="Stack Overflow Blog" title="Stack Overflow Blog" type="rss" 
+               xmlUrl="https://stackoverflow.blog/feed/" 
+               htmlUrl="https://stackoverflow.blog/"
+               category="Technology"/>
+      
+      <outline text="Python.org Jobs" title="Python.org Jobs" type="rss" 
+               xmlUrl="https://www.python.org/jobs/feed/rss/" 
+               htmlUrl="https://www.python.org/jobs/"
+               category="Technology"/>
+    </outline>
+
+    <!-- News & Current Events -->
+    <outline text="News" title="News">
+      <outline text="BBC Technology" title="BBC Technology" type="rss" 
+               xmlUrl="http://feeds.bbci.co.uk/news/technology/rss.xml" 
+               htmlUrl="https://www.bbc.com/news/technology"
+               category="News"/>
+    </outline>
+
+    <!-- Blogs & Personal -->
+    <outline text="Blogs" title="Blogs">
+      <outline text="David Heinemeier Hansson" title="David Heinemeier Hansson" type="rss" 
+               xmlUrl="https://world.hey.com/dhh/feed.atom" 
+               htmlUrl="https://world.hey.com/dhh/"
+               category="Blogs"/>
+    </outline>
+
+    <!-- Youtube Channels -->
+    <outline text="YouTube" title="YouTube">
+      <outline text="Kurzgesagt – In a Nutshell" title="Kurzgesagt – In a Nutshell" type="rss" 
+               xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCsXVk37bltHxD1rDPwtNM8Q"
+                htmlUrl="https://www.youtube.com/@kurzgesagt"
+                category="YouTube"/>
+      <outline text="Big Think" title="Big Think" type="rss" 
+               xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCvQECJukTDE2i6aCoMnS-Vg"
+                htmlUrl="https://www.youtube.com/@bigthink"
+                category="YouTube"/>
+    </outline>
+
+    <!-- 
+    Add your own feeds here! Follow this format:
+    
+    <outline text="Feed Display Name" 
+             title="Feed Title" 
+             type="rss" 
+             xmlUrl="https://example.com/feed.xml" 
+             htmlUrl="https://example.com/"
+             category="Category Name"/>
+    
+    Categories help organize your feeds in the web interface.
+    Common categories: Technology, News, Blogs, Science, Entertainment, etc.
+    -->
   </body>
 </opml>
