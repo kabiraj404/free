@@ -187,6 +187,7 @@ class RSSHub:
                 feed_meta = {
                     'title': feed_info['title'],
                     'url': feed_info['url'],
+                    'html_url': feed_info.get('html_url', ''),
                     'category': feed_info.get('category', ''),
                     'link': safe_get_text(parsed_feed.feed, 'link'),
                     'description': safe_get_text(parsed_feed.feed, 'description'),
