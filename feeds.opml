@@ -11,13 +11,11 @@
     <outline category="Data and science" text="RealClimate RSS Feed" title="RealClimate RSS Feed" xmlUrl="http://feeds.feedburner.com/realclimate/HYVV" htmlUrl="https://www.realclimate.org"/>
     <outline category="Data and science" text="Climate Etc. » Feed" title="Climate Etc. » Feed" xmlUrl="https://judithcurry.com/feed/" htmlUrl="https://judithcurry.com/"/>
     <outline category="Data and science" text="The Thesis Whisperer » Feed" title="The Thesis Whisperer » Feed" xmlUrl="https://thesiswhisperer.com/feed/" htmlUrl="https://thesiswhisperer.com"/>
-    <outline category="Data and science" text="All Our Yesterdays » Feed" title="All Our Yesterdays » Feed" xmlUrl="https://allouryesterdays.info/feed/" htmlUrl="https://allouryesterdays.info/"/>
     <outline category="Data and science" text="MIT Technology Review" title="MIT Technology Review" xmlUrl="https://www.technologyreview.com//feed" htmlUrl="https://www.technologyreview.com"/>
     <outline category="Data and science" text="NOAA Climate.Gov | Facebook" title="NOAA Climate.Gov | Facebook" xmlUrl="https://www.facebook.com/NOAAClimateGov?loc=footer" htmlUrl="https://www.facebook.com/NOAAClimateGov?loc=footer"/>
 
     <!-- JOurnal followed -->
-    <outline category="Journal RSS" text="JGR Biogeoscience" title="Journal RSS" type="rss" xmlUrl="https://agupubs.onlinelibrary.wiley.com/action/showFeed?type=etoc&amp;feed=rss&amp;jc=21698961" htmlUrl="https://agupubs.onlinelibrary.wiley.com/journal/21698961?af=R"/>
-    <outline category="Journal RSS" text="Nature geoscience" title="Untitled feed" type="rss" xmlUrl="https://www.nature.com/ngeo.rss" htmlUrl="http://feeds.nature.com/ngeo/rss/current"/>    
+    <outline category="Journal RSS" text="JGR Biogeoscience" title="Journal RSS" type="rss" xmlUrl="https://agupubs.onlinelibrary.wiley.com/action/showFeed?type=etoc&amp;feed=rss&amp;jc=21698961" htmlUrl="https://agupubs.onlinelibrary.wiley.com/journal/21698961?af=R"/> 
     <outline category="Journal RSS" text="Nature comm" title = "Nature comm" type="rss"  xmlUrl="https://www.nature.com/ncomms.rss" htmlUrl="http://feeds.nature.com/ncomms/rss/current"/>
     <outline category="Journal RSS" title="Science main page" type="rss"  xmlUrl="https://www.science.org/action/showFeed?type=etoc&amp;feed=rss&amp;jc=science" htmlUrl="https://www.science.org/loi/science?af=R"/>
     <outline category = "Journal RSS" text="EGU biogeo" title="BG - recent papers" type="rss" xmlUrl="https://bg.copernicus.org/xml/rss0_91.xml" htmlUrl="https://bg.copernicus.org/articles/"/>
@@ -29,7 +27,7 @@
     <outline category = " A person of interest" text ="Nick Wignall" title="Nick Wignall" type="rss" xmlUrl="https://nickwignall.com/feed/" htmlUrl="https://nickwignall.com/"/>
     <outline category = " A person of interest" text ="Ted Gioia" title="Ted Gioia" type="rss" xmlUrl="https://tedgioia.substack.com/feed/" htmlUrl="https://www.honest-broker.com"/>
     <outline category = " A person of interest" text ="Sam Altman" title="Sam Altman" type="rss" xmlUrl="https://blog.samaltman.com/posts.atom" htmlUrl="https://blog.samaltman.com"/>
-    <outline category = " A person of interest" text ="Paul Graham: Essays" title="Paul Graham: Essays" type="rss" xmlUrl="http://www.aaronsw.com/2002/feeds/pgessays.rss" htmlUrl="http://www.paulgraham.com/"/>
+    <outline category = " A person of interest" text ="Paul Graham: Essays" title="Paul Graham" xmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_paulgraham.xml" htmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_paulgraham.xml"/>
 
 
     <!-- Tech news -->
@@ -47,6 +45,8 @@
     <outline category="Randomly" text="Longreads" title="Longreads" xmlUrl="https://longreads.com/feed/" htmlUrl="https://longreads.com/"/>
     <outline category = "Randomly" text="/r/malefashionadvice" title="/r/malefashionadvice" type="rss" xmlUrl="https://www.reddit.com/r/malefashionadvice/.rss" htmlUrl="https://www.reddit.com/r/malefashionadvice/"/>
     <outline category = "Randomly" text="Arts &#38; Letters Daily" title="Arts &#38; Letters Daily" type="rss" xmlUrl="https://www.aldaily.com//feed" htmlUrl="https://www.aldaily.com/"/>
+	<outline category="Randomly" text="All Our Yesterdays" title="All Our Yesterdays" xmlUrl="https://allouryesterdays.info/feed/" htmlUrl="https://allouryesterdays.info/"/>
+	<outline category = "Randomly" text "r/Poetry" title = "r/Poetry" xmlUrl = "https://www.reddit.com/r/Poetry/.rss" htmlUrl = "https://www.reddit.com/r/Poetry/"
  
 
     <!-- Entertainment -->
@@ -61,7 +61,6 @@
     <!-- photos -->
     <outline category="photos" text="The Atlantic Photo" title="The Atlantic Photo" xmlUrl="http://feeds.feedburner.com/theatlantic/infocus" htmlUrl="https://www.theatlantic.com/photo/"/>
     <outline category="photos" text="Magnum Photos" title="Magnum Photos" xmlUrl="https://www.magnumphotos.com//feed" htmlUrl="https://www.magnumphotos.com"/>
-    <outline category="photos" text="National Geographic Your Shot" title="National Geographic Your Shot" xmlUrl="https://www.nationalgeographic.com/photography/photo-of-the-day/_jcr_content/.feed" htmlUrl="https://www.nationalgeographic.com/photography/photo-of-the-day/"/>
 
     
     <!-- news_pod -->
