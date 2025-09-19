@@ -12,14 +12,16 @@
     <outline category="Data and science" text="Climate Etc. » Feed" title="Climate Etc. » Feed" xmlUrl="https://judithcurry.com/feed/" htmlUrl="https://judithcurry.com/"/>
     <outline category="Data and science" text="The Thesis Whisperer » Feed" title="The Thesis Whisperer » Feed" xmlUrl="https://thesiswhisperer.com/feed/" htmlUrl="https://thesiswhisperer.com"/>
     <outline category="Data and science" text="MIT Technology Review" title="MIT Technology Review" xmlUrl="https://www.technologyreview.com/feed" htmlUrl="https://www.technologyreview.com"/>
+    <outline category="Data and science" title="Climate brief" xmlUrl="https://www.carbonbrief.org//feed" htmlUrl="https://www.carbonbrief.org/"/>
 
     <!-- JOurnal followed -->
-    <outline category="Journal RSS" text="JGR Biogeoscience" title="Journal RSS" type="rss" xmlUrl="https://agupubs.onlinelibrary.wiley.com/action/showFeed?type=etoc&amp;feed=rss&amp;jc=21698961" htmlUrl="https://agupubs.onlinelibrary.wiley.com/journal/21698961?af=R"/> 
-    <outline category="Journal RSS" text="Nature comm" title="Nature comm" type="rss" xmlUrl="https://www.nature.com/ncomms.rss" htmlUrl="http://feeds.nature.com/ncomms/rss/current"/>
+    <outline category="Journal RSS" title="JGR Biogeoscience" xmlUrl="https://agupubs.onlinelibrary.wiley.com/action/showFeed?type=etoc&amp;feed=rss&amp;jc=21698961" htmlUrl="https://agupubs.onlinelibrary.wiley.com/journal/21698961?af=R"/> 
+    <outline category="Journal RSS" text="Nature comm" title="Nature comm" xmlUrl="https://www.nature.com/ncomms.rss" htmlUrl="http://feeds.nature.com/ncomms/rss/current"/>
     <outline category="Journal RSS" title="Science main page" type="rss" xmlUrl="https://www.science.org/action/showFeed?type=etoc&amp;feed=rss&amp;jc=science" htmlUrl="https://www.science.org/loi/science?af=R"/>
-    <outline category="Journal RSS" text="EGU biogeo" title="BG - recent papers" type="rss" xmlUrl="https://bg.copernicus.org/xml/rss0_91.xml" htmlUrl="https://bg.copernicus.org/articles/"/>
+    <outline category="Journal RSS" title="EGU biogeo" type="rss" xmlUrl="https://bg.copernicus.org/xml/rss2_0.xml" htmlUrl="https://bg.copernicus.org/xml/rss2_0.xml"/>
     <outline category="Journal RSS" text="Nature climate change" title="Nature climate change" type="rss" xmlUrl="https://www.nature.com/nclimate.rss" htmlUrl="http://feeds.nature.com/nclimate/rss/current"/>
     <outline category="Journal RSS" text="ESSD - recent papers" title="ESSD - recent papers" type="rss" xmlUrl="https://essd.copernicus.org/articles/xml/rss1_0.xml" htmlUrl="https://essd.copernicus.org/articles/"/>
+    <outline category="Journal RSS" text="EGU jobs" title="E GU jobs" type="rss" xmlUrl="http://www.egu.eu/jobs/rss" htmlUrl="http://www.egu.eu/jobs"/>
 
 
     <!-- A person of interest -->
@@ -32,7 +34,7 @@
     <!-- Tech news -->
     <outline category="Tech news" text="The MIT Press Reader" title="The MIT Press Reader" xmlUrl="https://thereader.mitpress.mit.edu/feed/" htmlUrl="https://thereader.mitpress.mit.edu/"/>
     <outline category="Tech news" text="Hacker News front page" title="Hacker News front page" xmlUrl="https://hnrss.org/frontpage" htmlUrl="https://news.ycombinator.com/"/>
-    <outline category="Tech news" text="Hacker top stories" title="Hacker News stories" xmlUrl="https://hnrss.org/newest?points=300" htmlUrl="https://hnrss.org/newest?points=300"/>
+    <outline category="Tech news" text="Hacker best stories" title="Hacker Best" xmlUrl="https://hnrss.org/best" htmlUrl="https://hnrss.org/best"/>
 
 
     <!-- Randomly -->
@@ -54,21 +56,26 @@
     <outline category="blogNbread" text="Bear Blog Trending Posts" title="Bear Blog Trending Posts" xmlUrl="https://bearblog.dev/discover/feed/" htmlUrl="https://bearblog.dev/discover/"/>
     <outline category="blogNbread" text="NYT &#62; Letter of Recommendation" title="NYT &#62; Letter of Recommendation" xmlUrl="https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/column/letter-of-recommendation/rss.xml" htmlUrl="https://www.nytimes.com/column/letter-of-recommendation"/>
     <outline category="blogNbread" text="Astral Codex Ten" title="Astral Codex Ten" xmlUrl="https://astralcodexten.substack.com/feed" htmlUrl="https://www.astralcodexten.com"/>
+    <outline category="blogNbread" title="Ted Gioia"  xmlUrl="https://tedgioia.substack.com/feed/" htmlUrl="https://www.honest-broker.com/"/>
 
 
     <!-- photos -->
-    <outline category="photos" text="The Atlantic Photo" title="The Atlantic Photo" xmlUrl="http://feeds.feedburner.com/theatlantic/infocus" htmlUrl="https://www.theatlantic.com/photo/"/>
-    <outline category="photos" text="Magnum Photos" title="Magnum Photos" xmlUrl="https://www.magnumphotos.com/feed" htmlUrl="https://www.magnumphotos.com"/>
+    <outline category="photosgraphy" text="The Atlantic Photo" title="The Atlantic Photo" xmlUrl="http://feeds.feedburner.com/theatlantic/infocus" htmlUrl="https://www.theatlantic.com/photo/"/>
+    <outline category="photosgraphy" title="Magnum Photos" xmlUrl="https://rsshub.app/magnumphotos/magazine" htmlUrl="https://www.magnumphotos.com"/>
+    <outline category="photosgraphy" title="Nat Geo Daily" xmlUrl="https://rsshub.app/natgeo/dailyphoto" htmlUrl="https://www.magnumphotos.com"/>
 
     
     <!-- news_pod -->
-    <outline category="news_pod" text="The Daily" title="The Daily" xmlUrl="https://feeds.simplecast.com/54nAGcIl" htmlUrl="https://www.nytimes.com/column/the-daily"/>
-    <outline category="news_pod" text="AllSides" title="AllSides" type="rss" xmlUrl="https://www.allsides.com/rss/news" htmlUrl="https://www.allsides.com/rss/news"/>
-    <outline category="news_pod" text="NPR" title="NPR" type="rss" xmlUrl="https://feeds.npr.org/1001/rss.xml" htmlUrl="https://www.npr.org/templates/story/story.php?storyId=1001"/>
-    <outline category="news_pod" text="NYT Top Stories" title="NYT Top Stories" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml" htmlUrl="https://www.nytimes.com" scanDelay="30"/>
-    <outline category="news_pod" text="The Atlantic" title="The Atlantic" type="rss" xmlUrl="https://www.theatlantic.com/feed/all/" htmlUrl="https://www.theatlantic.com/"/>
-    <outline category="news_pod" text="Financial Times" title="Financial Times" type="rss" xmlUrl="https://www.ft.com/news-feed?format=rss" htmlUrl="https://www.ft.com/news-feed"/>
-    <outline category="news_pod" text="PBS" title="PBS" type="rss"  xmlUrl="https://www.pbs.org/newshour/feeds/rss/headlines" htmlUrl="https://www.pbs.org/newshour/"/>
+    <outline category="news_podcasts" text="NYT The Daily" title="NYT The Daily" xmlUrl="https://feeds.simplecast.com/54nAGcIl" htmlUrl="https://www.nytimes.com/column/the-daily"/>
+    <outline category="news_podcasts" text="AllSides" title="AllSides" type="rss" xmlUrl="https://www.allsides.com/rss/news" htmlUrl="https://www.allsides.com"/>
+    <outline category="news_podcasts" text="NPR" title="NPR" type="rss" xmlUrl="https://feeds.npr.org/1001/rss.xml" htmlUrl="https://www.npr.org/templates/story/story.php?storyId=1001"/>
+    <outline category="news_podcasts" text="The Atlantic" title="The Atlantic" type="rss" xmlUrl="https://www.theatlantic.com/feed/all/" htmlUrl="https://www.theatlantic.com/"/>
+    <outline category="news_podcasts" text="Financial Times" title="Financial Times" type="rss" xmlUrl="https://www.ft.com/news-feed?format=rss" htmlUrl="https://www.ft.com/news-feed"/>
+    <outline category="news_podcasts" text="PBS" title="PBS" type="rss"  xmlUrl="https://www.pbs.org/newshour/feeds/rss/headlines" htmlUrl="https://www.pbs.org/newshour/"/>
+    <outline category = "news_podcasts" text = "Reuters" title = "Reuters" xmlUrl ' http://feeds.reuters.com/Reuters/worldNews' htmlUrl = "https://www.reuters.com/" />
+
+
+    
 
 
 
