@@ -57,12 +57,11 @@
     <outline category="blogNbread" text="The Criterion Collection" title="The Criterion Collection" xmlUrl="https://www.criterion.com/feeds/current" htmlUrl="https://www.criterion.com"/>
     <outline category="blogNbread" text="Bear Blog Trending Posts" title="Bear Blog Trending Posts" xmlUrl="https://bearblog.dev/discover/feed/" htmlUrl="https://bearblog.dev/discover/"/>
     <outline category="blogNbread" text="NYT Letter of Recommendation" title="NYT Letter of Recommendation" xmlUrl="https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/column/letter-of-recommendation/rss.xml" htmlUrl="https://www.nytimes.com/column/letter-of-recommendation"/>
-    <outline category="blogNbread" text="Astral Codex Ten" title="Astral Codex Ten" xmlUrl="https://astralcodexten.substack.com/feed" htmlUrl="https://www.astralcodexten.com"/>
     <outline category="blogNbread" text="Ted Gioia" title="Ted Gioia: honest broker"  xmlUrl="https://www.honest-broker.com/feed" htmlUrl="https://www.honest-broker.com/"/>
 
 
     <!-- photos -->
-    <outline category="photography" text="The Atlantic Photo" title="The Atlantic Photo" xmlUrl="https://rss.app/feed/quyc37o64jpgGHrq/embed?tab=list" htmlUrl="https://www.theatlantic.com/photo/"/>
+    <outline category="photography" text="The Atlantic Photo of the Week" title="The Atlantic Photo of the Week" xmlUrl="https://www.theatlantic.com/feed/category/photo-of-the-week/" htmlUrl="https://www.theatlantic.com/photo/category/photo-of-the-week/"/>
     <outline category="photography" text="Magnum Photos" title="Magnum Photos" xmlUrl="https://www.magnumphotos.com/feed/" htmlUrl="https://www.magnumphotos.com/"/>
     <outline category="photography" text="Feature Shot" title="Feature shot" xmlUrl="https://www.featureshoot.com/feed/" htmlUrl="https://www.featureshoot.com/"/>
     <outline category="photography" text="David duChemin " title="David duChemin" type="application/rss+xml"  xmlUrl="https://davidduchemin.com/feed/" htmlUrl="https://davidduchemin.com/"/>
@@ -76,7 +75,7 @@
     <outline category="news_podcasts" text="The Atlantic" title="The Atlantic" type="rss" xmlUrl="https://www.theatlantic.com/feed/all/" htmlUrl="https://www.theatlantic.com/"/>
     <outline category="news_podcasts" text="Financial Times" title="Financial Times" type="rss" xmlUrl="https://www.ft.com/news-feed?format=rss" htmlUrl="https://www.ft.com/news-feed"/>
     <outline category="news_podcasts" text="PBS" title="PBS" type="rss"  xmlUrl="https://www.pbs.org/newshour/feeds/rss/headlines" htmlUrl="https://www.pbs.org/newshour/"/>
-    <outline category="news_podcasts" text="Reuters" title="Reuters" xmlUrl="http://feeds.reuters.com/Reuters/worldNews" htmlUrl="https://www.reuters.com/"/>
+    <outline category="news_podcasts" text="Reuters" title="Reuters" type="rss" xmlUrl="http://feeds.reuters.com/Reuters/worldNews" htmlUrl="https://www.reuters.com/"/>
     <outline category="news_podcasts" text="The Onion" title="The Onion" xmlUrl="https://theonion.com/feed/" htmlUrl="https://www.theonion.com/"/>
 
   </body>
