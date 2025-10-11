@@ -1124,71 +1124,71 @@
         <!-- Category List at the Top -->
         <section class="section fade-in" id="feeds-section">
             <div class="section-header">
-                <h2>📡 Subscribed Feeds</h2>
-                <button class="section-toggle" onclick="toggleSection('feeds')" id="feeds-toggle">
-                    Hide Feeds
-                </button>
+            <h2>📡 Subscribed Feeds</h2>
+            <button class="section-toggle" onclick="toggleSection('feeds')" id="feeds-toggle">
+                Hide Feeds
+            </button>
             </div>
 
             <div class="category-list" style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 25px;">
-                {% for category, feeds in categories.items() %}
-                <button 
-                    class="category-link" 
-                    style="background: var(--secondary-color); color: white; border: none; border-radius: 8px; padding: 6px 14px; cursor: pointer; font-size: 0.95rem; font-weight: 500; transition: background 0.2s;"
-                    onclick="document.querySelector('.category-section[data-category=\'{{ category }}\']').scrollIntoView({behavior: 'smooth', block: 'start'});"
-                >
-                    {{ category }}
-                </button>
-                {% endfor %}
+            {% for category, feeds in categories.items() %}
+            <button 
+                class="category-link" 
+                style="background: var(--secondary-color); color: white; border: none; border-radius: 8px; padding: 6px 14px; cursor: pointer; font-size: 0.95rem; font-weight: 500; transition: background 0.2s;"
+                onclick="document.querySelector('.category-section[data-category=\'{{ category }}\']').scrollIntoView({behavior: 'smooth', block: 'start'});"
+            >
+                {{ category }}
+            </button>
+            {% endfor %}
             </div>
 
             <div class="section-content" id="feeds-content">
-                {% for category, feeds in categories.items() %}
-                <div class="category-section collapsed" data-category="{{ category }}">
-                    <div class="category-title" onclick="toggleCategory('{{ category }}')">
-                        <span class="category-name">{{ category }}</span>
-                        <span class="category-expand-icon">▼</span>
+            {% for category, feeds in categories.items() %}
+            <div class="category-section collapsed" data-category="{{ category }}">
+                <div class="category-title" onclick="toggleCategory('{{ category }}')">
+                <span class="category-name">{{ category }}</span>
+                <span class="category-expand-icon">▼</span>
+                </div>
+                <div class="feed-list" id="category-{{ category | replace(' ', '-') | replace('/', '-') | replace(':', '-') }}">
+                {% for feed in feeds %}
+                <div class="feed-item{% if feed.has_recent_update %} fresh-updates{% endif %}" data-feed-url="{{ feed.url }}">
+                    <div class="feed-header" onclick="toggleFeedPosts('{{ feed.url }}')">
+                    <div class="feed-info">
+                        <span class="feed-title">
+                        {{ feed.title or 'Unknown Feed' }}
+                        <small style="font-size:0.75em; color:var(--muted-color); margin-left:6px;">
+                            <a href="{{ feed.html_url or feed.url }}" target="_blank" style="color:var(--muted-color); text-decoration:underline;">{{ feed.html_url or feed.url }}</a>
+                        </small>
+                        </span>
+                        <span class="feed-meta">
+                        {{ feed.entry_count }} posts • {{ format_date(feed.latest_post_date or feed.updated) }}
+                        </span>
                     </div>
-                    <div class="feed-list" id="category-{{ category | replace(' ', '-') | replace('/', '-') | replace(':', '-') }}">
-                        {% for feed in feeds %}
-                        <div class="feed-item{% if feed.has_recent_update %} fresh-updates{% endif %}" data-feed-url="{{ feed.url }}">
-                            <div class="feed-header" onclick="toggleFeedPosts('{{ feed.url }}')">
-                                <div class="feed-info">
-                                    <span class="feed-title">
-                                        {{ feed.title or 'Unknown Feed' }}
-                                        <small style="font-size:0.75em; color:var(--muted-color); margin-left:6px;">
-                                            <a href="{{ feed.html_url or feed.url }}" target="_blank" style="color:var(--muted-color); text-decoration:underline;">{{ feed.html_url or feed.url }}</a>
-                                        </small>
-                                    </span>
-                                    <span class="feed-meta">
-                                        {{ feed.entry_count }} posts • {{ format_date(feed.latest_post_date or feed.updated) }}
-                                    </span>
-                                </div>
-                                <span class="expand-icon">▼</span>
-                            </div>
-                            
-                            <div class="feed-posts" id="feed-posts-{{ feed.url | replace('/', '-') | replace(':', '-') | replace('.', '-') }}">
-                                {% set feed_entries = entries_by_feed.get(feed.url, []) %}
-                                {% if feed_entries %}
-                                    {% for entry in feed_entries %}
-                                    <div class="post-item">
-                                        <a href="{{ entry.link or '#' }}" target="_blank" class="post-title">
-                                            {{ entry.title or 'No Title' }}
-                                        </a>
-                                        <span class="post-date">{{ format_date(entry.published) }}</span>
-                                    </div>
-                                    {% endfor %}
-                                {% else %}
-                                <div class="post-item">
-                                    <span class="post-title">No recent posts</span>
-                                </div>
-                                {% endif %}
-                            </div>
+                    <span class="expand-icon">▼</span>
+                    </div>
+                    
+                    <div class="feed-posts" id="feed-posts-{{ feed.url | replace('/', '-') | replace(':', '-') | replace('.', '-') }}">
+                    {% set feed_entries = entries_by_feed.get(feed.url, []) %}
+                    {% if feed_entries %}
+                        {% for entry in feed_entries %}
+                        <div class="post-item">
+                            <a href="{{ entry.link or '#' }}" target="_blank" class="post-title">
+                            {{ entry.title or 'No Title' }}
+                            </a>
+                            <span class="post-date">{{ format_date(entry.published) }}</span>
                         </div>
                         {% endfor %}
+                    {% else %}
+                        <div class="post-item">
+                        <span class="post-title">No recent posts</span>
+                        </div>
+                    {% endif %}
                     </div>
                 </div>
                 {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
             </div>
         </section>
     </main>
@@ -1211,7 +1211,7 @@
         // Settings and preferences management
         const settings = {
             theme: localStorage.getItem('rss-theme') || 'green',
-            postsCount: parseInt(localStorage.getItem('rss-posts-count')) || 10,
+            postsCount: parseInt(localStorage.getItem('rss-posts-count')) || 15,
             postsPerFeed: parseInt(localStorage.getItem('rss-posts-per-feed')) || 5,
             showPosts: localStorage.getItem('rss-show-posts') !== 'false',
             showFeeds: localStorage.getItem('rss-show-feeds') !== 'false'
