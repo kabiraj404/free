@@ -382,7 +382,7 @@
         }
         
         .entry-item {
-            padding: 25px;
+            padding: 30px;
             border: 1px solid var(--border-color);
             border-radius: 16px;
             background: var(--card-bg);
@@ -1076,7 +1076,12 @@
             </div>
         </div> -->
     <!-- </header> -->
-
+ed-posts" id="feed-posts-{{ feed.url | replace('/', '-') | replace(':', '-') | replace('.', '-') }}">
+                                {% set feed_entries = entries_by_feed.get(feed.url, []) %}
+                                {% if feed_entries %}
+                                    {% for entry in feed_entries %}
+                                    <div class="post-item">
+                                        <a href="{{ entry.
     <main>
         <!-- Category List at the Top -->
         <section class="section fade-in" id="categories-section">
@@ -1125,12 +1130,7 @@
                                 </div>
                                 <span class="expand-icon">▼</span>
                             </div>
-                            <div class="feed-posts" id="feed-posts-{{ feed.url | replace('/', '-') | replace(':', '-') | replace('.', '-') }}">
-                                {% set feed_entries = entries_by_feed.get(feed.url, []) %}
-                                {% if feed_entries %}
-                                    {% for entry in feed_entries %}
-                                    <div class="post-item">
-                                        <a href="{{ entry.link or '#' }}" target="_blank" class="post-title">
+                            <div class="felink or '#' }}" target="_blank" class="post-title">
                                             {{ entry.title or 'No Title' }}
                                         </a>
                                         <span class="post-date">{{ format_date(entry.published) }}</span>
