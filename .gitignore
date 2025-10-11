@@ -64,8 +64,6 @@ logs/
 htmlcov/
 .tox/
 coverage.xml
-<<<<<<< HEAD
-=======
 
 # User-specific configuration
 feeds.opml
@@ -80,4 +78,4 @@ latest_rss.xml
 latest_feeds.xml
 latest_posts.json
 badge.md
->>>>>>> upstream/main
+site_data.json

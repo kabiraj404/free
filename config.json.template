@@ -1,18 +1,19 @@
 {
-  "site_title": "RSS Feeds",
+  "site_title": "My RSS Feed",
   "site_description": "A collection of my favorite RSS feeds.",
-  "site_link": "https://github.com/kabiraj404/rss",
+  "site_link": "https://github.com",
   "generator": "lovelyRSS/1.0",
-  "update_interval_hours":1,
+  "update_interval_hours": 6,
+  "ui_settings": {
+    "horizontal_menu": true
+  },
   "output_files": {
     "rss": "latest_rss.xml",
     "feeds": "latest_feeds.xml",
-    "json": "latest_posts.json",
     "html": "index.html"
   },
   "max_entries": {
     "rss": 50,
-    "json": 50,
     "html": 30
   }
 }
