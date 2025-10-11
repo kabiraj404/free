@@ -1078,117 +1078,75 @@
     <!-- </header> -->
 
     <main>
-        <!-- <section class="section fade-in" id="latest-posts-section">
-            <div class="section-header">
-                <h2>🔥 Latest Posts</h2>
-                <button class="section-toggle" onclick="toggleSection('latest-posts')" id="latest-posts-toggle">
-                    Hide Posts
-                </button>
-            </div>
-            
-            <div class="section-content" id="latest-posts-content">
-                <div class="posts-filter-banner" id="posts-filter-banner">
-                    <span id="filter-text">Showing posts from: </span>
-                    <button class="clear-filter-btn" onclick="clearPostsFilter()">Show All Posts</button>
-                </div>
-                
-                <div class="entry-list" id="entry-list">
-                    {% for entry in latest_entries %}
-                    <article class="entry-item" data-index="{{ loop.index0 }}" data-feed-url="{{ entry.feed_url }}">
-                        <div class="entry-title">
-                            <a href="{{ entry.link or '#' }}" target="_blank" rel="noopener noreferrer">
-                                {{ entry.title or 'No Title' }}
-                            </a>
-                        </div>
-                        <div class="entry-meta">
-                            <span class="entry-source" onclick="highlightFeed('{{ entry.feed_url }}')" title="Click to highlight this feed in the feeds section">
-                                {{ entry.feed_title or 'Unknown Feed' }}
-                            </span>
-                            <span class="entry-time" data-published="{{ entry.published or '' }}">
-                                {{ format_date(entry.published) }}
-                            </span>
-                            {% if entry.feed_category %}
-                            <span class="entry-category">📂 {{ entry.feed_category }}</span>
-                            {% endif %}
-                        </div>
-                        {% if entry.summary %}
-                        <div class="entry-summary">
-                            {{ truncate_text(clean_html(entry.summary), 250) }}
-                        </div>
-                        {% endif %}
-                    </article>
-                    {% endfor %}
-                </div>
-            </div>
-        </section> -->
         <!-- Category List at the Top -->
+        <section class="section fade-in" id="categories-section">
+            <div class="section-header">
+                <h2>📂 Categories</h2>
+            </div>
+            <div class="category-list" style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 25px;">
+                {% for category, feeds in categories.items() %}
+                <button 
+                    class="category-link" 
+                    style="background: var(--secondary-color); color: white; border: none; border-radius: 8px; padding: 6px 14px; cursor: pointer; font-size: 0.95rem; font-weight: 500; transition: background 0.2s;"
+                    onclick="document.querySelector('.category-section[data-category=\'{{ category }}\']').scrollIntoView({behavior: 'smooth', block: 'start'});"
+                >
+                    {{ category }}
+                </button>
+                {% endfor %}
+            </div>
+        </section>
+
+        <!-- Feeds grouped by category -->
         <section class="section fade-in" id="feeds-section">
             <div class="section-header">
-            <h2>📡 Subscribed Feeds</h2>
-            <button class="section-toggle" onclick="toggleSection('feeds')" id="feeds-toggle">
-                Hide Feeds
-            </button>
+                <h2>📡 Subscribed Feeds</h2>
             </div>
-
-            <div class="category-list" style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 25px;">
-            {% for category, feeds in categories.items() %}
-            <button 
-                class="category-link" 
-                style="background: var(--secondary-color); color: white; border: none; border-radius: 8px; padding: 6px 14px; cursor: pointer; font-size: 0.95rem; font-weight: 500; transition: background 0.2s;"
-                onclick="document.querySelector('.category-section[data-category=\'{{ category }}\']').scrollIntoView({behavior: 'smooth', block: 'start'});"
-            >
-                {{ category }}
-            </button>
-            {% endfor %}
-            </div>
-
             <div class="section-content" id="feeds-content">
-            {% for category, feeds in categories.items() %}
-            <div class="category-section collapsed" data-category="{{ category }}">
-                <div class="category-title" onclick="toggleCategory('{{ category }}')">
-                <span class="category-name">{{ category }}</span>
-                <span class="category-expand-icon">▼</span>
-                </div>
-                <div class="feed-list" id="category-{{ category | replace(' ', '-') | replace('/', '-') | replace(':', '-') }}">
-                {% for feed in feeds %}
-                <div class="feed-item{% if feed.has_recent_update %} fresh-updates{% endif %}" data-feed-url="{{ feed.url }}">
-                    <div class="feed-header" onclick="toggleFeedPosts('{{ feed.url }}')">
-                    <div class="feed-info">
-                        <span class="feed-title">
-                        {{ feed.title or 'Unknown Feed' }}
-                        <small style="font-size:0.75em; color:var(--muted-color); margin-left:6px;">
-                            <a href="{{ feed.html_url or feed.url }}" target="_blank" style="color:var(--muted-color); text-decoration:underline;">{{ feed.html_url or feed.url }}</a>
-                        </small>
-                        </span>
-                        <span class="feed-meta">
-                        {{ feed.entry_count }} posts • {{ format_date(feed.latest_post_date or feed.updated) }}
-                        </span>
+                {% for category, feeds in categories.items() %}
+                <div class="category-section collapsed" data-category="{{ category }}">
+                    <div class="category-title" onclick="toggleCategory('{{ category }}')">
+                        <span class="category-name">{{ category }}</span>
+                        <span class="category-expand-icon">▼</span>
                     </div>
-                    <span class="expand-icon">▼</span>
-                    </div>
-                    
-                    <div class="feed-posts" id="feed-posts-{{ feed.url | replace('/', '-') | replace(':', '-') | replace('.', '-') }}">
-                    {% set feed_entries = entries_by_feed.get(feed.url, []) %}
-                    {% if feed_entries %}
-                        {% for entry in feed_entries %}
-                        <div class="post-item">
-                            <a href="{{ entry.link or '#' }}" target="_blank" class="post-title">
-                            {{ entry.title or 'No Title' }}
-                            </a>
-                            <span class="post-date">{{ format_date(entry.published) }}</span>
+                    <div class="feed-list" id="category-{{ category | replace(' ', '-') | replace('/', '-') | replace(':', '-') }}">
+                        {% for feed in feeds %}
+                        <div class="feed-item{% if feed.has_recent_update %} fresh-updates{% endif %}" data-feed-url="{{ feed.url }}">
+                            <div class="feed-header" onclick="toggleFeedPosts('{{ feed.url }}')">
+                                <div class="feed-info">
+                                    <span class="feed-title">
+                                        {{ feed.title or 'Unknown Feed' }}
+                                        <small style="font-size:0.75em; color:var(--muted-color); margin-left:6px;">
+                                            <a href="{{ feed.html_url or feed.url }}" target="_blank" style="color:var(--muted-color); text-decoration:underline;">{{ feed.html_url or feed.url }}</a>
+                                        </small>
+                                    </span>
+                                    <span class="feed-meta">
+                                        {{ feed.entry_count }} posts • {{ format_date(feed.latest_post_date or feed.updated) }}
+                                    </span>
+                                </div>
+                                <span class="expand-icon">▼</span>
+                            </div>
+                            <div class="feed-posts" id="feed-posts-{{ feed.url | replace('/', '-') | replace(':', '-') | replace('.', '-') }}">
+                                {% set feed_entries = entries_by_feed.get(feed.url, []) %}
+                                {% if feed_entries %}
+                                    {% for entry in feed_entries %}
+                                    <div class="post-item">
+                                        <a href="{{ entry.link or '#' }}" target="_blank" class="post-title">
+                                            {{ entry.title or 'No Title' }}
+                                        </a>
+                                        <span class="post-date">{{ format_date(entry.published) }}</span>
+                                    </div>
+                                    {% endfor %}
+                                {% else %}
+                                    <div class="post-item">
+                                        <span class="post-title">No recent posts</span>
+                                    </div>
+                                {% endif %}
+                            </div>
                         </div>
                         {% endfor %}
-                    {% else %}
-                        <div class="post-item">
-                        <span class="post-title">No recent posts</span>
-                        </div>
-                    {% endif %}
                     </div>
                 </div>
                 {% endfor %}
-                </div>
-            </div>
-            {% endfor %}
             </div>
         </section>
     </main>
