@@ -8,6 +8,7 @@
     <!-- Data and science -->
     <outline category="Data_science" text="…and Then There&#39;s Physics" title="…and Then There&#39;s Physics" xmlUrl="http://andthentheresphysics.wordpress.com/feed/" htmlUrl="https://andthentheresphysics.wordpress.com"/>
     <outline category="Data_science" text="Skeptical Science" title="Skeptical Science" xmlUrl="http://skepticalscience.com/feed.xml" htmlUrl="https://skepticalscience.com/"/>
+    <outline category="Data_science" text="NOAA Monthly Climate Report " title="NOAA Monthly Climate Report" xmlUrl="https://www.ncei.noaa.gov/access/monitoring/monthly-report/feed.rss" htmlUrl="https://www.ncei.noaa.gov/access/monitoring/monthly-report/"/>
     <outline category="Data_science" text="RealClimate" title="RealClimate RSS Feed" xmlUrl="http://feeds.feedburner.com/realclimate/HYVV" htmlUrl="https://www.realclimate.org"/>
     <outline category="Data_science" text="Climate Etc. » Feed" title="Climate Etc. » Feed" xmlUrl="https://judithcurry.com/feed/" htmlUrl="https://judithcurry.com/"/>
     <!-- <outline category="Data_Science" text="The Thesis Whisperer » Feed" title="The Thesis Whisperer » Feed" xmlUrl="https://thesiswhisperer.com/feed/" htmlUrl="https://thesiswhisperer.com"/> -->
