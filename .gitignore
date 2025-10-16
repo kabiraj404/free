@@ -64,6 +64,8 @@ logs/
 htmlcov/
 .tox/
 coverage.xml
+<<<<<<< HEAD
+=======
 
 # User-specific configuration
 feeds.opml
