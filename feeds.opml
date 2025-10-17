@@ -12,7 +12,7 @@
     <outline category="Data_science" text="RealClimate" title="RealClimate RSS Feed" xmlUrl="http://feeds.feedburner.com/realclimate/HYVV" htmlUrl="https://www.realclimate.org"/>
     <outline category="Data_science" text="Climate Etc. » Feed" title="Climate Etc. » Feed" xmlUrl="https://judithcurry.com/feed/" htmlUrl="https://judithcurry.com/"/>
     <!-- <outline category="Data_Science" text="The Thesis Whisperer » Feed" title="The Thesis Whisperer » Feed" xmlUrl="https://thesiswhisperer.com/feed/" htmlUrl="https://thesiswhisperer.com"/> -->
-    <outline category="Data_science" text="MIT Technology Review" title="MIT Technology Review" xmlUrl="https://www.technologyreview.com/feed" htmlUrl="https://www.technologyreview.com"/>
+    <!-- <outline category="Data_science" text="MIT Technology Review" title="MIT Technology Review" xmlUrl="https://www.technologyreview.com/feed" htmlUrl="https://www.technologyreview.com"/> -->
     <!-- <outline category="Data_Science" text="Climate brief" title="Climate brief" xmlUrl="https://www.carbonbrief.org//feed" htmlUrl="https://www.carbonbrief.org/"/> -->
 
     <!-- JOurnal followed -->
@@ -34,23 +34,24 @@
     <outline category="Somone_cool" text="Ted Gioia" title="Ted Gioia: honest broker"  xmlUrl="https://www.honest-broker.com/feed" htmlUrl="https://www.honest-broker.com/"/>
 
     <!-- Tech news -->
-    <outline category="Technically" text="The MIT Press Reader" title="The MIT Press Reader" xmlUrl="https://thereader.mitpress.mit.edu/feed/" htmlUrl="https://thereader.mitpress.mit.edu/"/>
+   
     <!-- <outline category="Tech news" text="Hacker News" title="Hacker News" xmlUrl="https://hnrss.org/frontpage" htmlUrl="https://news.ycombinator.com/"/> -->
     <outline category="Technically" text="Best stories (HN)" title="Best stories (HN)"  type="application/rss+xml" xmlUrl="https://hnrss.org/best" htmlUrl="https://news.ycombinator.com/best"/>
+    <outline category="Technically" text="TLDR" title="TLDR"  type="application/rss+xml" xmlUrl="https://tldr.tech/rss" htmlUrl="https://tldr.tech/"/>
 
 
     <!-- Randomly -->
     <outline category="Randomly" text="LessWrong" title="Less Wrong" xmlUrl="http://lesswrong.com/.rss" htmlUrl="https://www.lesswrong.com"/>
     <outline category="Randomly" text="Brain Pickings" title="Brain Pickings" xmlUrl="https://feeds.feedburner.com/brainpickings/rss" htmlUrl="https://www.themarginalian.org"/>
-    <outline category="Randomly" text="Nautilus | Science Connected" title="Nautilus | Science Connected" xmlUrl="https://nautil.us/feed/" htmlUrl="https://nautil.us/"/>
+    <!-- <outline category="Randomly" text="Nautilus | Science Connected" title="Nautilus | Science Connected" xmlUrl="https://nautil.us/feed/" htmlUrl="https://nautil.us/"/> -->
     <outline category="Randomly" text="Incremental forgetting" title="Incremental forgetting" xmlUrl="https://blog.incrementalforgetting.tech/feed" htmlUrl="https://blog.incrementalforgetting.tech"/>
     <outline category="Randomly" text="Aeon | a world of ideas" title="Aeon | a world of ideas" xmlUrl="https://aeon.co/feed" htmlUrl="https://aeon.co"/>
     <!-- <outline category="Randomly" text="Longreads" title="Longreads" xmlUrl="https://longreads.com/feed/" htmlUrl="https://longreads.com/"/> -->
     <outline category="Randomly" text="Arts &#38; Letters Daily" title="Arts &#38; Letters Daily" type="rss" xmlUrl="https://www.aldaily.com/feed" htmlUrl="https://www.aldaily.com/"/>
     <!-- <outline category="Randomly" text="All Our Yesterdays" title="All Our Yesterdays" xmlUrl="https://allouryesterdays.info/feed/" htmlUrl="https://allouryesterdays.info/"/> -->
-    <outline category="Randomly" text="Academy of ideas" title="Academy of ideas" type="feed" xmlUrl="https://academyofideas.com//feed" htmlUrl="https://academyofideas.com/"/>
     <outline category="Randomly" text="The nexus" title="The nexus" type="rss" xmlUrl="https://www.thenexus.media/rss/" htmlUrl="https://www.thenexus.media/"/>
     <outline category="Randomly" text="Permanent Style" title="Permanent Style" xmlUrl="https://www.permanentstyle.com/feed" htmlUrl="https://www.permanentstyle.com/"/>
+    <outline category="Randomly" text="The MIT Press Reader" title="The MIT Press Reader" xmlUrl="https://thereader.mitpress.mit.edu/feed/" htmlUrl="https://thereader.mitpress.mit.edu/"/>
 
         
     <!-- Entertainment -->
@@ -72,8 +73,7 @@
     <!-- news_pod -->
     <outline category="News_podcasts" text="NYT The Daily" title="NYT The Daily" xmlUrl="https://feeds.simplecast.com/54nAGcIl" htmlUrl="https://www.nytimes.com/column/the-daily"/>
     <outline category="News_podcasts" text="This American Life" title="This American Life" xmlUrl="https://www.thisamericanlife.org/podcast/rss.xml" htmlUrl="https://www.thisamericanlife.org/"/>
-    <outline category="News_podcasts" text="The Onion" title="The Onion" xmlUrl="https://theonion.com/feed/" htmlUrl="https://www.theonion.com/"/>
-    <!-- Weekly roundup -->
+    <!-- <outline category="News_podcasts" text="The Onion" title="The Onion" xmlUrl="https://theonion.com/feed/" htmlUrl="https://www.theonion.com/"/> -->
     <outline category="News_podcasts" text="Not Boring" title="Not Boring" xmlUrl="https://www.notboring.co/feed" htmlUrl="https://www.notboring.co/"/>
 
   </body>
