@@ -27,11 +27,12 @@
 
     <!-- A person of interest -->
     <outline category="Somone_cool" text="Nick Wignall" title="Nick Wignall" type="rss" xmlUrl="https://nickwignall.com/feed/" htmlUrl="https://nickwignall.com/"/>
-    <outline category="Somone_cool" text="Scott Alexander" title="Scott Alexander" type="application/rss+xml"  xmlUrl="https://www.astralcodexten.com/feed" htmlUrl="https://www.astralcodexten.com/"/>
-    <outline category="Somone_cool" text="Sam Altman" title="Sam Altman" type="rss" xmlUrl="https://blog.samaltman.com/posts.atom" htmlUrl="https://blog.samaltman.com"/>
-    <outline category="Somone_cool" text="Paul Graham: Essays" title="Paul Graham" xmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_paulgraham.xml" htmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_paulgraham.xml"/>
-    <outline category="Somone_cool" text="Tyler and Alex(Marginal Revolution)" title="Tyler and Alex (Marginal Revolution)" type="rss" xmlUrl="https://marginalrevolution.com//feed" htmlUrl="https://marginalrevolution.com/"/>
-    <outline category="Somone_cool" text="Ted Gioia" title="Ted Gioia: honest broker"  xmlUrl="https://www.honest-broker.com/feed" htmlUrl="https://www.honest-broker.com/"/>
+    <outline category="Somone_cool" text="Scott Alexander" title="Scott Alexander: astral cordex (rational reasoning)" type="application/rss+xml"  xmlUrl="https://www.astralcodexten.com/feed" htmlUrl="https://www.astralcodexten.com/"/>
+    <outline category="Somone_cool" text="Sam Altman" title="Sam Altman (OpenAI)" type="rss" xmlUrl="https://blog.samaltman.com/posts.atom" htmlUrl="https://blog.samaltman.com"/>
+    <outline category="Somone_cool" text="Paul Graham: Essays" title="Paul Graham (programmer)" xmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_paulgraham.xml" htmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_paulgraham.xml"/>
+    <outline category="Somone_cool" text="Tyler and Alex : Marginal Revolution (economics)" title="Tyler and Alex : Marginal Revolution (economics)" type="rss" xmlUrl="https://marginalrevolution.com//feed" htmlUrl="https://marginalrevolution.com/"/>
+    <outline category="Somone_cool" text="Ted Gioia" title="Ted Gioia: honest broker (music and culture)" xmlUrl="https://www.honest-broker.com/feed" htmlUrl="https://www.honest-broker.com/"/>
+    <outline category="Somone_cool" text="Roger Ebert" title="Roger Ebert (film critic)" xmlUrl="https://www.rogerebert.com/feed" htmlUrl="https://www.rogerebert.com"/>
 
     <!-- Tech news -->
    
@@ -55,7 +56,6 @@
 
         
     <!-- Entertainment -->
-    <outline category="Yarning" text="Roger Ebert" title="Roger Ebert" xmlUrl="https://www.rogerebert.com/feed" htmlUrl="https://www.rogerebert.com"/>
     <outline category="Yarning" text="NYT Modern Love" title="NYT Modern Love" xmlUrl="https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/column/modern-love/rss.xml" htmlUrl="https://www.nytimes.com/column/modern-love"/>
     <outline category="Yarning" text="The Criterion Collection" title="The Criterion Collection" xmlUrl="https://www.criterion.com/feeds/current" htmlUrl="https://www.criterion.com"/>
     <outline category="Yarning" text="Bear Blog Trending Posts" title="Bear Blog Trending Posts" xmlUrl="https://bearblog.dev/discover/feed/" htmlUrl="https://bearblog.dev/discover/"/>
