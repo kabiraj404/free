@@ -53,11 +53,11 @@
     <outline category="Randomly" text="The nexus" title="The nexus" type="rss" xmlUrl="https://www.thenexus.media/rss/" htmlUrl="https://www.thenexus.media/"/>
     <outline category="Randomly" text="Permanent Style" title="Permanent Style" xmlUrl="https://www.permanentstyle.com/feed" htmlUrl="https://www.permanentstyle.com/"/>
     <outline category="Randomly" text="The MIT Press Reader" title="The MIT Press Reader" xmlUrl="https://thereader.mitpress.mit.edu/feed/" htmlUrl="https://thereader.mitpress.mit.edu/"/>
-
+    <outline category="Randomly" text="The Criterion Collection" title="The Criterion Collection" xmlUrl="https://www.criterion.com/feeds/current" htmlUrl="https://www.criterion.com"/>
         
     <!-- Entertainment -->
     <outline category="Yarning" text="NYT Modern Love" title="NYT Modern Love" xmlUrl="https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/column/modern-love/rss.xml" htmlUrl="https://www.nytimes.com/column/modern-love"/>
-    <outline category="Yarning" text="The Criterion Collection" title="The Criterion Collection" xmlUrl="https://www.criterion.com/feeds/current" htmlUrl="https://www.criterion.com"/>
+    <!-- <outline category="Yarning" text="The Criterion Collection" title="The Criterion Collection" xmlUrl="https://www.criterion.com/feeds/current" htmlUrl="https://www.criterion.com"/> -->
     <outline category="Yarning" text="Bear Blog Trending Posts" title="Bear Blog Trending Posts" xmlUrl="https://bearblog.dev/discover/feed/" htmlUrl="https://bearblog.dev/discover/"/>
     <outline category="Yarning" text="NYT Letter of Recommendation" title="NYT Letter of Recommendation" xmlUrl="https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/column/letter-of-recommendation/rss.xml" htmlUrl="https://www.nytimes.com/column/letter-of-recommendation"/>
     <outline category="Yarning" text="XKCD" title="XKCD" type="rss" xmlUrl="https://xkcd.com/atom.xml" htmlUrl="https://xkcd.com/"/>
