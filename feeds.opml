@@ -9,8 +9,69 @@
     <outline category="Data_science" text="…and Then There&#39;s Physics" title="…and Then There&#39;s Physics" xmlUrl="http://andthentheresphysics.wordpress.com/feed/" htmlUrl="https://andthentheresphysics.wordpress.com"/>
     <outline category="Data_science" text="Skeptical Science" title="Skeptical Science" xmlUrl="http://skepticalscience.com/feed.xml" htmlUrl="https://skepticalscience.com/"/>
     <outline category="Data_science" text="NOAA Monthly Climate Report " title="NOAA Monthly Climate Report" xmlUrl="https://www.ncei.noaa.gov/access/monitoring/monthly-report/feed.rss" htmlUrl="https://www.ncei.noaa.gov/access/monitoring/monthly-report/"/>
-    <outline category="Data_science" text="RealClimate" title="RealClimate RSS Feed" xmlUrl="http://feeds.feedburner.com/realclimate/HYVV" htmlUrl="https://www.realclimate.org"/>
-    <outline category="Data_science" text="Climate Etc. » Feed" title="Climate Etc. » Feed" xmlUrl="https://judithcurry.com/feed/" htmlUrl="https://judithcurry.com/"/>
+    <outline category="Data_science" text="RealClimate" title="RealClimate" xmlUrl="http://feeds.feedburner.com/realclimate/HYVV" htmlUrl="https://www.realclimate.org"/>
+  
+
+
+    <!-- A person of interest -->
+    <outline category="Somone_cool" text="Scott Alexander" title="Scott Alexander (rational reasoning)" type="application/rss+xml"  xmlUrl="https://www.astralcodexten.com/feed" htmlUrl="https://www.astralcodexten.com/"/>
+    <outline category="Somone_cool" text="Sam Altman" title="Sam Altman (openAI)" type="rss" xmlUrl="https://blog.samaltman.com/posts.atom" htmlUrl="https://blog.samaltman.com"/>
+    <outline category="Somone_cool" text="Paul Graham: Essays" title="Paul Graham (programmer)" xmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_paulgraham.xml" htmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_paulgraham.xml"/>
+    <outline category="Somone_cool" text="Tyler and Alex (economics)" title="Tyler and Alex (economics)" type="rss" xmlUrl="https://marginalrevolution.com//feed" htmlUrl="https://marginalrevolution.com/"/>
+    <outline category="Somone_cool" text="Ted Gioia" title="Ted Gioia (music and culture)" xmlUrl="https://www.honest-broker.com/feed" htmlUrl="https://www.honest-broker.com/"/>
+    <outline category="Somone_cool" text="Roger Ebert" title="Roger Ebert (film critic)" xmlUrl="https://www.rogerebert.com/feed" htmlUrl="https://www.rogerebert.com"/>
+    <outline category="Somone_cool" text="Judith Curry" title="Judith Curry (climate etc)" xmlUrl="https://judithcurry.com/feed/" htmlUrl="https://judithcurry.com/"/>
+
+    <!-- Tech news -->
+    <outline category="Technically" text="Best stories (HN)" title="Best stories (HN)"  type="application/rss+xml" xmlUrl="https://hnrss.org/best" htmlUrl="https://news.ycombinator.com/best"/>
+    <outline category="Technically" text="TLDR" title="TLDR"  type="application/rss+xml" xmlUrl="https://tldr.tech/rss" htmlUrl="https://tldr.tech/"/>
+
+
+    <!-- Randomly -->
+    <outline category="Randomly" text="LessWrong" title="Less Wrong" xmlUrl="http://lesswrong.com/.rss" htmlUrl="https://www.lesswrong.com"/>
+    <outline category="Randomly" text="Brain Pickings" title="Brain Pickings" xmlUrl="https://feeds.feedburner.com/brainpickings/rss" htmlUrl="https://www.themarginalian.org"/>
+    <outline category="Randomly" text="Incremental forgetting" title="Incremental forgetting" xmlUrl="https://blog.incrementalforgetting.tech/feed" htmlUrl="https://blog.incrementalforgetting.tech"/>
+    <outline category="Randomly" text="Aeon | a world of ideas" title="Aeon | a world of ideas" xmlUrl="https://aeon.co/feed" htmlUrl="https://aeon.co"/>
+    <outline category="Randomly" text="Arts &#38; Letters Daily" title="Arts &#38; Letters Daily" type="rss" xmlUrl="https://www.aldaily.com/feed" htmlUrl="https://www.aldaily.com/"/>
+    <outline category="Randomly" text="The nexus" title="The nexus" type="rss" xmlUrl="https://www.thenexus.media/rss/" htmlUrl="https://www.thenexus.media/"/>
+    <outline category="Randomly" text="Permanent Style" title="Permanent Style" xmlUrl="https://www.permanentstyle.com/feed" htmlUrl="https://www.permanentstyle.com/"/>
+    <outline category="Randomly" text="The MIT Press Reader" title="The MIT Press Reader" xmlUrl="https://thereader.mitpress.mit.edu/feed/" htmlUrl="https://thereader.mitpress.mit.edu/"/>
+    <outline category="Randomly" text="The Criterion Collection" title="The Criterion Collection" xmlUrl="https://www.criterion.com/feeds/current" htmlUrl="https://www.criterion.com"/>
+        
+    <!-- Entertainment -->
+    <outline category="Yarning" text="NYT Modern Love" title="NYT Modern Love" xmlUrl="https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/column/modern-love/rss.xml" htmlUrl="https://www.nytimes.com/column/modern-love"/>
+    <outline category="Yarning" text="Bear Blog Trending Posts" title="Bear Blog Trending Posts" xmlUrl="https://bearblog.dev/discover/feed/" htmlUrl="https://bearblog.dev/discover/"/>
+    <outline category="Yarning" text="NYT Letter of Recommendation" title="NYT Letter of Recommendation" xmlUrl="https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/column/letter-of-recommendation/rss.xml" htmlUrl="https://www.nytimes.com/column/letter-of-recommendation"/>
+    <outline category="Yarning" text="XKCD" title="XKCD" type="rss" xmlUrl="https://xkcd.com/atom.xml" htmlUrl="https://xkcd.com/"/>
+
+
+    <!-- photos -->
+    <outline category="Photogenic" text="The Atlantic Photo of the Week" title="The Atlantic Photo of the Week" xmlUrl="https://www.theatlantic.com/feed/photography/" htmlUrl="https://www.theatlantic.com/photography/"/>
+    <outline category="Photogenic" text="Magnum Photos" title="Magnum Photos" xmlUrl="https://www.magnumphotos.com/feed/" htmlUrl="https://www.magnumphotos.com/"/>
+    <outline category="Photogenic" text="David duChemin " title="David duChemin" type="application/rss+xml"  xmlUrl="https://davidduchemin.com/feed/" htmlUrl="https://davidduchemin.com/"/>
+    <outline category="Photogenic" text="121 clicks blog" title="121 clicks blog" xmlUrl="https://121clicks.com/feed" htmlUrl="https://121clicks.com/"/>
+
+
+    <!-- news_pod -->
+    <outline category="News_podcasts" text="NYT The Daily" title="NYT The Daily" xmlUrl="https://feeds.simplecast.com/54nAGcIl" htmlUrl="https://www.nytimes.com/column/the-daily"/>
+    <outline category="News_podcasts" text="This American Life" title="This American Life" xmlUrl="https://www.thisamericanlife.org/podcast/rss.xml" htmlUrl="https://www.thisamericanlife.org/"/>
+    <outline category="News_podcasts" text="Not Boring" title="Not Boring" xmlUrl="https://www.notboring.co/feed" htmlUrl="https://www.notboring.co/"/>
+
+  </body>
+</opml>
+
+
+    <!-- <outline category="news_podcasts" text="AllSides" title="AllSides" type="rss" xmlUrl="https://www.allsides.com/rss/news" htmlUrl="https://www.allsides.com"/>
+    <outline category="news_podcasts" text="NPR" title="NPR" type="rss" xmlUrl="https://feeds.npr.org/1001/rss.xml" htmlUrl="https://www.npr.org/templates/story/story.php?storyId=1001"/>
+    <outline category="news_podcasts" text="The Atlantic" title="The Atlantic" type="rss" xmlUrl="https://www.theatlantic.com/feed/all/" htmlUrl="https://www.theatlantic.com/"/>
+    <outline category="news_podcasts" text="Financial Times" title="Financial Times" type="rss" xmlUrl="https://www.ft.com/news-feed?format=rss" htmlUrl="https://www.ft.com/news-feed"/>
+    <outline category="news_podcasts" text="PBS" title="PBS" type="rss"  xmlUrl="https://www.pbs.org/newshour/feeds/rss/headlines" htmlUrl="https://www.pbs.org/newshour/"/>
+    <outline category="news_podcasts" text="Reuters" title="Reuters" type="rss" xmlUrl="http://feeds.reuters.com/Reuters/worldNews" htmlUrl="https://www.reuters.com/"/>
+    
+     -->
+
+         <!-- <outline category="Yarning" text="The Criterion Collection" title="The Criterion Collection" xmlUrl="https://www.criterion.com/feeds/current" htmlUrl="https://www.criterion.com"/> -->
+
     <!-- <outline category="Data_Science" text="The Thesis Whisperer » Feed" title="The Thesis Whisperer » Feed" xmlUrl="https://thesiswhisperer.com/feed/" htmlUrl="https://thesiswhisperer.com"/> -->
     <!-- <outline category="Data_science" text="MIT Technology Review" title="MIT Technology Review" xmlUrl="https://www.technologyreview.com/feed" htmlUrl="https://www.technologyreview.com"/> -->
     <!-- <outline category="Data_Science" text="Climate brief" title="Climate brief" xmlUrl="https://www.carbonbrief.org//feed" htmlUrl="https://www.carbonbrief.org/"/> -->
@@ -24,66 +85,13 @@
     <outline category="Journal_RSS" text="ESSD - recent papers" title="ESSD - recent papers" type="rss" xmlUrl="https://essd.copernicus.org/articles/xml/rss1_0.xml" htmlUrl="https://essd.copernicus.org/articles/"/>
     <outline category="Journal_RSS" text="EGU jobs" title="EGU jobs" type="rss" xmlUrl="http://www.egu.eu/jobs/rss" htmlUrl="http://www.egu.eu/jobs"/> -->
 
-
-    <!-- A person of interest -->
-    <outline category="Somone_cool" text="Nick Wignall" title="Nick Wignall" type="rss" xmlUrl="https://nickwignall.com/feed/" htmlUrl="https://nickwignall.com/"/>
-    <outline category="Somone_cool" text="Scott Alexander" title="Scott Alexander: astral cordex (rational reasoning)" type="application/rss+xml"  xmlUrl="https://www.astralcodexten.com/feed" htmlUrl="https://www.astralcodexten.com/"/>
-    <outline category="Somone_cool" text="Sam Altman" title="Sam Altman (OpenAI)" type="rss" xmlUrl="https://blog.samaltman.com/posts.atom" htmlUrl="https://blog.samaltman.com"/>
-    <outline category="Somone_cool" text="Paul Graham: Essays" title="Paul Graham (programmer)" xmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_paulgraham.xml" htmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_paulgraham.xml"/>
-    <outline category="Somone_cool" text="Tyler and Alex : Marginal Revolution (economics)" title="Tyler and Alex : Marginal Revolution (economics)" type="rss" xmlUrl="https://marginalrevolution.com//feed" htmlUrl="https://marginalrevolution.com/"/>
-    <outline category="Somone_cool" text="Ted Gioia" title="Ted Gioia: honest broker (music and culture)" xmlUrl="https://www.honest-broker.com/feed" htmlUrl="https://www.honest-broker.com/"/>
-    <outline category="Somone_cool" text="Roger Ebert" title="Roger Ebert (film critic)" xmlUrl="https://www.rogerebert.com/feed" htmlUrl="https://www.rogerebert.com"/>
-
-    <!-- Tech news -->
    
     <!-- <outline category="Tech news" text="Hacker News" title="Hacker News" xmlUrl="https://hnrss.org/frontpage" htmlUrl="https://news.ycombinator.com/"/> -->
-    <outline category="Technically" text="Best stories (HN)" title="Best stories (HN)"  type="application/rss+xml" xmlUrl="https://hnrss.org/best" htmlUrl="https://news.ycombinator.com/best"/>
-    <outline category="Technically" text="TLDR" title="TLDR"  type="application/rss+xml" xmlUrl="https://tldr.tech/rss" htmlUrl="https://tldr.tech/"/>
-
-
-    <!-- Randomly -->
-    <outline category="Randomly" text="LessWrong" title="Less Wrong" xmlUrl="http://lesswrong.com/.rss" htmlUrl="https://www.lesswrong.com"/>
-    <outline category="Randomly" text="Brain Pickings" title="Brain Pickings" xmlUrl="https://feeds.feedburner.com/brainpickings/rss" htmlUrl="https://www.themarginalian.org"/>
-    <!-- <outline category="Randomly" text="Nautilus | Science Connected" title="Nautilus | Science Connected" xmlUrl="https://nautil.us/feed/" htmlUrl="https://nautil.us/"/> -->
-    <outline category="Randomly" text="Incremental forgetting" title="Incremental forgetting" xmlUrl="https://blog.incrementalforgetting.tech/feed" htmlUrl="https://blog.incrementalforgetting.tech"/>
-    <outline category="Randomly" text="Aeon | a world of ideas" title="Aeon | a world of ideas" xmlUrl="https://aeon.co/feed" htmlUrl="https://aeon.co"/>
-    <!-- <outline category="Randomly" text="Longreads" title="Longreads" xmlUrl="https://longreads.com/feed/" htmlUrl="https://longreads.com/"/> -->
-    <outline category="Randomly" text="Arts &#38; Letters Daily" title="Arts &#38; Letters Daily" type="rss" xmlUrl="https://www.aldaily.com/feed" htmlUrl="https://www.aldaily.com/"/>
+        <!-- <outline category="Randomly" text="Nautilus | Science Connected" title="Nautilus | Science Connected" xmlUrl="https://nautil.us/feed/" htmlUrl="https://nautil.us/"/> -->
     <!-- <outline category="Randomly" text="All Our Yesterdays" title="All Our Yesterdays" xmlUrl="https://allouryesterdays.info/feed/" htmlUrl="https://allouryesterdays.info/"/> -->
-    <outline category="Randomly" text="The nexus" title="The nexus" type="rss" xmlUrl="https://www.thenexus.media/rss/" htmlUrl="https://www.thenexus.media/"/>
-    <outline category="Randomly" text="Permanent Style" title="Permanent Style" xmlUrl="https://www.permanentstyle.com/feed" htmlUrl="https://www.permanentstyle.com/"/>
-    <outline category="Randomly" text="The MIT Press Reader" title="The MIT Press Reader" xmlUrl="https://thereader.mitpress.mit.edu/feed/" htmlUrl="https://thereader.mitpress.mit.edu/"/>
-    <outline category="Randomly" text="The Criterion Collection" title="The Criterion Collection" xmlUrl="https://www.criterion.com/feeds/current" htmlUrl="https://www.criterion.com"/>
-        
-    <!-- Entertainment -->
-    <outline category="Yarning" text="NYT Modern Love" title="NYT Modern Love" xmlUrl="https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/column/modern-love/rss.xml" htmlUrl="https://www.nytimes.com/column/modern-love"/>
-    <!-- <outline category="Yarning" text="The Criterion Collection" title="The Criterion Collection" xmlUrl="https://www.criterion.com/feeds/current" htmlUrl="https://www.criterion.com"/> -->
-    <outline category="Yarning" text="Bear Blog Trending Posts" title="Bear Blog Trending Posts" xmlUrl="https://bearblog.dev/discover/feed/" htmlUrl="https://bearblog.dev/discover/"/>
-    <outline category="Yarning" text="NYT Letter of Recommendation" title="NYT Letter of Recommendation" xmlUrl="https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/column/letter-of-recommendation/rss.xml" htmlUrl="https://www.nytimes.com/column/letter-of-recommendation"/>
-    <outline category="Yarning" text="XKCD" title="XKCD" type="rss" xmlUrl="https://xkcd.com/atom.xml" htmlUrl="https://xkcd.com/"/>
+        <!-- <outline category="Randomly" text="Longreads" title="Longreads" xmlUrl="https://longreads.com/feed/" htmlUrl="https://longreads.com/"/> -->
 
+      <!-- <outline category="News_podcasts" text="The Onion" title="The Onion" xmlUrl="https://theonion.com/feed/" htmlUrl="https://www.theonion.com/"/> -->
+        <!-- <outline category="photography" text="Photography life" title="Photography life" xmlUrl="https://photographylife.com/feed/" htmlUrl="https://photographylife.com/"/> -->
 
-    <!-- photos -->
-    <outline category="Photogenic" text="The Atlantic Photo of the Week" title="The Atlantic Photo of the Week" xmlUrl="https://www.theatlantic.com/feed/photography/" htmlUrl="https://www.theatlantic.com/photography/"/>
-    <outline category="Photogenic" text="Magnum Photos" title="Magnum Photos" xmlUrl="https://www.magnumphotos.com/feed/" htmlUrl="https://www.magnumphotos.com/"/>
-    <outline category="Photogenic" text="David duChemin " title="David duChemin" type="application/rss+xml"  xmlUrl="https://davidduchemin.com/feed/" htmlUrl="https://davidduchemin.com/"/>
-    <outline category="Photogenic" text="121 clicks blog" title="121 clicks blog" xmlUrl="https://121clicks.com/feed" htmlUrl="https://121clicks.com/"/>
-    <!-- <outline category="photography" text="Photography life" title="Photography life" xmlUrl="https://photographylife.com/feed/" htmlUrl="https://photographylife.com/"/> -->
-
-    <!-- news_pod -->
-    <outline category="News_podcasts" text="NYT The Daily" title="NYT The Daily" xmlUrl="https://feeds.simplecast.com/54nAGcIl" htmlUrl="https://www.nytimes.com/column/the-daily"/>
-    <outline category="News_podcasts" text="This American Life" title="This American Life" xmlUrl="https://www.thisamericanlife.org/podcast/rss.xml" htmlUrl="https://www.thisamericanlife.org/"/>
-    <!-- <outline category="News_podcasts" text="The Onion" title="The Onion" xmlUrl="https://theonion.com/feed/" htmlUrl="https://www.theonion.com/"/> -->
-    <outline category="News_podcasts" text="Not Boring" title="Not Boring" xmlUrl="https://www.notboring.co/feed" htmlUrl="https://www.notboring.co/"/>
-
-  </body>
-</opml>
-
-
-    <!-- <outline category="news_podcasts" text="AllSides" title="AllSides" type="rss" xmlUrl="https://www.allsides.com/rss/news" htmlUrl="https://www.allsides.com"/>
-    <outline category="news_podcasts" text="NPR" title="NPR" type="rss" xmlUrl="https://feeds.npr.org/1001/rss.xml" htmlUrl="https://www.npr.org/templates/story/story.php?storyId=1001"/>
-    <outline category="news_podcasts" text="The Atlantic" title="The Atlantic" type="rss" xmlUrl="https://www.theatlantic.com/feed/all/" htmlUrl="https://www.theatlantic.com/"/>
-    <outline category="news_podcasts" text="Financial Times" title="Financial Times" type="rss" xmlUrl="https://www.ft.com/news-feed?format=rss" htmlUrl="https://www.ft.com/news-feed"/>
-    <outline category="news_podcasts" text="PBS" title="PBS" type="rss"  xmlUrl="https://www.pbs.org/newshour/feeds/rss/headlines" htmlUrl="https://www.pbs.org/newshour/"/>
-    <outline category="news_podcasts" text="Reuters" title="Reuters" type="rss" xmlUrl="http://feeds.reuters.com/Reuters/worldNews" htmlUrl="https://www.reuters.com/"/>
-     -->
+<!-- <outline category="Somone_cool" text="Nick Wignall" title="Nick Wignall" type="rss" xmlUrl="https://nickwignall.com/feed/" htmlUrl="https://nickwignall.com/"/> -->
